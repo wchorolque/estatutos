@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Estatuto Autonómico - La Paz</title>
+    <script src="/js/d3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/sequences.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <h1 style="text-align: center;">ESTATUTO AUTONÓMICO DEPARTAMENTAL DE LA PAZ</h1>
+    <div id="main">
+
+        <div id="sequence">
+        </div>
+
+        <div class="grafico">
+            <div id="chart">
+                <div id="explanation" style="visibility: hidden;">
+                    <span id="percentage"></span><br/>
+                </div>
+            </div>
+        </div>
+        <div class="texto">
+            <div id="sidebar">
+                <input type="checkbox" id="togglelegend">Etiquetas/Colores<br/>
+                <div id="legend" style="visibility: hidden;height:0;"></div>
+            </div>
+            <div id="nivel1">
+                <span></span>
+                <div id="nivel2">
+                    <span></span>
+                    <div id="nivel3">
+                        <span></span>
+                        <div id="nivel4">
+                            <span></span>
+                            <div id="contenido_articulo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/sequences.js"></script>
+    <script type="text/javascript">
+    // Hack to make this example display correctly in an iframe on bl.ocks.org
+    d3.select(self.frameElement).style("height", "600px");
+</script>
+</body>
+</html>
