@@ -19,6 +19,15 @@ var vis = d3.select("#chart").append("svg:svg")
     .attr("id", "container")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
+var tip = d3.tip()
+    .attr('class', 'd3-tip')
+    .offset([0, 0])
+    .html(function(d) {
+        return d.name;
+    });
+
+vis.call(tip);
+
 var partition = d3.layout.partition()
     .sort(null)
     .size([2 * Math.PI, radius * radius])
@@ -47,6 +56,7 @@ d3.text(csv_filename, function (text) {
     var json = buildHierarchy(csv);
     createVisualization(json);
 });
+
 
 // Main function to draw and set up the visualization, once we have the data.
 function createVisualization(json) {
@@ -79,7 +89,9 @@ function createVisualization(json) {
             return colors[d.class_name];
         })
         .style("opacity", 1)
-        .on("mouseover", mouseover);
+        .on("mouseover", mouseover)
+        .on("mouseout", tip.hide);
+
 
     // Add the mouseleave handler to the bounding circle.
     d3.select("#container").on("mouseleave", mouseleave);
@@ -90,6 +102,7 @@ function createVisualization(json) {
 
 // Fade all but the current sequence, and show it in the breadcrumb trail.
 function mouseover(d) {
+    tip.show(d);
     d3.select('div#nivel1 > span').text("");
     d3.select('div#nivel2 > span').text("");
     d3.select('div#nivel3 > span').text("");
@@ -168,7 +181,7 @@ function mouseleave(d) {
     // Transition each segment to full opacity and then reactivate it.
     d3.selectAll("path")
         .transition()
-        .duration(1000)
+        .duration(500)
         .style("opacity", 1)
         .each("end", function () {
             d3.select(this).on("mouseover", mouseover);
