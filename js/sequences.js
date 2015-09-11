@@ -1,4 +1,3 @@
-//http://www.etnassoft.com/2010/12/28/cadenas-de-escape-como-poner-tildes-en-javascript/
 // Dimensions of sunburst.
 var width = 600; //document.body.clientWidth/2 - 180;
 var height = (document.body.clientWidth * 0.80) / 2 - 10;// 500;//width;
@@ -9,17 +8,6 @@ var b = {
     w: width, h: 30, s: 3, t: 10
 };
 
-// Mapping of step names to colors.
-var colors = {
-    "primero": "#5687d1",
-    "segundo": "#D20001",
-    "tercero": "#F79E37",
-    "cuarto": "#FE6612",
-    "quinto": "#a173d1",
-    "sexto": "#E80C7A",
-    "septimo": "#4278C0",
-    "articulo": "#22B266"
-};
 
 // Total size of all segments; we set this later, after loading the data.
 var totalSize = 0;
@@ -54,7 +42,7 @@ var arc = d3.svg.arc()
 
 // Use d3.text and d3.csv.parseRows so that we do not need to have a header
 // row, and can receive the csv as an array of arrays.
-d3.text("oruro.csv", function (text) {
+d3.text(csv_filename, function (text) {
     var csv = d3.csv.parseRows(text);
     var json = buildHierarchy(csv);
     createVisualization(json);
@@ -282,18 +270,7 @@ function updateBreadcrumbs(nodeArray, percentageString) {
 function drawLegend() {
     // Dimensions of legend item: width, height, spacing, radius of rounded rect.
     var li = {
-        w: 520, h: 30, s: 3, r: 3
-    };
-
-    var etiquetas = {
-        "Bases de la Autonom\u00eda Departamental": "#5687d1",
-        "Estructura y Organizaci\u00f3n Funcional del Gobierno": "#D20001",
-        "Jurisdicci\u00f3n del Gobierno Aut\u00f3nomo Departamental": "#F79E37",
-        "Pol\u00edticas Para el Desarrollo Departamental": "#FE6612",
-        "R\u00e9gimen Econ\u00f3mico": "#a173d1",
-        "Participaci\u00f3n, Control Social y R\u00e9gimen Electoral Departamental": "#E80C7A",
-        "Reforma el Estatuto y Primac\u00eda": "#4278C0",
-        "Art\u00edculos": "#22B266"
+        w: 550, h: 30, s: 3, r: 3
     };
 
     var legend = d3.select("#legend").append("svg:svg")
@@ -343,7 +320,7 @@ function toggleLegend() {
 
 // Take a 2-column CSV and transform it into a hierarchical structure suitable
 // for a partition layout. The first column is a sequence of step names, from
-// root to leaf, separated by hyphens. The second column is a count of how 
+// root to leaf, separated by hyphens. The second column is a count of how
 // often that sequence occurred.
 function buildHierarchy(csv) {
     var root = {"name": "root", "children": []};
