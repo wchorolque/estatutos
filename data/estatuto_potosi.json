@@ -1,0 +1,931 @@
+{
+  "rows" : [
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 1,
+      "articulo" : "declaración de sujeción a la Constitución Política del Estado",
+      "tags" : "DECLARACIÓN SUJECIÓN CONSTITUCIÓN POLÍTICA ESTADO"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 2,
+      "articulo" : "Constitución Autonómica",
+      "tags" : "CONSTITUCIÓN AUTONÓMICA"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 3,
+      "articulo" : "Naturaleza",
+      "tags" : "NATURALEZA"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 4,
+      "articulo" : "Ámbito de aplicación",
+      "tags" : "ÁMBITO DE APLICACIÓN"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 5,
+      "articulo" : "Ubicación y Organización Territorial",
+      "tags" : "UBICACIÓN ORGANIZACIÓN TERRITORIAL"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 6,
+      "articulo" : "Principios",
+      "tags" : "PRINCIPIOS"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 7,
+      "articulo" : "Valores",
+      "tags" : "VALORES"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 8,
+      "articulo" : "Fines",
+      "tags" : "FINES"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 9,
+      "articulo" : "Sede",
+      "tags" : "SEDE"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 10,
+      "articulo" : "Símbolos y fecha cívica",
+      "tags" : "SÍMBOLOS FECHA CÍVICA"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo I: Disposiciones Generales",
+      "level_4" : "",
+      "numero_articulo" : 11,
+      "articulo" : "Idiomas",
+      "tags" : "IDIOMAS"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo II: Derechos y Deberes",
+      "level_4" : "",
+      "numero_articulo" : 12,
+      "articulo" : "derechos",
+      "tags" : "DERECHOS"
+    },
+    {
+      "level_1" : "Parte I: Bases Fundamentales, Derechos, Deberes",
+      "level_2" : "Título I: Bases Fundamentales del Gobierno Autónomo Departamental",
+      "level_3" : "Capítulo II: Derechos y Deberes",
+      "level_4" : "",
+      "numero_articulo" : 13,
+      "articulo" : "deberes",
+      "tags" : "DEBERES"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 14,
+      "articulo" : "Estructura del Gobierno Autónomo departamental",
+      "tags" : "ESTRUCTURA DEL GOBIERNO AUTÓNOMO DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 15,
+      "articulo" : "Asamblea departamental",
+      "tags" : "ASAMBLEA DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 16,
+      "articulo" : "Composición de la Asamblea departamental",
+      "tags" : "COMPOSICIÓN DE LA ASAMBLEA DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 17,
+      "articulo" : "Requisitos",
+      "tags" : "REQUISITOS"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 18,
+      "articulo" : "Elección y duración del mandato de los Asambleístas departamentales",
+      "tags" : "ELECCIÓN DURACIÓN MANDATO ASAMBLEÍSTAS DEPARTAMENTALES"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 19,
+      "articulo" : "Organización de la Asamblea departamental",
+      "tags" : "ORGANIZACIÓN ASAMBLEA DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 20,
+      "articulo" : "Atribuciones y funciones",
+      "tags" : "ATRIBUCIONES FUNCIONES"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 21,
+      "articulo" : "Deliberación",
+      "tags" : "DELIBERACIÓN"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 22,
+      "articulo" : "Fiscalización",
+      "tags" : "FISCALIZACIÓN"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 23,
+      "articulo" : "Iniciativa Legislativa",
+      "tags" : "INICIATIVA LEGISLATIVA"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo I: Asamblea departamental",
+      "level_4" : "",
+      "numero_articulo" : 24,
+      "articulo" : "Procedimiento Legislativo",
+      "tags" : "PROCEDIMIENTO LEGISLATIVO"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 25,
+      "articulo" : "Órgano Ejecutivo departamental",
+      "tags" : "ÓRGANO EJECUTIVO DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 26,
+      "articulo" : "Estructura del Órgano Ejecutivo departamental",
+      "tags" : "ESTRUCTURA ÓRGANO EJECUTIVO DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 27,
+      "articulo" : "Gobernadora o Gobernador",
+      "tags" : "GOBERNADORA GOBERNADOR"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 28,
+      "articulo" : "Elección y duración del mandato de la Gobernadora o Gobernador",
+      "tags" : "ELECCIÓN DURACIÓN MANDATO GOBERNADORA GOBERNADOR"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 29,
+      "articulo" : "Requisitos",
+      "tags" : "REQUISITOS"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 30,
+      "articulo" : "De las suplencias",
+      "tags" : "DE LAS SUPLENCIAS"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 31,
+      "articulo" : "Atribuciones de la Gobernadora o Gobernador",
+      "tags" : "ATRIBUCIONES GOBERNADORA GOBERNADOR"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 32,
+      "articulo" : "Secretarias y Secretarios departamentales",
+      "tags" : "SECRETARIAS SECRETARIOS DEPARTAMENTALES"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 33,
+      "articulo" : "Atribuciones de las Secretarias o Secretarios departamentales",
+      "tags" : "ATRIBUCIONES SECRETARIAS SECRETARIOS DEPARTAMENTALES"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo II: Órgano Ejecutivo departamental",
+      "level_4" : "",
+      "numero_articulo" : 34,
+      "articulo" : "Delegadas y delegados Provinciales",
+      "tags" : "DELEGADAS DELEGADOS PROVINCIALES"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo III: Transparencia, Participación y Control Social",
+      "level_4" : "",
+      "numero_articulo" : 35,
+      "articulo" : "Transparencia institucional",
+      "tags" : "TRANSPARENCIA INSTITUCIONAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo III: Transparencia, Participación y Control Social",
+      "level_4" : "",
+      "numero_articulo" : 36,
+      "articulo" : "Control Social",
+      "tags" : "CONTROL SOCIAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo III: Transparencia, Participación y Control Social",
+      "level_4" : "",
+      "numero_articulo" : 37,
+      "articulo" : "Participación social",
+      "tags" : "PARTICIPACIÓN SOCIAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título I: Estructura del Gobierno Autónomo departamental",
+      "level_3" : "Capítulo III: Transparencia, Participación y Control Social",
+      "level_4" : "",
+      "numero_articulo" : 38,
+      "articulo" : "Mecanismos de control social",
+      "tags" : "MECANISMOS CONTROL SOCIAL"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título II: Relaciones y Coordinación",
+      "level_3" : "Capítulo I: Relaciones del Gobierno Autónomo departamental",
+      "level_4" : "",
+      "numero_articulo" : 39,
+      "articulo" : "Relaciones",
+      "tags" : "RELACIONES"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título II: Relaciones y Coordinación",
+      "level_3" : "Capítulo I: Relaciones del Gobierno Autónomo departamental",
+      "level_4" : "",
+      "numero_articulo" : 40,
+      "articulo" : "Relaciones internacionales",
+      "tags" : "RELACIONES INTERNACIONALES"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título II: Relaciones y Coordinación",
+      "level_3" : "Capítulo I: Relaciones del Gobierno Autónomo departamental",
+      "level_4" : "",
+      "numero_articulo" : 41,
+      "articulo" : "Acuerdos y convenios intergubernativos",
+      "tags" : "ACUERDOS CONVENIOS INTERGUBERNATIVOS"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título II: Relaciones y Coordinación",
+      "level_3" : "Capítulo I: Relaciones del Gobierno Autónomo departamental",
+      "level_4" : "",
+      "numero_articulo" : 42,
+      "articulo" : "Acuerdos y convenios interinstitucionales",
+      "tags" : "ACUERDOS CONVENIOS INTERINSTITUCIONALES"
+    },
+    {
+      "level_1" : "Parte II: Estructura y Organización del Gobierno Autónomo departamental",
+      "level_2" : "Título II: Relaciones y Coordinación",
+      "level_3" : "Capítulo I: Relaciones del Gobierno Autónomo departamental",
+      "level_4" : "",
+      "numero_articulo" : 43,
+      "articulo" : "Consejo de Coordinación departamental",
+      "tags" : "CONSEJO COORDINACIÓN DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "",
+      "level_3" : null,
+      "level_4" : "",
+      "numero_articulo" : 44,
+      "articulo" : "Desarrollo departamental",
+      "tags" : "DESARROLLO DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo I: Generación de Recursos Económicos",
+      "level_4" : "",
+      "numero_articulo" : 45,
+      "articulo" : "Desarrollo económico",
+      "tags" : "DESARROLLO ECONÓMICO"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo II: Recursos Naturales",
+      "level_4" : "",
+      "numero_articulo" : 46,
+      "articulo" : "Recursos naturales",
+      "tags" : "RECURSOS NATURALES"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo III: Industrialización e Industrias",
+      "level_4" : "",
+      "numero_articulo" : 47,
+      "articulo" : "Participación en la industrialización",
+      "tags" : "PARTICIPACIÓN INDUSTRIALIZACIÓN"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo III: Industrialización e Industrias",
+      "level_4" : "",
+      "numero_articulo" : 48,
+      "articulo" : "Industria y manufactura",
+      "tags" : "INDUSTRIA MANUFACTURA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo III: Industrialización e Industrias",
+      "level_4" : "",
+      "numero_articulo" : 49,
+      "articulo" : "Fomento comercial",
+      "tags" : "FOMENTO COMERCIAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo IV: Fiscal Financiero",
+      "level_4" : "",
+      "numero_articulo" : 50,
+      "articulo" : "Lineamientos",
+      "tags" : "LINEAMIENTOS"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo IV: Fiscal Financiero",
+      "level_4" : "Sección I: Patrimonio del Gobierno Autónomo departamental",
+      "numero_articulo" : 51,
+      "articulo" : "Patrimonio económico",
+      "tags" : "PATRIMONIO ECONÓMICO"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo IV: Fiscal Financiero",
+      "level_4" : "Sección II: Administración Financiera del Gobierno Autónomo departamental",
+      "numero_articulo" : 52,
+      "articulo" : "Administración financiera",
+      "tags" : "ADMINISTRACIÓN FINANCIERA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo IV: Fiscal Financiero",
+      "level_4" : "Sección II: Administración Financiera del Gobierno Autónomo departamental",
+      "numero_articulo" : 53,
+      "articulo" : "Presupuesto",
+      "tags" : "PRESUPUESTO"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo IV: Fiscal Financiero",
+      "level_4" : "Sección II: Administración Financiera del Gobierno Autónomo departamental",
+      "numero_articulo" : 54,
+      "articulo" : "Aprobación y modificación del presupuesto",
+      "tags" : "APROBACIÓN MODIFICACIÓN PRESUPUESTO"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo IV: Fiscal Financiero",
+      "level_4" : "Sección III: Administración Fiscal del Gobierno Autónomo Departamental",
+      "numero_articulo" : 55,
+      "articulo" : "Recursos públicos departamentales",
+      "tags" : "RECURSOS PÚBLICOS DEPARTAMENTALES"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo IV: Fiscal Financiero",
+      "level_4" : "Sección III: Administración Fiscal del Gobierno Autónomo Departamental",
+      "numero_articulo" : 56,
+      "articulo" : "Tesoro público departamental",
+      "tags" : "TESORO PÚBLICO DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo IV: Fiscal Financiero",
+      "level_4" : "Sección IV: Estrategia departamental de Planificación y Programación Operativa",
+      "numero_articulo" : 57,
+      "articulo" : "Planificación departamental",
+      "tags" : "PLANIFICACIÓN DEPARTAMENTAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título I: Desarrollo Económico",
+      "level_3" : "Capítulo IV: Fiscal Financiero",
+      "level_4" : "Sección IV: Estrategia departamental de Planificación y Programación Operativa",
+      "numero_articulo" : 58,
+      "articulo" : "Instrumentos de planificación",
+      "tags" : "INSTRUMENTOS PLANIFICACIÓN"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo I: Medio Ambiente",
+      "level_4" : "",
+      "numero_articulo" : 59,
+      "articulo" : "Medio ambiente y biodiversidad",
+      "tags" : "MEDIO AMBIENTE BIODIVERSIDAD"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo II: Energía",
+      "level_4" : "",
+      "numero_articulo" : 60,
+      "articulo" : "Energía",
+      "tags" : "ENERGÍA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo II: Energía",
+      "level_4" : "",
+      "numero_articulo" : 61,
+      "articulo" : "Electrificación rural",
+      "tags" : "ELECTRIFICACIÓN RURAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo II: Energía",
+      "level_4" : "",
+      "numero_articulo" : 62,
+      "articulo" : "Hidrocarburos",
+      "tags" : "HIDROCARBUROS"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo III: Minería",
+      "level_4" : "",
+      "numero_articulo" : 63,
+      "articulo" : "Minería",
+      "tags" : "MINERÍA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo III: Minería",
+      "level_4" : "",
+      "numero_articulo" : 64,
+      "articulo" : "Control ambiental",
+      "tags" : "CONTROL AMBIENTAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo III: Minería",
+      "level_4" : "",
+      "numero_articulo" : 65,
+      "articulo" : "Participación y Creación de empresas departamentales",
+      "tags" : "PARTICIPACIÓN CREACIÓN EMPRESAS DEPARTAMENTALES"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo IV: Desarrollo Agropecuario",
+      "level_4" : "",
+      "numero_articulo" : 66,
+      "articulo" : "desarrollo agropecuario",
+      "tags" : "DESARROLLO AGROPECUARIO"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo IV: Desarrollo Agropecuario",
+      "level_4" : "",
+      "numero_articulo" : 67,
+      "articulo" : "Capacitación y formación agropecuaria",
+      "tags" : "CAPACITACIÓN FORMACIÓN AGROPECUARIA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo IV: Desarrollo Agropecuario",
+      "level_4" : "",
+      "numero_articulo" : 68,
+      "articulo" : "Producción ecológica",
+      "tags" : "PRODUCCIÓN ECOLÓGICA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo IV: Desarrollo Agropecuario",
+      "level_4" : "",
+      "numero_articulo" : 69,
+      "articulo" : "Soberanía y Seguridad alimentaria",
+      "tags" : "SOBERANÍA SEGURIDAD ALIMENTARIA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo IV: Desarrollo Agropecuario",
+      "level_4" : "",
+      "numero_articulo" : 70,
+      "articulo" : "Cadenas y complejos productivos agropecuarios",
+      "tags" : "CADENAS COMPLEJOS PRODUCTIVOS AGROPECUARIOS"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo IV: Desarrollo Agropecuario",
+      "level_4" : "",
+      "numero_articulo" : 71,
+      "articulo" : "Comercialización",
+      "tags" : "COMERCIALIZACIÓN"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo IV: Desarrollo Agropecuario",
+      "level_4" : "",
+      "numero_articulo" : 72,
+      "articulo" : "Atención de riesgos y desastres naturales",
+      "tags" : "ATENCIÓN RIESGOS DESASTRES NATURALES"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo V: Patrimonio y Turismo",
+      "level_4" : "",
+      "numero_articulo" : 73,
+      "articulo" : "Patrimonio Natural",
+      "tags" : "PATRIMONIO NATURAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo V: Patrimonio y Turismo",
+      "level_4" : "",
+      "numero_articulo" : 74,
+      "articulo" : "Patrimonio cultural",
+      "tags" : "PATRIMONIO CULTURAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo V: Patrimonio y Turismo",
+      "level_4" : "",
+      "numero_articulo" : 75,
+      "articulo" : "Turismo",
+      "tags" : "TURISMO"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo VI: Integración Vial, Tráfico y Transporte",
+      "level_4" : "",
+      "numero_articulo" : 76,
+      "articulo" : "Infraestructura vial",
+      "tags" : "INFRAESTRUCTURA VIAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título II: Desarrollo Productivo",
+      "level_3" : "Capítulo VI: Integración Vial, Tráfico y Transporte",
+      "level_4" : "",
+      "numero_articulo" : 77,
+      "articulo" : "Servicio de transporte",
+      "tags" : "SERVICIO TRANSPORTE"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo I: Salud y deporte",
+      "level_4" : "",
+      "numero_articulo" : 78,
+      "articulo" : "Acceso universal a la salud",
+      "tags" : "ACCESO UNIVERSAL SALUD"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo I: Salud y deporte",
+      "level_4" : "",
+      "numero_articulo" : 79,
+      "articulo" : "Salud",
+      "tags" : "SALUD"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo I: Salud y deporte",
+      "level_4" : "",
+      "numero_articulo" : 80,
+      "articulo" : "Medicina tradicional",
+      "tags" : "MEDICINA TRADICIONAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo I: Salud y deporte",
+      "level_4" : "",
+      "numero_articulo" : 81,
+      "articulo" : "deporte",
+      "tags" : "DEPORTE"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo II: Educación y Cultura",
+      "level_4" : "",
+      "numero_articulo" : 82,
+      "articulo" : "Educación",
+      "tags" : "EDUCACIÓN"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo II: Educación y Cultura",
+      "level_4" : "",
+      "numero_articulo" : 83,
+      "articulo" : "Ciencia y tecnología",
+      "tags" : "CIENCIA TECNOLOGÍA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo II: Educación y Cultura",
+      "level_4" : "",
+      "numero_articulo" : 84,
+      "articulo" : "Cultura",
+      "tags" : "CULTURA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo III: Género Generacional",
+      "level_4" : "",
+      "numero_articulo" : 85,
+      "articulo" : "Familia",
+      "tags" : "FAMILIA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo III: Género Generacional",
+      "level_4" : "",
+      "numero_articulo" : 86,
+      "articulo" : "Género",
+      "tags" : "GÉNERO"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo III: Género Generacional",
+      "level_4" : "",
+      "numero_articulo" : 87,
+      "articulo" : "Niñez y adolescencia",
+      "tags" : "NIÑEZ ADOLESCENCIA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo III: Género Generacional",
+      "level_4" : "",
+      "numero_articulo" : 88,
+      "articulo" : "Jóvenes",
+      "tags" : "JÓVENES"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo III: Género Generacional",
+      "level_4" : "",
+      "numero_articulo" : 89,
+      "articulo" : "Adulta y adulto mayor",
+      "tags" : "ADULTA ADULTO MAYOR"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo III: Género Generacional",
+      "level_4" : "",
+      "numero_articulo" : 90,
+      "articulo" : "Personas con discapacidad",
+      "tags" : "PERSONAS CON DISCAPACIDAD"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo IV: Políticas Sociales",
+      "level_4" : "",
+      "numero_articulo" : 91,
+      "articulo" : "Agua potable y alcantarillado",
+      "tags" : "AGUA POTABLE ALCANTARILLADO"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo IV: Políticas Sociales",
+      "level_4" : "",
+      "numero_articulo" : 92,
+      "articulo" : "Telecomunicación, telefonía fija",
+      "tags" : "TELECOMUNICACIÓN  TELEFONÍA FIJA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo IV: Políticas Sociales",
+      "level_4" : "",
+      "numero_articulo" : 93,
+      "articulo" : "Vivienda y hábitat",
+      "tags" : "VIVIENDA HÁBITAT"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo IV: Políticas Sociales",
+      "level_4" : "",
+      "numero_articulo" : 94,
+      "articulo" : "Empleo",
+      "tags" : "EMPLEO"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo IV: Políticas Sociales",
+      "level_4" : "",
+      "numero_articulo" : 95,
+      "articulo" : "Seguridad ciudadana",
+      "tags" : "SEGURIDAD CIUDADANA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Título III: Desarrollo Humano",
+      "level_3" : "Capítulo IV: Políticas Sociales",
+      "level_4" : "",
+      "numero_articulo" : 96,
+      "articulo" : "Reinserción Social",
+      "tags" : "REINSERCIÓN SOCIAL"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Parte IV: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 97,
+      "articulo" : "Competencias exclusivas",
+      "tags" : "COMPETENCIAS EXCLUSIVAS"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Parte IV: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 98,
+      "articulo" : "Competencias compartidas",
+      "tags" : "COMPETENCIAS COMPARTIDAS"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Parte IV: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 99,
+      "articulo" : "Competencias concurrentes",
+      "tags" : "COMPETENCIAS CONCURRENTES"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Parte IV: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 100,
+      "articulo" : "Otras competencias",
+      "tags" : "OTRAS COMPETENCIAS"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Parte V: Jerarquía Normativa y Reformas del Estatuto",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 101,
+      "articulo" : "Jerarquía normativa",
+      "tags" : "JERARQUÍA NORMATIVA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Parte V: Jerarquía Normativa y Reformas del Estatuto",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 102,
+      "articulo" : "Reforma",
+      "tags" : "REFORMA"
+    },
+    {
+      "level_1" : "Parte III: Desarrollo departamental",
+      "level_2" : "Parte V: Jerarquía Normativa y Reformas del Estatuto",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 103,
+      "articulo" : "Procedimiento",
+      "tags" : "PROCEDIMIENTO"
+    }
+  ]
+}
