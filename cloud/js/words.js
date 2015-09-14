@@ -54,37 +54,42 @@ mostrar_articulos = function (word) {
 
 buscar_articulos = function (data, word, target, ruta_articulos) {
     d3.select(target).html("");
+    var results = []
     data.forEach(function (d) {
-        var tags = d.tags.split(" ");
-        tags.forEach(function (word_tag) {
-            if (word == word_tag) {
-                var prefix = "";
-                if (d.numero_articulo > 0 && d.numero_articulo < 10) {
-                    prefix = "00";
-                } else if (d.numero_articulo >= 10 && d.numero_articulo < 100) {
-                    prefix = "0";
-                }
-                d3.text(ruta_articulos + prefix + d.numero_articulo + '.html', function (error, data) {
-                    var aux = ("<div><p>" + d.level_1 + "</p></div>") +
-                        ("<div><p>" + d.level_2 + "</p></div>") +
-                        ("<div><p>" + d.level_3 + "</p></div>") +
-                        ("<div><p>" + d.level_4 + "</p></div>") +
-                        ("<div><p> Art&iacute;culo " + d.numero_articulo + ". " + d.articulo + "</span></div>");
-                    $(target).append('<br/>');
-                    if (error === null) {
-                        aux += ("<div>" + data + "</div>");
-                    }
-                    //Seccion agregada para convertir el articulo en un Acordion
-                    var nuevo = "<article>" +
-                        "<span class='titulo'> Art&iacute;culo " + d.numero_articulo + ": " + d.articulo + "</span>" +
-                        "<div class='block'>" + aux + "</div>" +
-                        "</article>";
-                    $(target).append(nuevo);
-                });
-            }
-        });
-
+        if (d.tags.indexOf(word) >= 0) {
+            results.push(d);
+        }
     });
+
+    imprimir_resultados(results, target, ruta_articulos);
+};
+
+imprimir_resultados = function(results, target, ruta_articulos) {
+    results.forEach(function (d) {
+        var prefix = "";
+        if (d.numero_articulo > 0 && d.numero_articulo < 10) {
+            prefix = "00";
+        } else if (d.numero_articulo >= 10 && d.numero_articulo < 100) {
+            prefix = "0";
+        }
+        d3.text(ruta_articulos + prefix + d.numero_articulo + '.html', function (error, data) {
+            var aux = ("<div><p>" + d.level_1 + "</p></div>") +
+                ("<div><p>" + d.level_2 + "</p></div>") +
+                ("<div><p>" + d.level_3 + "</p></div>") +
+                ("<div><p>" + d.level_4 + "</p></div>") +
+                ("<div><p> Art&iacute;culo " + d.numero_articulo + ". " + d.articulo + "</span></div>");
+            $(target).append('<br/>');
+            if (error === null) {
+                aux += ("<div>" + data + "</div>");
+            }
+            //Seccion agregada para convertir el articulo en un Acordion
+            var nuevo = "<article>" +
+                "<span class='titulo'> Art&iacute;culo " + d.numero_articulo + ": " + d.articulo + "</span>" +
+                "<div class='block'>" + aux + "</div>" +
+                "</article>";
+            $(target).append(nuevo);
+        });
+    })
 };
 
 function analyze(error, oruro, potosi, cochabamba, lapaz) {
@@ -112,14 +117,14 @@ $(document).ready(function (event) {
         .defer(d3.json, estatuto_lapaz)
         .await(analyze);
 
-    $('form#actualizar_nube').on('submit', function(event) {
+    $('form#actualizar_nube').on('submit', function (event) {
         event.preventDefault();
         cloud_words = [];
-        $(this).find('input:checked').each(function(index, object) {
+        $(this).find('input:checked').each(function (index, object) {
             var departamento = object.name;
             console.log(departamento);
 
-            switch(departamento) {
+            switch (departamento) {
                 case 'oruro':
                     $.ajax({
                         url: estatuto_oruro,
@@ -167,7 +172,7 @@ $(document).ready(function (event) {
         $('#palabras').jQCloud('update', cloud_words, {shape: 'rectangular'});
     })
 
-    $('form#buscar_palabra').on('submit', function(event) {
+    $('form#buscar_palabra').on('submit', function (event) {
         event.preventDefault();
         cloud_words = [];
         var texto = $(this).find('input[name="palabra"]').val(),
@@ -177,41 +182,48 @@ $(document).ready(function (event) {
             resultados_lapaz = [],
             resultados_cochabamba = [];
 
-        articulos_oruro.forEach(function(articulo) {
-            words.forEach(function(word) {
+        articulos_oruro.forEach(function (articulo) {
+            words.forEach(function (word) {
                 if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
                     resultados_oruro.push(articulo);
                 }
             })
         });
 
-        articulos_potosi.forEach(function(articulo) {
-            words.forEach(function(word) {
+        articulos_potosi.forEach(function (articulo) {
+            words.forEach(function (word) {
                 if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
                     resultados_potosi.push(articulo);
                 }
             })
         });
 
-        articulos_lapaz.forEach(function(articulo) {
-            words.forEach(function(word) {
+        articulos_lapaz.forEach(function (articulo) {
+            words.forEach(function (word) {
                 if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
                     resultados_lapaz.push(articulo);
                 }
             })
         });
 
-        articulos_cochabamba.forEach(function(articulo) {
-            words.forEach(function(word) {
+        articulos_cochabamba.forEach(function (articulo) {
+            words.forEach(function (word) {
                 if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
                     resultados_cochabamba.push(articulo);
                 }
             })
         });
 
-        console.log(resultados_oruro);
-        console.log(resultados_potosi);
-        console.log(resultados_lapaz);
-        console.log(resultados_cochabamba);
+        d3.select('div#oruro').html("");
+        imprimir_resultados(resultados_oruro, 'div#oruro', '../../oruro/articulos/');
+
+        d3.select('div#potosi').html("");
+        imprimir_resultados(resultados_potosi, 'div#potosi', '../../potosi/articulos/');
+
+        d3.select('div#lapaz').html("");
+        imprimir_resultados(resultados_lapaz, 'div#lapaz', '../../lapaz/articulos/');
+
+        d3.select('div#cochabamba').html("");
+        imprimir_resultados(resultados_cochabamba, 'div#cochabamba', '../../cochabamba/articulos/');
     });
 });
