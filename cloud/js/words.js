@@ -1,41 +1,53 @@
-$(document).ready(function(event){
-    d3.csv('data/cities.csv', function(data){
-        console.log(data[0]);
-        data.forEach(function(d){
-            d.population = +d.population;
-            d["land area"] = +d["land area"];
-        });
-        console.log(data[0]);
+var cloud_words = [];
+
+var contar_palabras = function(data) {
+    data.forEach(function (d) {
+        var tags = d.tags.split(" ");
+        tags.forEach(function (d) {
+            var r = cloud_words.filter(function (tag) {
+                return tag.text == d;
+            });
+            if (0 === r.length) {
+                cloud_words.push({
+                        text: d,
+                        weight: 1,
+                        link: '#'
+                    }
+                );
+            } else {
+                cloud_words.forEach(function(tag) {
+                    if (tag.text === d) {
+                        tag.weight += 1;
+                    }
+                })
+            }
+        })
     });
+};
 
-    d3.tsv('data/animals.tsv', function(data){
-        console.log(data[0]);
-    });
-
-    var psv = d3.dsv("|", "text/plain");
-
-    psv("data/animals_piped.txt", function(data){
-        console.log(data[1]);
-        data.forEach(function(d){
-            console.log(d);
-        });
-    });
-
-    d3.json("data/employes.json", function(data){
-        console.log(data[0]);
-    });
-
-    queue()
-        .defer(d3.csv, "data/cities.csv")
-        .defer(d3.csv, "data/animals.tsv")
-        .await(analyze);
-
-    function analyze(error, cities, animals) {
-        if (error) {
-            console.log(error);
-        }
-
-        console.log(cities[0]);
-        console.log(animals[0]);
+function analyze(error, oruro, potosi, cochabamba, lapaz) {
+    if (error) {
+        console.log(error);
     }
+    contar_palabras(oruro);
+    contar_palabras(potosi);
+    contar_palabras(cochabamba);
+    contar_palabras(lapaz);
+
+    cloud_words.forEach(function(d) {
+        console.log(d.text);
+    });
+
+    console.log(cloud_words.length);
+
+    $('#palabras').jQCloud(cloud_words, { shape: 'rectangular'});
+};
+
+$(document).ready(function (event) {
+    queue()
+        .defer(d3.json, '../../data/estatuto_oruro.json')
+        .defer(d3.json, '../../data/estatuto_potosi.json')
+        .defer(d3.json, '../../data/estatuto_cochabamba.json')
+        .defer(d3.json, '../../data/estatuto_lapaz.json')
+        .await(analyze);
 });
