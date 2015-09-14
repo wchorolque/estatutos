@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Nube de palabras</title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/d3.min.js"></script>
+	<script src="js/queue.v1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jqcloud.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+</head>
+<body>
+	<form action="" id="actualizar_nube" name="actualizar_nube">
+		<input type="checkbox" id="uno" name="oruro" checked="checked"/> 
+		<label for="uno">Oruro</label>
+		<input type="checkbox" id="dos"name="lapaz" checked="checked"/> 
+		<label for="dos">La Paz</label>
+		<input type="checkbox" id="tres"name="potosi" checked="checked"/> 
+		<label for="tres">Potos&iacute;</label>
+		<input type="checkbox" id="cuatro"name="cochabamba" checked="checked"/> 
+		<label for="cuatro">Cochabamba</label>
+		<input type="submit" value="actualizar"/>
+	</form>
+
+	<div id="palabras"></div>
+
+	<br/>
+
+	<form action="" id="buscar_palabra" name="buscar_palabra">
+		<input type="text" name="palabra"/>
+		<input type="submit" value="buscar"/>
+	</form>
+
+	<br/>
+	<section>
+		<h2>Oruro <small id="oruro_titulo">0</small></h2>
+		<div id="oruro" class="accordion"></div>
+	</section>
+	<section>
+		<h2>La Paz<small id="lapaz_titulo">0</small></h2>
+		<div id="lapaz" class="accordion"></div>
+	</section>
+	<section>
+		<h2>Potosí<small id="potosi_titulo">0</small></h2>
+		<div id="potosi" class="accordion"></div>
+	</section>
+	<section>
+		<h2>Cochabamba<small id="cochabamba_titulo">0</small></h2>
+		<div id="cochabamba" class="accordion"></div>
+	</section>
+</body>
+<script src="js/jqcloud.min.js"></script>
+<script src="js/words.js"> </script>
+<script src="js/estilo.js"> </script>
+</html>
