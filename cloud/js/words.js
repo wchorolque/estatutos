@@ -1,4 +1,8 @@
-var cloud_words = [];
+var cloud_words = [],
+    estatuto_oruro = '../../data/estatuto_oruro.json',
+    estatuto_potosi = '../../data/estatuto_potosi.json',
+    estatuto_cochabamba = '../../data/estatuto_cochabamba.json',
+    estatuto_lapaz = '../../data/estatuto_lapaz.json';
 
 var contar_palabras = function (data) {
     data.forEach(function (record) {
@@ -99,4 +103,60 @@ $(document).ready(function (event) {
         .defer(d3.json, '../../data/estatuto_cochabamba.json')
         .defer(d3.json, '../../data/estatuto_lapaz.json')
         .await(analyze);
+
+    $('form#actualizar_nube').on('submit', function(event) {
+        event.preventDefault();
+        cloud_words = [];
+        $(this).find('input:checked').each(function(index, object) {
+            var departamento = object.name;
+            console.log(departamento);
+
+            switch(departamento) {
+                case 'oruro':
+                    d3.json(estatuto_potosi, contar_palabras);
+                    $.ajax({
+                        url: estatuto_oruro,
+                        async: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            contar_palabras(data)
+                        }
+                    });
+                    break;
+                case 'potosi':
+                    $.ajax({
+                        url: estatuto_potosi,
+                        async: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            contar_palabras(data)
+                        }
+                    });
+                    break;
+                case 'lapaz':
+                    $.ajax({
+                        url: estatuto_lapaz,
+                        async: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            contar_palabras(data)
+                        }
+                    });
+                    break;
+                case 'cochabamba':
+                    $.ajax({
+                        url: estatuto_cochabamba,
+                        async: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            contar_palabras(data)
+                        }
+                    });
+                    break;
+            }
+        });
+
+        console.log(cloud_words);
+        $('#palabras').jQCloud('update', cloud_words, {shape: 'rectangular'});
+    })
 });
