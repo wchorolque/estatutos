@@ -58,6 +58,11 @@ buscar_articulos = function(data, word, target, articulos) {
                 }
                 console.log(target + ":" + d.numero_articulo);
                 d3.text(articulos + prefix + d.numero_articulo + '.html', function (error, data) {
+                    $(target).append("<div><span>" + d.level_1 +"</span></div>");
+                    $(target).append("<div><span>" + d.level_2 +"</span></div>");
+                    $(target).append("<div><span>" + d.level_3 +"</span></div>");
+                    $(target).append("<div><span>" + d.level_4 +"</span></div>");
+                    $(target).append("<div><span>" + d.numero_articulo + "." + d.articulo+"</span></div>");
                     if (error === null) {
                         $(target).append(data);
                     }
