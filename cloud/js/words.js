@@ -9,14 +9,14 @@ var contar_palabras = function (data) {
             });
             if (0 === r.length) {
                 cloud_words.push({
-                        text: d,
-                        weight: 1,
-                        handlers: {
-                            click: function () {
-                                mostrar_articulos(d);
-                            }
+                    text: d,
+                    weight: 1,
+                    handlers: {
+                        click: function () {
+                            mostrar_articulos(d);
                         }
                     }
+                }
                 );
             } else {
                 cloud_words.forEach(function (tag) {
@@ -58,19 +58,26 @@ buscar_articulos = function(data, word, target, articulos) {
                 }
                 console.log(target + ":" + d.numero_articulo);
                 d3.text(articulos + prefix + d.numero_articulo + '.html', function (error, data) {
-                    $(target).append("<div><span>" + d.level_1 +"</span></div>");
-                    $(target).append("<div><span>" + d.level_2 +"</span></div>");
-                    $(target).append("<div><span>" + d.level_3 +"</span></div>");
-                    $(target).append("<div><span>" + d.level_4 +"</span></div>");
-                    $(target).append("<div><span>" + d.numero_articulo + ". " + d.articulo+"</span></div>");
+                    var aux = ("<div><p>" + d.level_1 +"</p></div>")+
+                    ("<div><p>" + d.level_2 +"</p></div>")+
+                    ("<div><p>" + d.level_3 +"</p></div>")+
+                    ("<div><p>" + d.level_4 +"</p></div>")+
+                    ("<div><p> Artí­culo " + d.numero_articulo + "." + d.articulo+"</span></div>");
                     $(target).append('<br/>');
                     if (error === null) {
-                        $(target).append(data);
+                        aux+=("<div>" + data +"</div>");
                     }
+                    //Seccion agregada para convertir el articulo en un Acordion
+                    var nuevo ="<article>"+
+                    "<span class='titulo'> ArtÃ­culo "+d.numero_articulo+": "+d.articulo+"</span>"+
+                    "<div class='block'>"+aux+"</div>"+
+                    "</article>";
+                    $(target).append(nuevo);
                 });
             }
         });
-    });
+
+});
 };
 
 function analyze(error, oruro, potosi, cochabamba, lapaz) {
@@ -87,9 +94,9 @@ function analyze(error, oruro, potosi, cochabamba, lapaz) {
 
 $(document).ready(function (event) {
     queue()
-        .defer(d3.json, '../../data/estatuto_oruro.json')
-        .defer(d3.json, '../../data/estatuto_potosi.json')
-        .defer(d3.json, '../../data/estatuto_cochabamba.json')
-        .defer(d3.json, '../../data/estatuto_lapaz.json')
-        .await(analyze);
+    .defer(d3.json, '../../data/estatuto_oruro.json')
+    .defer(d3.json, '../../data/estatuto_potosi.json')
+    .defer(d3.json, '../../data/estatuto_cochabamba.json')
+    .defer(d3.json, '../../data/estatuto_lapaz.json')
+    .await(analyze);
 });
