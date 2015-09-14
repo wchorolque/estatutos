@@ -16,7 +16,6 @@ $(function(){
 	});
 
 	$('.accordion').on('click','.titulo',function(){
-		$(this).find('span').toggleClass('si');
 		if($(this).next().is(':visible')){			
 			var aux=$(this).attr('id');
 			$(".block_"+aux).slideUp();

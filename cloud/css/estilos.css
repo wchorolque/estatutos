@@ -44,7 +44,7 @@
 }
 .accordion .block{
 	padding:15px;
-	color: #333;
+	color: #000;
 }
 .block > div:nth-last-child(n) > p{
 	font-weight: bold;
@@ -84,6 +84,19 @@ body > section{
 	content:"[Cerrar]";
 	color:#FF5C5C;
 }
-.block{
-	background-image: url("oruro.png");
+#oruro .block{
+	background:#fff url("../img/oruro.png") no-repeat;
+	background-size: 100%;
+}
+#lapaz .block{
+	background:#fff url("../img/lapaz.png") no-repeat;
+	background-size: 100%;
+}
+#cochabamba .block{
+	background:#fff url("../img/cochabamba.png") no-repeat;
+	background-size: 100%;
+}
+#potosi .block{
+	background:#fff url("../img/potosi.png") no-repeat;
+	background-size: 100%;
 }
