@@ -96,6 +96,7 @@ function analyze(error, oruro, potosi, cochabamba, lapaz) {
     if (error) {
         console.log(error);
     }
+
     articulos_oruro = oruro;
     articulos_potosi = potosi;
     articulos_cochabamba = cochabamba;
@@ -190,6 +191,9 @@ $(document).ready(function (event) {
             })
         });
 
+        d3.select('div#oruro').html("");
+        imprimir_resultados(resultados_oruro, 'div#oruro', '../../oruro/articulos/');
+
         articulos_potosi.forEach(function (articulo) {
             words.forEach(function (word) {
                 if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
@@ -197,6 +201,9 @@ $(document).ready(function (event) {
                 }
             })
         });
+
+        d3.select('div#potosi').html("");
+        imprimir_resultados(resultados_potosi, 'div#potosi', '../../potosi/articulos/');
 
         articulos_lapaz.forEach(function (articulo) {
             words.forEach(function (word) {
@@ -206,6 +213,9 @@ $(document).ready(function (event) {
             })
         });
 
+        d3.select('div#lapaz').html("");
+        imprimir_resultados(resultados_lapaz, 'div#lapaz', '../../lapaz/articulos/');
+
         articulos_cochabamba.forEach(function (articulo) {
             words.forEach(function (word) {
                 if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
@@ -213,15 +223,6 @@ $(document).ready(function (event) {
                 }
             })
         });
-
-        d3.select('div#oruro').html("");
-        imprimir_resultados(resultados_oruro, 'div#oruro', '../../oruro/articulos/');
-
-        d3.select('div#potosi').html("");
-        imprimir_resultados(resultados_potosi, 'div#potosi', '../../potosi/articulos/');
-
-        d3.select('div#lapaz').html("");
-        imprimir_resultados(resultados_lapaz, 'div#lapaz', '../../lapaz/articulos/');
 
         d3.select('div#cochabamba').html("");
         imprimir_resultados(resultados_cochabamba, 'div#cochabamba', '../../cochabamba/articulos/');
