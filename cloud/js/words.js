@@ -3,6 +3,10 @@ var cloud_words = [],
     estatuto_potosi = '../../data/estatuto_potosi.json',
     estatuto_cochabamba = '../../data/estatuto_cochabamba.json',
     estatuto_lapaz = '../../data/estatuto_lapaz.json';
+var articulos_oruro = [],
+    articulos_potosi = [],
+    articulos_lapaz = [],
+    articulos_cochabamba = [];
 
 var contar_palabras = function (data) {
     data.forEach(function (record) {
@@ -48,7 +52,7 @@ mostrar_articulos = function (word) {
     });
 };
 
-buscar_articulos = function (data, word, target, articulos) {
+buscar_articulos = function (data, word, target, ruta_articulos) {
     d3.select(target).html("");
     data.forEach(function (d) {
         var tags = d.tags.split(" ");
@@ -60,7 +64,7 @@ buscar_articulos = function (data, word, target, articulos) {
                 } else if (d.numero_articulo >= 10 && d.numero_articulo < 100) {
                     prefix = "0";
                 }
-                d3.text(articulos + prefix + d.numero_articulo + '.html', function (error, data) {
+                d3.text(ruta_articulos + prefix + d.numero_articulo + '.html', function (error, data) {
                     var aux = ("<div><p>" + d.level_1 + "</p></div>") +
                         ("<div><p>" + d.level_2 + "</p></div>") +
                         ("<div><p>" + d.level_3 + "</p></div>") +
@@ -87,10 +91,15 @@ function analyze(error, oruro, potosi, cochabamba, lapaz) {
     if (error) {
         console.log(error);
     }
-    contar_palabras(oruro);
-    contar_palabras(potosi);
-    contar_palabras(cochabamba);
-    contar_palabras(lapaz);
+    articulos_oruro = oruro;
+    articulos_potosi = potosi;
+    articulos_cochabamba = cochabamba;
+    articulos_lapaz = lapaz;
+
+    contar_palabras(articulos_oruro);
+    contar_palabras(articulos_potosi);
+    contar_palabras(articulos_cochabamba);
+    contar_palabras(articulos_lapaz);
 
     $('#palabras').jQCloud(cloud_words, {shape: 'rectangular'});
 };
@@ -112,7 +121,6 @@ $(document).ready(function (event) {
 
             switch(departamento) {
                 case 'oruro':
-                    d3.json(estatuto_potosi, contar_palabras);
                     $.ajax({
                         url: estatuto_oruro,
                         async: false,
@@ -158,4 +166,52 @@ $(document).ready(function (event) {
         console.log(cloud_words);
         $('#palabras').jQCloud('update', cloud_words, {shape: 'rectangular'});
     })
+
+    $('form#buscar_palabra').on('submit', function(event) {
+        event.preventDefault();
+        cloud_words = [];
+        var texto = $(this).find('input[name="palabra"]').val(),
+            words = texto.split(" "),
+            resultados_oruro = [],
+            resultados_potosi = [],
+            resultados_lapaz = [],
+            resultados_cochabamba = [];
+
+        articulos_oruro.forEach(function(articulo) {
+            words.forEach(function(word) {
+                if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
+                    resultados_oruro.push(articulo);
+                }
+            })
+        });
+
+        articulos_potosi.forEach(function(articulo) {
+            words.forEach(function(word) {
+                if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
+                    resultados_potosi.push(articulo);
+                }
+            })
+        });
+
+        articulos_lapaz.forEach(function(articulo) {
+            words.forEach(function(word) {
+                if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
+                    resultados_lapaz.push(articulo);
+                }
+            })
+        });
+
+        articulos_cochabamba.forEach(function(articulo) {
+            words.forEach(function(word) {
+                if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
+                    resultados_cochabamba.push(articulo);
+                }
+            })
+        });
+
+        console.log(resultados_oruro);
+        console.log(resultados_potosi);
+        console.log(resultados_lapaz);
+        console.log(resultados_cochabamba);
+    });
 });
