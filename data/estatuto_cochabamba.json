@@ -1,956 +1,1062 @@
 [
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 1,
-    "articulo": "Constitución",
-    "tags": "CONSTITUCIÓN"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 2,
-    "articulo": "Naturaleza",
-    "tags": "NATURALEZA"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 3,
-    "articulo": "Principios y valores",
-    "tags": "PRINCIPIOS VALORES"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 4,
-    "articulo": "Fines propios",
-    "tags": "FINES PROPIOS"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 5,
-    "articulo": "Símbolos y aniversario",
-    "tags": "SÍMBOLOS ANIVERSARIO"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 6,
-    "articulo": "Idiomas oficiales",
-    "tags": "IDIOMAS OFICIALES"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 7,
-    "articulo": "Capital y sede de gobierno",
-    "tags": "CAPITAL SEDE GOBIERNO"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 8,
-    "articulo": "Ubicación geográfica",
-    "tags": "UBICACIÓN GEOGRÁFICA"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 9,
-    "articulo": "Organización territorial",
-    "tags": "ORGANIZACIÓN TERRITORIAL"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Disposiciones Generales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 10,
-    "articulo": "Visión estratégica del desarrollo departamental",
-    "tags": "VISIÓN ESTRATÉGICA DESARROLLO DEPARTAMENTAL"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Derechos y Deberes",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 11,
-    "articulo": "Derechos",
-    "tags": "DERECHOS"
-  },
-  {
-    "level_1": "Título I: Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Derechos y Deberes",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 12,
-    "articulo": "Deberes",
-    "tags": "DEBERES"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Órganos de Gobierno",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 13,
-    "articulo": "Forma de gobierno",
-    "tags": "FORMA GOBIERNO"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Órganos de Gobierno",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 14,
-    "articulo": "Fundamentos",
-    "tags": "FUNDAMENTOS"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo I: Órganos de Gobierno",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 15,
-    "articulo": "Conformación",
-    "tags": "CONFORMACIÓN"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 16,
-    "articulo": "Asamblea legislativa departamental",
-    "tags": "ASAMBLEA LEGISLATIVA DEPARTAMENTAL"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 17,
-    "articulo": "Composición",
-    "tags": "COMPOSICIÓN"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 18,
-    "articulo": "Organización interna y funcionamiento",
-    "tags": "ORGANIZACIÓN INTERNA FUNCIONAMIENTO"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 19,
-    "articulo": "Periodo constitucional y legislativo",
-    "tags": "PERIODO CONSTITUCIONAL LEGISLATIVO"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 20,
-    "articulo": "Atribuciones",
-    "tags": "ATRIBUCIONES"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección I: Asambleístas Departamentales",
-    "level_4": "Sección I: Asambleístas Departamentales",
-    "numero_articulo": 21,
-    "articulo": "Requisitos de elección e incompatibilidades",
-    "tags": "REQUISITOS ELECCIÓN INCOMPATIBILIDADES"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección I: Asambleístas Departamentales",
-    "level_4": "Sección I: Asambleístas Departamentales",
-    "numero_articulo": 22,
-    "articulo": "Prerrogativas, derechos y deberes",
-    "tags": "PRERROGATIVAS, DERECHOS DEBERES"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección I: Asambleístas Departamentales",
-    "level_4": "Sección I: Asambleístas Departamentales",
-    "numero_articulo": 23,
-    "articulo": "Mandato",
-    "tags": "MANDATO"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección I: Asambleístas Departamentales",
-    "level_4": "Sección I: Asambleístas Departamentales",
-    "numero_articulo": 24,
-    "articulo": "Pérdida de mandato, suspensión y sustitución",
-    "tags": "PÉRDIDA MANDATO, SUSPENSIÓN SUSTITUCIÓN"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 25,
-    "articulo": "Iniciativa legislativa",
-    "tags": "INICIATIVA LEGISLATIVA"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 26,
-    "articulo": "Aprobación de leyes",
-    "tags": "APROBACIÓN LEYES"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 27,
-    "articulo": "Procedimiento legislativo",
-    "tags": "PROCEDIMIENTO LEGISLATIVO"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 28,
-    "articulo": "Participación social legislativa",
-    "tags": "PARTICIPACIÓN SOCIAL LEGISLATIVA"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 29,
-    "articulo": "Fiscalización",
-    "tags": "FISCALIZACIÓN"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 30,
-    "articulo": "Órgano ejecutivo departamental",
-    "tags": "ÓRGANO EJECUTIVO DEPARTAMENTAL"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 31,
-    "articulo": "Organización",
-    "tags": "ORGANIZACIÓN"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 32,
-    "articulo": "Gobernadora o gobernador",
-    "tags": "GOBERNADORA GOBERNADOR"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 33,
-    "articulo": "Requisitos de postulación",
-    "tags": "REQUISITOS POSTULACIÓN"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 34,
-    "articulo": "Elección y proclamación",
-    "tags": "ELECCIÓN PROCLAMACIÓN"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 35,
-    "articulo": "Mandato",
-    "tags": "MANDATO"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 36,
-    "articulo": "Pérdida de mandato",
-    "tags": "PÉRDIDA MANDATO"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 37,
-    "articulo": "Ausencia temporal y definitiva",
-    "tags": "AUSENCIA TEMPORAL DEFINITIVA"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo II: Asamblea Legislativa Departamental",
-    "level_3": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "level_4": "Sección II: Procedimiento Legislativo y Fiscalización",
-    "numero_articulo": 38,
-    "articulo": "Atribuciones del gobernador",
-    "tags": "ATRIBUCIONES GOBERNADOR"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo III: Órgano Ejecutivo - Gobernación",
-    "level_3": "Sección I: Atribuciones de la Vicegobernadora o el Vicegobernador",
-    "level_4": "Sección I: Atribuciones de la Vicegobernadora o el Vicegobernador",
-    "numero_articulo": 39,
-    "articulo": "Atribuciones",
-    "tags": "ATRIBUCIONES"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo III: Órgano Ejecutivo - Gobernación",
-    "level_3": "Sección II: Secretarias y Secretarios Departamentales",
-    "level_4": "Sección II: Secretarias y Secretarios Departamentales",
-    "numero_articulo": 40,
-    "articulo": "Secretarias y secretarios",
-    "tags": "SECRETARIAS SECRETARIOS"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo III: Órgano Ejecutivo - Gobernación",
-    "level_3": "Sección III: Gabinete Departamental",
-    "level_4": "Sección III: Gabinete Departamental",
-    "numero_articulo": 41,
-    "articulo": "Gabinete departamental",
-    "tags": "GABINETE DEPARTAMENTAL"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo III: Órgano Ejecutivo - Gobernación",
-    "level_3": "Sección IV: Descentralización y Desconcentración",
-    "level_4": "Sección IV: Descentralización y Desconcentración",
-    "numero_articulo": 42,
-    "articulo": "Descentralización y desconcentración",
-    "tags": "DESCENTRALIZACIÓN DESCONCENTRACIÓN"
-  },
-  {
-    "level_1": "Título II: Organización del Gobierno Autónomo Departamental",
-    "level_2": "Capítulo III: Órgano Ejecutivo - Gobernación",
-    "level_3": "Sección V: Subgobernación Regional",
-    "level_4": "Sección V: Subgobernación Regional",
-    "numero_articulo": 43,
-    "articulo": "Subgobernadora o subgobernador regional",
-    "tags": "SUBGOBERNADORA SUBGOBERNADOR REGIONAL"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo I: Coordinación Intergubernativa y Relaciones Internacionales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 44,
-    "articulo": "Coordinación intergubernativa",
-    "tags": "COORDINACIÓN INTERGUBERNATIVA"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo I: Coordinación Intergubernativa y Relaciones Internacionales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 45,
-    "articulo": "Convenios interlegislativos",
-    "tags": "CONVENIOS INTERLEGISLATIVOS"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo I: Coordinación Intergubernativa y Relaciones Internacionales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 46,
-    "articulo": "Relaciones internacionales",
-    "tags": "RELACIONES INTERNACIONALES"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo II: Participación, Control Social, Transparencia y Rendición de Cuentas",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 47,
-    "articulo": "Participación ciudadana y control social",
-    "tags": "PARTICIPACIÓN CIUDADANA CONTROL SOCIAL"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo II: Participación, Control Social, Transparencia y Rendición de Cuentas",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 48,
-    "articulo": "Transparencia y acceso a la información",
-    "tags": "TRANSPARENCIA ACCESO INFORMACIÓN"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo II: Participación, Control Social, Transparencia y Rendición de Cuentas",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 49,
-    "articulo": "Instancia de transparencia",
-    "tags": "INSTANCIA TRANSPARENCIA"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo II: Participación, Control Social, Transparencia y Rendición de Cuentas",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 50,
-    "articulo": "Rendición pública de cuentas",
-    "tags": "RENDICIÓN PÚBLICA CUENTAS"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo III: Régimen Competencial",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 51,
-    "articulo": "Ejercicio de competencias",
-    "tags": "EJERCICIO COMPETENCIAS"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo III: Régimen Competencial",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 52,
-    "articulo": "Competencias exclusivas",
-    "tags": "COMPETENCIAS EXCLUSIVAS"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo III: Régimen Competencial",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 53,
-    "articulo": "Competencias concurrentes",
-    "tags": "COMPETENCIAS CONCURRENTES"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo III: Régimen Competencial",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 54,
-    "articulo": "Competencias compartidas",
-    "tags": "COMPETENCIAS COMPARTIDAS"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo III: Régimen Competencial",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 55,
-    "articulo": "Concurrencia en competencias exclusivas",
-    "tags": "CONCURRENCIA COMPETENCIAS EXCLUSIVAS"
-  },
-  {
-    "level_1": "Título III: Relaciones Intergubernativas e Interinstitucionales",
-    "level_2": "Capítulo III: Régimen Competencial",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 56,
-    "articulo": "Transferencia o delegación de competencias",
-    "tags": "TRANSFERENCIA DELEGACIÓN COMPETENCIAS"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo I: Planificación",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 57,
-    "articulo": "Directrices",
-    "tags": "DIRECTRICES"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo I: Planificación",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 58,
-    "articulo": "Organización regional",
-    "tags": "ORGANIZACIÓN REGIONAL"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo I: Planificación",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 59,
-    "articulo": "Ordenamiento territorial",
-    "tags": "ORDENAMIENTO TERRITORIAL"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo I: Planificación",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 60,
-    "articulo": "Gestión territorial",
-    "tags": "GESTIÓN TERRITORIAL"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo I: Planificación",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 61,
-    "articulo": "Participación",
-    "tags": "PARTICIPACIÓN"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo I: Planificación",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 62,
-    "articulo": "Medidores y evaluación",
-    "tags": "MEDIDORES EVALUACIÓN"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo I: Planificación",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 63,
-    "articulo": "Centro de estadística departamental",
-    "tags": "CENTRO ESTADÍSTICA DEPARTAMENTAL"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 64,
-    "articulo": "Patrimonio",
-    "tags": "PATRIMONIO"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 65,
-    "articulo": "Recursos",
-    "tags": "RECURSOS"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 66,
-    "articulo": "Presupuestos",
-    "tags": "PRESUPUESTOS"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 67,
-    "articulo": "Aprobación",
-    "tags": "APROBACIÓN"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 68,
-    "articulo": "Gastos extraordinarios por desastres o emergencias",
-    "tags": "GASTOS EXTRAORDINARIOS DESASTRES EMERGENCIAS"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 69,
-    "articulo": "Gasto público",
-    "tags": "GASTO PÚBLICO"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 70,
-    "articulo": "Endeudamiento público",
-    "tags": "ENDEUDAMIENTO PÚBLICO"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 71,
-    "articulo": "Transferencia de recursos públicos",
-    "tags": "TRANSFERENCIA RECURSOS PÚBLICOS"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 72,
-    "articulo": "Fondos fiduciarios",
-    "tags": "FONDOS FIDUCIARIOS"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 73,
-    "articulo": "Tributos",
-    "tags": "TRIBUTOS"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 74,
-    "articulo": "Tesoro",
-    "tags": "TESORO"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 75,
-    "articulo": "Auditoría interna",
-    "tags": "AUDITORÍA INTERNA"
-  },
-  {
-    "level_1": "Título IV: Planificación y Organización Administrativa y Financiera",
-    "level_2": "Capítulo II: Organización Administrativa y Financiera",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 76,
-    "articulo": "Finalidad de la enajenación de bienes",
-    "tags": "FINALIDAD LA ENAJENACIÓN BIENES"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 77,
-    "articulo": "Educación",
-    "tags": "EDUCACIÓN"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 78,
-    "articulo": "Salud",
-    "tags": "SALUD"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 79,
-    "articulo": "Género e igualdad de oportunidades",
-    "tags": "GÉNERO IGUALDAD OPORTUNIDADES"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 80,
-    "articulo": "Niñez y adolescencia",
-    "tags": "NIÑEZ ADOLESCENCIA"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 81,
-    "articulo": "Jóvenes",
-    "tags": "JÓVENES"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 82,
-    "articulo": "Personas adultas mayores",
-    "tags": "PERSONAS ADULTAS MAYORES"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 83,
-    "articulo": "Personas con discapacidad",
-    "tags": "PERSONAS DISCAPACIDAD"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 84,
-    "articulo": "Culturas",
-    "tags": "CULTURAS"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 85,
-    "articulo": "Deporte",
-    "tags": "DEPORTE"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 86,
-    "articulo": "Seguridad ciudadana",
-    "tags": "SEGURIDAD CIUDADANA"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 87,
-    "articulo": "Calidad del servicio departamental",
-    "tags": "CALIDAD SERVICIO DEPARTAMENTAL"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo I: Desarrollo Humano y Social",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 88,
-    "articulo": "Vivienda y hábitat",
-    "tags": "VIVIENDA HÁBITAT"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo II: Desarrollo Económico, Productivo y Rural Integral",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 89,
-    "articulo": "Economía plural",
-    "tags": "ECONOMÍA PLURAL"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo II: Desarrollo Económico, Productivo y Rural Integral",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 90,
-    "articulo": "Empleo digno",
-    "tags": "EMPLEO DIGNO"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo II: Desarrollo Económico, Productivo y Rural Integral",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 91,
-    "articulo": "Agropecuaria y pesca",
-    "tags": "AGROPECUARIA PESCA"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo II: Desarrollo Económico, Productivo y Rural Integral",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 92,
-    "articulo": "Seguridad alimentaria con soberanía",
-    "tags": "SEGURIDAD ALIMENTARIA SOBERANÍA"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo III: Desarrollo Integral del Turismo",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 93,
-    "articulo": "Turismo integral",
-    "tags": "TURISMO INTEGRAL"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo III: Desarrollo Integral del Turismo",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 94,
-    "articulo": "Turismo comunitario",
-    "tags": "TURISMO COMUNITARIO"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo III: Desarrollo Integral del Turismo",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 95,
-    "articulo": "Turismo gastronómico",
-    "tags": "TURISMO GASTRONÓMICO"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo IV: Aprovechamiento de Recursos Naturales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 96,
-    "articulo": "Hidrocarburos",
-    "tags": "HIDROCARBUROS"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo IV: Aprovechamiento de Recursos Naturales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 97,
-    "articulo": "Minería",
-    "tags": "MINERÍA"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo IV: Aprovechamiento de Recursos Naturales",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 98,
-    "articulo": "Vías de transporte departamental",
-    "tags": "VÍAS TRANSPORTE DEPARTAMENTAL"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo V: Recursos Naturales y Medio Ambiente",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 99,
-    "articulo": "Recursos naturales y biodiversidad",
-    "tags": "RECURSOS NATURALES BIODIVERSIDAD"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo V: Recursos Naturales y Medio Ambiente",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 100,
-    "articulo": "Saneamiento y residuos",
-    "tags": "SANEAMIENTO RESIDUOS"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo V: Recursos Naturales y Medio Ambiente",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 101,
-    "articulo": "Gestión ambiental",
-    "tags": "GESTIÓN AMBIENTAL"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo V: Recursos Naturales y Medio Ambiente",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 102,
-    "articulo": "Gestión de riesgos y atención de desastres",
-    "tags": "GESTIÓN RIESGOS ATENCIÓN DESASTRES"
-  },
-  {
-    "level_1": "Título V: Políticas para Vivir Bien en la Llaqta",
-    "level_2": "Capítulo VI: Institucionalidad Participativa",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 103,
-    "articulo": "Consejos departamentales sectoriales",
-    "tags": "CONSEJOS DEPARTAMENTALES SECTORIALES"
-  },
-  {
-    "level_1": "Título VI: Ordenamiento Jurídico y Reforma del Estatuto Autonómico",
-    "level_2": "",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 104,
-    "articulo": "Legislación departamental",
-    "tags": "LEGISLACIÓN DEPARTAMENTAL"
-  },
-  {
-    "level_1": "Título VI: Ordenamiento Jurídico y Reforma del Estatuto Autonómico",
-    "level_2": "",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 105,
-    "articulo": "Iniciativa de la reforma estatutaria",
-    "tags": "INICIATIVA REFORMA ESTATUTARIA"
-  },
-  {
-    "level_1": "Título VI: Ordenamiento Jurídico y Reforma del Estatuto Autonómico",
-    "level_2": "",
-    "level_3": "",
-    "level_4": "",
-    "numero_articulo": 106,
-    "articulo": "Procedimiento",
-    "tags": "PROCEDIMIENTO"
-  }
-]
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 1,
+      "articulo" : "Constitución",
+      "tags" : "CONSTITUCIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 2,
+      "articulo" : "Naturaleza",
+      "tags" : "NATURALEZA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 3,
+      "articulo" : "Principios y valores",
+      "tags" : "PRINCIPIOS VALORES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 4,
+      "articulo" : "Fines propios",
+      "tags" : "FINES PROPIOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 5,
+      "articulo" : "Símbolos y aniversario",
+      "tags" : "SÍMBOLOS ANIVERSARIO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 6,
+      "articulo" : "Idiomas oficiales",
+      "tags" : "IDIOMAS OFICIALES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 7,
+      "articulo" : "Capital y sede de gobierno",
+      "tags" : "CAPITAL SEDE GOBIERNO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 8,
+      "articulo" : "Ubicación geográfica",
+      "tags" : "UBICACIÓN GEOGRÁFICA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 9,
+      "articulo" : "Organización territorial",
+      "tags" : "ORGANIZACIÓN TERRITORIAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Disposiciones Generales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 10,
+      "articulo" : "Visión estratégica del desarrollo departamental",
+      "tags" : "VISIÓN ESTRATÉGICA DESARROLLO DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 11,
+      "articulo" : "Derechos",
+      "tags" : "DERECHOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título I: Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 12,
+      "articulo" : "Deberes",
+      "tags" : "DEBERES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Órganos de Gobierno",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 13,
+      "articulo" : "Forma de gobierno",
+      "tags" : "FORMA GOBIERNO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Órganos de Gobierno",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 14,
+      "articulo" : "Fundamentos",
+      "tags" : "FUNDAMENTOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Órganos de Gobierno",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 15,
+      "articulo" : "Conformación",
+      "tags" : "CONFORMACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 16,
+      "articulo" : "Asamblea legislativa departamental",
+      "tags" : "ASAMBLEA LEGISLATIVA DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 17,
+      "articulo" : "Composición",
+      "tags" : "COMPOSICIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 18,
+      "articulo" : "Organización interna y funcionamiento",
+      "tags" : "ORGANIZACIÓN INTERNA FUNCIONAMIENTO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 19,
+      "articulo" : "Periodo constitucional y legislativo",
+      "tags" : "PERIODO CONSTITUCIONAL LEGISLATIVO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 20,
+      "articulo" : "Atribuciones",
+      "tags" : "ATRIBUCIONES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Asambleístas Departamentales",
+      "level_4" : "Sección I: Asambleístas Departamentales",
+      "numero_articulo" : 21,
+      "articulo" : "Requisitos de elección e incompatibilidades",
+      "tags" : "REQUISITOS ELECCIÓN INCOMPATIBILIDADES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Asambleístas Departamentales",
+      "level_4" : "Sección I: Asambleístas Departamentales",
+      "numero_articulo" : 22,
+      "articulo" : "Prerrogativas, derechos y deberes",
+      "tags" : "PRERROGATIVAS, DERECHOS DEBERES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Asambleístas Departamentales",
+      "level_4" : "Sección I: Asambleístas Departamentales",
+      "numero_articulo" : 23,
+      "articulo" : "Mandato",
+      "tags" : "MANDATO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Asambleístas Departamentales",
+      "level_4" : "Sección I: Asambleístas Departamentales",
+      "numero_articulo" : 24,
+      "articulo" : "Pérdida de mandato, suspensión y sustitución",
+      "tags" : "PÉRDIDA MANDATO, SUSPENSIÓN SUSTITUCIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 25,
+      "articulo" : "Iniciativa legislativa",
+      "tags" : "INICIATIVA LEGISLATIVA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 26,
+      "articulo" : "Aprobación de leyes",
+      "tags" : "APROBACIÓN LEYES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 27,
+      "articulo" : "Procedimiento legislativo",
+      "tags" : "PROCEDIMIENTO LEGISLATIVO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 28,
+      "articulo" : "Participación social legislativa",
+      "tags" : "PARTICIPACIÓN SOCIAL LEGISLATIVA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 29,
+      "articulo" : "Fiscalización",
+      "tags" : "FISCALIZACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 30,
+      "articulo" : "Órgano ejecutivo departamental",
+      "tags" : "ÓRGANO EJECUTIVO DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 31,
+      "articulo" : "Organización",
+      "tags" : "ORGANIZACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 32,
+      "articulo" : "Gobernadora o gobernador",
+      "tags" : "GOBERNADORA GOBERNADOR"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 33,
+      "articulo" : "Requisitos de postulación",
+      "tags" : "REQUISITOS POSTULACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 34,
+      "articulo" : "Elección y proclamación",
+      "tags" : "ELECCIÓN PROCLAMACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 35,
+      "articulo" : "Mandato",
+      "tags" : "MANDATO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 36,
+      "articulo" : "Pérdida de mandato",
+      "tags" : "PÉRDIDA MANDATO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 37,
+      "articulo" : "Ausencia temporal y definitiva",
+      "tags" : "AUSENCIA TEMPORAL DEFINITIVA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "level_4" : "Sección II: Procedimiento Legislativo y Fiscalización",
+      "numero_articulo" : 38,
+      "articulo" : "Atribuciones del gobernador",
+      "tags" : "ATRIBUCIONES GOBERNADOR"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo - Gobernación",
+      "level_3" : "Sección I: Atribuciones de la Vicegobernadora o el Vicegobernador",
+      "level_4" : "Sección I: Atribuciones de la Vicegobernadora o el Vicegobernador",
+      "numero_articulo" : 39,
+      "articulo" : "Atribuciones",
+      "tags" : "ATRIBUCIONES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo - Gobernación",
+      "level_3" : "Sección II: Secretarias y Secretarios Departamentales",
+      "level_4" : "Sección II: Secretarias y Secretarios Departamentales",
+      "numero_articulo" : 40,
+      "articulo" : "Secretarias y secretarios",
+      "tags" : "SECRETARIAS SECRETARIOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo - Gobernación",
+      "level_3" : "Sección III: Gabinete Departamental",
+      "level_4" : "Sección III: Gabinete Departamental",
+      "numero_articulo" : 41,
+      "articulo" : "Gabinete departamental",
+      "tags" : "GABINETE DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo - Gobernación",
+      "level_3" : "Sección IV: Descentralización y Desconcentración",
+      "level_4" : "Sección IV: Descentralización y Desconcentración",
+      "numero_articulo" : 42,
+      "articulo" : "Descentralización y desconcentración",
+      "tags" : "DESCENTRALIZACIÓN DESCONCENTRACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título II: Organización del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo - Gobernación",
+      "level_3" : "Sección V: Subgobernación Regional",
+      "level_4" : "Sección V: Subgobernación Regional",
+      "numero_articulo" : 43,
+      "articulo" : "Subgobernadora o subgobernador regional",
+      "tags" : "SUBGOBERNADORA SUBGOBERNADOR REGIONAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo I: Coordinación Intergubernativa y Relaciones Internacionales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 44,
+      "articulo" : "Coordinación intergubernativa",
+      "tags" : "COORDINACIÓN INTERGUBERNATIVA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo I: Coordinación Intergubernativa y Relaciones Internacionales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 45,
+      "articulo" : "Convenios interlegislativos",
+      "tags" : "CONVENIOS INTERLEGISLATIVOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo I: Coordinación Intergubernativa y Relaciones Internacionales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 46,
+      "articulo" : "Relaciones internacionales",
+      "tags" : "RELACIONES INTERNACIONALES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo II: Participación, Control Social, Transparencia y Rendición de Cuentas",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 47,
+      "articulo" : "Participación ciudadana y control social",
+      "tags" : "PARTICIPACIÓN CIUDADANA CONTROL SOCIAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo II: Participación, Control Social, Transparencia y Rendición de Cuentas",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 48,
+      "articulo" : "Transparencia y acceso a la información",
+      "tags" : "TRANSPARENCIA ACCESO INFORMACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo II: Participación, Control Social, Transparencia y Rendición de Cuentas",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 49,
+      "articulo" : "Instancia de transparencia",
+      "tags" : "INSTANCIA TRANSPARENCIA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo II: Participación, Control Social, Transparencia y Rendición de Cuentas",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 50,
+      "articulo" : "Rendición pública de cuentas",
+      "tags" : "RENDICIÓN PÚBLICA CUENTAS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo III: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 51,
+      "articulo" : "Ejercicio de competencias",
+      "tags" : "EJERCICIO COMPETENCIAS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo III: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 52,
+      "articulo" : "Competencias exclusivas",
+      "tags" : "COMPETENCIAS EXCLUSIVAS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo III: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 53,
+      "articulo" : "Competencias concurrentes",
+      "tags" : "COMPETENCIAS CONCURRENTES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo III: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 54,
+      "articulo" : "Competencias compartidas",
+      "tags" : "COMPETENCIAS COMPARTIDAS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo III: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 55,
+      "articulo" : "Concurrencia en competencias exclusivas",
+      "tags" : "CONCURRENCIA COMPETENCIAS EXCLUSIVAS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título III: Relaciones Intergubernativas e Interinstitucionales",
+      "level_2" : "Capítulo III: Régimen Competencial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 56,
+      "articulo" : "Transferencia o delegación de competencias",
+      "tags" : "TRANSFERENCIA DELEGACIÓN COMPETENCIAS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo I: Planificación",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 57,
+      "articulo" : "Directrices",
+      "tags" : "DIRECTRICES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo I: Planificación",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 58,
+      "articulo" : "Organización regional",
+      "tags" : "ORGANIZACIÓN REGIONAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo I: Planificación",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 59,
+      "articulo" : "Ordenamiento territorial",
+      "tags" : "ORDENAMIENTO TERRITORIAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo I: Planificación",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 60,
+      "articulo" : "Gestión territorial",
+      "tags" : "GESTIÓN TERRITORIAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo I: Planificación",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 61,
+      "articulo" : "Participación",
+      "tags" : "PARTICIPACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo I: Planificación",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 62,
+      "articulo" : "Medidores y evaluación",
+      "tags" : "MEDIDORES EVALUACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo I: Planificación",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 63,
+      "articulo" : "Centro de estadística departamental",
+      "tags" : "CENTRO ESTADÍSTICA DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 64,
+      "articulo" : "Patrimonio",
+      "tags" : "PATRIMONIO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 65,
+      "articulo" : "Recursos",
+      "tags" : "RECURSOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 66,
+      "articulo" : "Presupuestos",
+      "tags" : "PRESUPUESTOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 67,
+      "articulo" : "Aprobación",
+      "tags" : "APROBACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 68,
+      "articulo" : "Gastos extraordinarios por desastres o emergencias",
+      "tags" : "GASTOS EXTRAORDINARIOS DESASTRES EMERGENCIAS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 69,
+      "articulo" : "Gasto público",
+      "tags" : "GASTO PÚBLICO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 70,
+      "articulo" : "Endeudamiento público",
+      "tags" : "ENDEUDAMIENTO PÚBLICO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 71,
+      "articulo" : "Transferencia de recursos públicos",
+      "tags" : "TRANSFERENCIA RECURSOS PÚBLICOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 72,
+      "articulo" : "Fondos fiduciarios",
+      "tags" : "FONDOS FIDUCIARIOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 73,
+      "articulo" : "Tributos",
+      "tags" : "TRIBUTOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 74,
+      "articulo" : "Tesoro",
+      "tags" : "TESORO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 75,
+      "articulo" : "Auditoría interna",
+      "tags" : "AUDITORÍA INTERNA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Organización Administrativa y Financiera",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 76,
+      "articulo" : "Finalidad de la enajenación de bienes",
+      "tags" : "FINALIDAD ENAJENACIÓN BIENES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 77,
+      "articulo" : "Educación",
+      "tags" : "EDUCACIÓN"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 78,
+      "articulo" : "Salud",
+      "tags" : "SALUD"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 79,
+      "articulo" : "Género e igualdad de oportunidades",
+      "tags" : "GÉNERO IGUALDAD OPORTUNIDADES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 80,
+      "articulo" : "Niñez y adolescencia",
+      "tags" : "NIÑEZ ADOLESCENCIA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 81,
+      "articulo" : "Jóvenes",
+      "tags" : "JÓVENES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 82,
+      "articulo" : "Personas adultas mayores",
+      "tags" : "PERSONAS ADULTAS MAYORES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 83,
+      "articulo" : "Personas con discapacidad",
+      "tags" : "PERSONAS DISCAPACIDAD"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 84,
+      "articulo" : "Culturas",
+      "tags" : "CULTURAS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 85,
+      "articulo" : "Deporte",
+      "tags" : "DEPORTE"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 86,
+      "articulo" : "Seguridad ciudadana",
+      "tags" : "SEGURIDAD CIUDADANA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 87,
+      "articulo" : "Calidad del servicio departamental",
+      "tags" : "CALIDAD SERVICIO DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo I: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 88,
+      "articulo" : "Vivienda y hábitat",
+      "tags" : "VIVIENDA HÁBITAT"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo II: Desarrollo Económico, Productivo y Rural Integral",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 89,
+      "articulo" : "Economía plural",
+      "tags" : "ECONOMÍA PLURAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo II: Desarrollo Económico, Productivo y Rural Integral",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 90,
+      "articulo" : "Empleo digno",
+      "tags" : "EMPLEO DIGNO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo II: Desarrollo Económico, Productivo y Rural Integral",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 91,
+      "articulo" : "Agropecuaria y pesca",
+      "tags" : "AGROPECUARIA PESCA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo II: Desarrollo Económico, Productivo y Rural Integral",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 92,
+      "articulo" : "Seguridad alimentaria con soberanía",
+      "tags" : "SEGURIDAD ALIMENTARIA SOBERANÍA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo III: Desarrollo Integral del Turismo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 93,
+      "articulo" : "Turismo integral",
+      "tags" : "TURISMO INTEGRAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo III: Desarrollo Integral del Turismo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 94,
+      "articulo" : "Turismo comunitario",
+      "tags" : "TURISMO COMUNITARIO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo III: Desarrollo Integral del Turismo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 95,
+      "articulo" : "Turismo gastronómico",
+      "tags" : "TURISMO GASTRONÓMICO"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo IV: Aprovechamiento de Recursos Naturales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 96,
+      "articulo" : "Hidrocarburos",
+      "tags" : "HIDROCARBUROS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo IV: Aprovechamiento de Recursos Naturales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 97,
+      "articulo" : "Minería",
+      "tags" : "MINERÍA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo IV: Aprovechamiento de Recursos Naturales",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 98,
+      "articulo" : "Vías de transporte departamental",
+      "tags" : "VÍAS TRANSPORTE DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo V: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 99,
+      "articulo" : "Recursos naturales y biodiversidad",
+      "tags" : "RECURSOS NATURALES BIODIVERSIDAD"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo V: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 100,
+      "articulo" : "Saneamiento y residuos",
+      "tags" : "SANEAMIENTO RESIDUOS"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo V: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 101,
+      "articulo" : "Gestión ambiental",
+      "tags" : "GESTIÓN AMBIENTAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo V: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 102,
+      "articulo" : "Gestión de riesgos y atención de desastres",
+      "tags" : "GESTIÓN RIESGOS ATENCIÓN DESASTRES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título V: Políticas para Vivir Bien en la Llaqta",
+      "level_2" : "Capítulo VI: Institucionalidad Participativa",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 103,
+      "articulo" : "Consejos departamentales sectoriales",
+      "tags" : "CONSEJOS DEPARTAMENTALES SECTORIALES"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título VI: Ordenamiento Jurídico y Reforma del Estatuto Autonómico",
+      "level_2" : "",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 104,
+      "articulo" : "Legislación departamental",
+      "tags" : "LEGISLACIÓN DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título VI: Ordenamiento Jurídico y Reforma del Estatuto Autonómico",
+      "level_2" : "",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 105,
+      "articulo" : "Iniciativa de la reforma estatutaria",
+      "tags" : "INICIATIVA REFORMA ESTATUTARIA"
+    },
+    {
+      "departamento" : "cochabamba",
+      "level_1" : "Título VI: Ordenamiento Jurídico y Reforma del Estatuto Autonómico",
+      "level_2" : "",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 106,
+      "articulo" : "Procedimiento",
+      "tags" : "PROCEDIMIENTO"
+    }
+  ]
