@@ -348,7 +348,7 @@ function buildHierarchy(csv) {
         for (var j = 0; j < parts.length; j++) {
             var children = currentNode["children"];
             var temp = parts[j].split(";;");
-            var nodeName = temp[0].replace("~", ",");
+            var nodeName = temp[0].replace(/~/g, ",");
             var nodeClassName = temp[1];
             var childNode;
             if (j + 1 < parts.length) {
