@@ -2,53 +2,45 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Estatuto Autonómico - Oruro</title>
-    <script src="js/d3.min.js"></script>
-    <script src="js/d3.tip.v0.6.3.js"></script>
-    <script src="js/globals.js"></script>
-    <script src="js/oruro.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/sequences.css"/>
+    <title>Estatutos Autonómicos - Cochabamba, La Paz, Oruro y Potosí</title>
+    <script src="cloud/js/jquery.min.js"></script>
+    <script src="cloud/js/d3.min.js"></script>
+    <script src="cloud/js/queue.v1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="cloud/css/jqcloud.min.css"/>
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="cloud/css/estilos.css"/>
+
 </head>
 <body>
-    <h1 style="text-align: center;">ESTATUTO AUTONÓMICO DEPARTAMENTAL DE ORURO</h1>
-    <div id="main">
+<h1 style="text-align: center;">ESTATUTOS AUTONÓMICOS DEPARTAMENTALES DE COCHABAMBA, LA PAZ, ORURO, POTOSI</h1>
 
-        <div id="sequence">
-        </div>
+<div id="main">
+    <a href="cloud"><div id="palabras"></div></a>
 
-        <div class="grafico">
-            <div id="chart">
-                <div id="explanation" style="visibility: hidden;">
-                    <span id="percentage"></span><br/>
-                </div>
-            </div>
+    <div class="wrapper">
+        <div class="izquierda">
+            <a href="cochabamba/"><img src="images/noimage.jpg" alt="Cochabamba" width="400px"/>Cochabamba</a>
         </div>
-        <div class="texto">
-            <div id="sidebar">
-                <input type="checkbox" id="togglelegend">Etiquetas/Colores<br/>
-                <div id="legend" style="visibility: hidden;height:0;"></div>
-            </div>
-            <div id="nivel1">
-                <span></span>
-                <div id="nivel2">
-                    <span></span>
-                    <div id="nivel3">
-                        <span></span>
-                        <div id="nivel4">
-                            <span></span>
-                            <div id="contenido_articulo"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="derecha">
+            <a href="lapaz/"><img src="images/noimage.jpg" alt="La Paz" width="400px"/>La Paz</a>
         </div>
+        <div class="cleared"></div>
     </div>
-    <script type="text/javascript" src="js/sequences.js"></script>
-    <script type="text/javascript">
-    // Hack to make this example display correctly in an iframe on bl.ocks.org
-    d3.select(self.frameElement).style("height", "600px");
-</script>
+    <div class="wrapper">
+        <div class="izquierda">
+            <a href="oruro/"><img src="images/noimage.jpg" alt="Oruro" width="400px"/>Oruro</a>
+        </div>
+        <div class="derecha">
+            <a href="potosi/"><img src="images/noimage.jpg" alt="Potosí" width="400px"/>Potosí</a>
+        </div>
+        <div class="cleared"></div>
+    </div>
+</div>
+
+
+<script src="cloud/js/jqcloud.min.js"></script>
+<script src="cloud/js/words.js"></script>
+<script src="cloud/js/estilo.js"></script>
 </body>
 </html>
