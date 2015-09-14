@@ -1,13 +1,14 @@
 var cloud_words = [],
-    estatuto_oruro = '../data/estatuto_oruro.json',
-    estatuto_potosi = '../data/estatuto_potosi.json',
-    estatuto_cochabamba = '../data/estatuto_cochabamba.json',
-    estatuto_lapaz = '../data/estatuto_lapaz.json',
+    dir_prefix = '../',
+    estatuto_oruro =  dir_prefix + 'data/estatuto_oruro.json',
+    estatuto_potosi = dir_prefix + 'data/estatuto_potosi.json',
+    estatuto_cochabamba = dir_prefix + 'data/estatuto_cochabamba.json',
+    estatuto_lapaz = dir_prefix + 'data/estatuto_lapaz.json',
 
-    ruta_articulos_oruro = '../oruro/articulos/',
-    ruta_articulos_potosi = '../potosi/articulos/',
-    ruta_articulos_cochabamba = '../cochabamba/articulos/',
-    ruta_articulos_lapaz = '../lapaz/articulos/';
+    ruta_articulos_oruro = dir_prefix + 'oruro/articulos/',
+    ruta_articulos_potosi = dir_prefix + 'potosi/articulos/',
+    ruta_articulos_cochabamba = dir_prefix + 'cochabamba/articulos/',
+    ruta_articulos_lapaz = dir_prefix + 'lapaz/articulos/';
 
 var articulos_oruro = [],
     articulos_potosi = [],
