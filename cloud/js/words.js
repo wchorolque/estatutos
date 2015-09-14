@@ -34,16 +34,16 @@ var contar_palabras = function (data) {
 };
 
 mostrar_articulos = function (word) {
-    d3.json('../../data/estatuto_oruro', function (data) {
+    d3.json(estatuto_oruro, function (data) {
         buscar_articulos(data, word, 'div#oruro', '../../oruro/articulos/');
     });
-    d3.json('../../data/estatuto_lapaz', function (data) {
+    d3.json(estatuto_lapaz, function (data) {
         buscar_articulos(data, word, 'div#lapaz', '../../lapaz/articulos/');
     });
-    d3.json('../../data/estatuto_potosi', function (data) {
+    d3.json(estatuto_potosi, function (data) {
         buscar_articulos(data, word, 'div#potosi', '../../potosi/articulos/');
     });
-    d3.json('../../data/estatuto_cochabamba', function (data) {
+    d3.json(estatuto_cochabamba, function (data) {
         buscar_articulos(data, word, 'div#cochabamba', '../../cochabamba/articulos/');
     });
 };
@@ -60,7 +60,6 @@ buscar_articulos = function (data, word, target, articulos) {
                 } else if (d.numero_articulo >= 10 && d.numero_articulo < 100) {
                     prefix = "0";
                 }
-                console.log(target + ":" + d.numero_articulo);
                 d3.text(articulos + prefix + d.numero_articulo + '.html', function (error, data) {
                     var aux = ("<div><p>" + d.level_1 + "</p></div>") +
                         ("<div><p>" + d.level_2 + "</p></div>") +
@@ -98,10 +97,10 @@ function analyze(error, oruro, potosi, cochabamba, lapaz) {
 
 $(document).ready(function (event) {
     queue()
-        .defer(d3.json, '../../data/estatuto_oruro.json')
-        .defer(d3.json, '../../data/estatuto_potosi.json')
-        .defer(d3.json, '../../data/estatuto_cochabamba.json')
-        .defer(d3.json, '../../data/estatuto_lapaz.json')
+        .defer(d3.json, estatuto_oruro)
+        .defer(d3.json, estatuto_potosi)
+        .defer(d3.json, estatuto_cochabamba)
+        .defer(d3.json, estatuto_lapaz)
         .await(analyze);
 
     $('form#actualizar_nube').on('submit', function(event) {
