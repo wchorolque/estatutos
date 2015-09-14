@@ -1,6 +1,6 @@
 var cloud_words = [],
     dir_prefix = '../',
-    estatuto_oruro =  dir_prefix + 'data/estatuto_oruro.json',
+    estatuto_oruro = dir_prefix + 'data/estatuto_oruro.json',
     estatuto_potosi = dir_prefix + 'data/estatuto_potosi.json',
     estatuto_cochabamba = dir_prefix + 'data/estatuto_cochabamba.json',
     estatuto_lapaz = dir_prefix + 'data/estatuto_lapaz.json',
@@ -71,7 +71,7 @@ buscar_articulos = function (data, word, target, ruta_articulos) {
     imprimir_resultados(results, target, ruta_articulos);
 };
 
-imprimir_resultados = function(results, target, ruta_articulos) {
+imprimir_resultados = function (results, target, ruta_articulos) {
     results.forEach(function (d) {
         var prefix = "";
         if (d.numero_articulo > 0 && d.numero_articulo < 10) {
@@ -79,25 +79,27 @@ imprimir_resultados = function(results, target, ruta_articulos) {
         } else if (d.numero_articulo >= 10 && d.numero_articulo < 100) {
             prefix = "0";
         }
+
         d3.text(ruta_articulos + prefix + d.numero_articulo + '.html', function (error, data) {
             var aux = ("<div><p>" + d.level_1 + "</p></div>") +
                 ("<div><p>" + d.level_2 + "</p></div>") +
                 ("<div><p>" + d.level_3 + "</p></div>") +
                 ("<div><p>" + d.level_4 + "</p></div>") +
                 ("<div><p> Art&iacute;culo " + d.numero_articulo + ". " + d.articulo + "</span></div>");
-            $(target).append('<br/>');
-            if (error === null) {
-                aux += ("<div>" + data + "</div>");
-            }
+             if (error === null) {
+             aux += ("<div>" + data + "</div>");
+             }
             //Seccion agregada para convertir el articulo en un Acordion
             var nuevo = "<article>" +
                 "<span class='titulo'> Art&iacute;culo " + d.numero_articulo + ": " + d.articulo + "</span>" +
                 "<div class='block'>" + aux + "</div>" +
                 "</article>";
+
+            $(target).append('<br/>');
             $(target).append(nuevo);
         });
-    })
-};
+    });
+}
 
 function analyze(error, oruro, potosi, cochabamba, lapaz) {
     if (error) {
