@@ -80,3 +80,10 @@ body > section{
 	width: 80%;
 	margin-left: 10%;
 }
+.si:before{
+	content:"[Cerrar]";
+	color:#FF5C5C;
+}
+.block{
+	background-image: url("oruro.png");
+}

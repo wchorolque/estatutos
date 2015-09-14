@@ -1,5 +1,4 @@
 var cloud_words = [];
-
 var contar_palabras = function (data) {
     data.forEach(function (record) {
         var tags = record.tags.split(" ");
@@ -28,7 +27,6 @@ var contar_palabras = function (data) {
         })
     });
 };
-
 mostrar_articulos = function (word) {
     d3.json('../../data/estatuto_oruro', function (data) {
         buscar_articulos(data, word, 'div#oruro', '../../oruro/articulos/');
@@ -43,7 +41,6 @@ mostrar_articulos = function (word) {
         buscar_articulos(data, word, 'div#cochabamba', '../../cochabamba/articulos/');
     });
 };
-
 buscar_articulos = function(data, word, target, articulos) {
     d3.select(target).html("");
     data.forEach(function (d) {
@@ -68,17 +65,15 @@ buscar_articulos = function(data, word, target, articulos) {
                     }
                     //Seccion agregada para convertir el articulo en un Acordion
                     var nuevo ="<article>"+
-                    "<span class='titulo'> Artículo "+d.numero_articulo+": "+d.articulo+"</span>"+
-                    "<div class='block'>"+aux+"</div>"+
+                    "<span class='titulo' id='"+d.numero_articulo+"'> Artículo "+d.numero_articulo+": "+d.articulo+" <span></span>"+"</span>"+
+                    "<div class='block block_"+d.numero_articulo+"'>"+aux+"</div>"+
                     "</article>";
                     $(target).append(nuevo);
                 });
             }
         });
-
 });
 };
-
 function analyze(error, oruro, potosi, cochabamba, lapaz) {
     if (error) {
         console.log(error);
@@ -87,10 +82,8 @@ function analyze(error, oruro, potosi, cochabamba, lapaz) {
     contar_palabras(potosi);
     contar_palabras(cochabamba);
     contar_palabras(lapaz);
-
     $('#palabras').jQCloud(cloud_words, {shape: 'rectangular'});
 };
-
 $(document).ready(function (event) {
     queue()
     .defer(d3.json, '../../data/estatuto_oruro.json')
