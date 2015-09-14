@@ -62,7 +62,8 @@ buscar_articulos = function(data, word, target, articulos) {
                     $(target).append("<div><span>" + d.level_2 +"</span></div>");
                     $(target).append("<div><span>" + d.level_3 +"</span></div>");
                     $(target).append("<div><span>" + d.level_4 +"</span></div>");
-                    $(target).append("<div><span>" + d.numero_articulo + "." + d.articulo+"</span></div>");
+                    $(target).append("<div><span>" + d.numero_articulo + ". " + d.articulo+"</span></div>");
+                    $(target).append('<br/>');
                     if (error === null) {
                         $(target).append(data);
                     }
