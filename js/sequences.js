@@ -21,7 +21,7 @@ var vis = d3.select("#chart").append("svg:svg")
 
 var tip = d3.tip()
     .attr('class', 'd3-tip')
-    .offset([0, 0])
+    .offset([-20, 50])
     .html(function(d) {
         return d.name;
     });
