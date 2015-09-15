@@ -13,7 +13,8 @@ ruta_articulos_lapaz = dir_prefix + 'lapaz/articulos/';
 var articulos_oruro = [],
 articulos_potosi = [],
 articulos_lapaz = [],
-articulos_cochabamba = [];
+articulos_cochabamba = [],
+total_articulos_encontrados = 0;
 
 var contar_palabras = function (data) {
     data.forEach(function (record) {
@@ -45,6 +46,7 @@ var contar_palabras = function (data) {
 };
 
 mostrar_articulos = function (word) {
+    total_articulos_encontrados = 0;
     d3.json(estatuto_oruro, function (data) {
         buscar_articulos(data, word, 'div#oruro', ruta_articulos_oruro);
     });
@@ -69,6 +71,9 @@ buscar_articulos = function (data, word, target, ruta_articulos) {
     });
 
     imprimir_resultados(results, target, ruta_articulos);
+    total_articulos_encontrados += results.length;
+    var msg = 'Total Art\u00edculos encontrados que contienen "<b>' + word + '</b>" : <b>' + total_articulos_encontrados+'</b>';
+    $('div#resultado_nube_palabras span').html(msg);
 };
 
 imprimir_resultados = function (results, target, ruta_articulos) {
@@ -87,13 +92,14 @@ imprimir_resultados = function (results, target, ruta_articulos) {
             ("<div><p>" + d.level_4 + "</p></div>") +
             ("<div><p> Art&iacute;culo " + d.numero_articulo + ". " + d.articulo + "</span></div>");
             if (error === null) {
-             aux += ("<div>" + data + "</div>");
-         }
+                aux += ("<div>" + data + "</div>");
+            }
             //Seccion agregada para convertir el articulo en un Acordion
-            var nuevo ="<article>"+
-            "<span class='titulo' id='"+d.numero_articulo+"'> Artículo "+d.numero_articulo+": "+d.articulo+" <span></span>"+"</span>"+
-            "<div class='block block_"+d.numero_articulo+"'>"+aux+"</div>"+
+            var nuevo = "<article>" +
+            "<span class='titulo' id='" + d.numero_articulo + "'> Art&iacute;culo " + d.numero_articulo + ": " + d.articulo + " <span></span>" + "</span>" +
+            "<div class='block block_" + d.numero_articulo + "'>" + aux + "</div>" +
             "</article>";
+
             $(target).append(nuevo);
         });
     });
@@ -184,7 +190,7 @@ $('form#buscar_palabra').on('submit', function (event) {
     event.preventDefault();
     cloud_words = [];
     var texto = $(this).find('input[name="palabra"]').val(),
-    words = texto.split(" "),
+    words = texto.toLowerCase().split(" "),
     resultados_oruro = [],
     resultados_potosi = [],
     resultados_lapaz = [],
@@ -233,5 +239,9 @@ $('form#buscar_palabra').on('submit', function (event) {
 
     d3.select('div#cochabamba').html("");
     imprimir_resultados(resultados_cochabamba, 'div#cochabamba', ruta_articulos_cochabamba);
+
+    total_articulos_encontrados = resultados_oruro.length + resultados_lapaz.length + resultados_cochabamba.length + resultados_potosi.length;
+    var msg = 'Total Art\u00edculos encontrados que contienen "<b>' + texto + '</b>" : <b>' + total_articulos_encontrados+'</b>';
+    $('div#resultados_busqueda span').html(msg);
 });
 });

@@ -1,7 +1,10 @@
 var csv_filename = "potosi.csv";
 var etiquetas = {
-    "Base Fundamentales, Derechos, Deberes": "#5687d1",
-    "Estructura y Organizaci\u00f3n del Gobierno Aut\u00f3nomo departamental": "#D20001",
-    "Desarrollo Departamental": "#F79E37"
+    "Base Fundamentales, Derechos, Deberes": colors["primero"],
+    "Estructura y Organizaci\u00f3n del Gobierno Aut\u00f3nomo departamental": colors["segundo"],
+    "Desarrollo Departamental": colors["tercero"],
+    "R\u00e9gimen Competencia": colors["cuarto"],
+    "Jerarqu\u00eda Normativa y Reformas del Estatuto": colors["quinto"],
+    "Art\u00edculo": colors["articulo"]
 };
 

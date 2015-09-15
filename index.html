@@ -43,41 +43,54 @@
 
     <h1 class="titulo">ESTATUTOS AUTONÓMICOS DEPARTAMENTALES<br/>COCHABAMBA, LA PAZ, ORURO, POTOSI</h1>
 
-    <div id="main">
-        <a href="cloud"><div id="palabras"></div></a>
+    <a href="cloud"><img class="banner" src="images/wordcloud.jpg" /></a>
 
-        <ul class="menu">
-            <li class="item">
-                <a href="cochabamba/" class="cocha">
-                    <img width="100%" height="100%" src="cloud/img/cochabamba.png" />
-                    <span>COCHABAMBA</span>    
-                </a>
-                
-            </li>
-            <li class="item">
-                <a href="lapaz/">
-                    <img width="100%" height="100%" src="cloud/img/lapaz.png" />
-                    <span>LA PAZ</span>
-                </a>
-            </li>
-            <li class="item">
-                <a href="oruro/">
-                    <img width="100%" height="100%" src="cloud/img/oruro.png" />
-                    <span>ORURO</span>
-                </a>
-            </li>
-            <li class="item">
-                <a href="potosi/">
-                    <img width="100%" height="100%" src="cloud/img/potosi.png" />
-                    <span>POTOSI</span>
-                </a>
-            </li>
-        </ul>
-    </div>
+    <ul class="menu">
+        <li class="item">
+            <a href="cochabamba/" class="cocha">
+                <img width="100%" height="100%" src="cloud/img/cochabamba.png" />
+                <span>COCHABAMBA</span>    
+            </a>
+
+        </li>
+        <li class="item">
+            <a href="lapaz/">
+                <img width="100%" height="100%" src="cloud/img/lapaz.png" />
+                <span>LA PAZ</span>
+            </a>
+        </li>
+        <li class="item">
+            <a href="oruro/">
+                <img width="100%" height="100%" src="cloud/img/oruro.png" />
+                <span>ORURO</span>
+            </a>
+        </li>
+        <li class="item">
+            <a href="potosi/">
+                <img width="100%" height="100%" src="cloud/img/potosi.png" />
+                <span>POTOSI</span>
+            </a>
+        </li>
+    </ul>
+    <div class="cleared"></div>
+    <div class="wrapper">
+        <div class="izquierda">
+            <a href="oruro/"><img src="images/noimage.jpg" alt="Oruro" width="400px"/>Oruro</a>
+            <div class="derecha">
+                <a href="potosi/"><img src="images/noimage.jpg" alt="Potosí" width="400px"/>Potosí</a>
+                <div class="cleared"></div>
+            </div>
 
 
-    <script src="cloud/js/jqcloud.min.js"></script>
-    <script src="cloud/js/words.js"></script>
-    <script src="cloud/js/estilo.js"></script>
-</body>
-</html>
+            <script src="cloud/js/jqcloud.min.js"></script>
+            <script src="cloud/js/words.js"></script>
+            <script src="cloud/js/estilo.js"></script>
+            // Hack to make this example display correctly in an iframe on bl.ocks.org
+            d3.select(self.frameElement).style("height", "600px");
+        </script>
+    </body>
+    <script src="js/jqcloud.min.js"></script>
+    <script src="js/words.js"> </script>
+    <script src="js/estilo.js"> </script>
+
+    </html>
