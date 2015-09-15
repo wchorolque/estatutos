@@ -22,7 +22,7 @@ var vis = d3.select("#chart").append("svg:svg")
 var tip = d3.tip()
     .attr('class', 'd3-tip')
     .offset([-20, 50])
-    .html(function(d) {
+    .html(function (d) {
         return d.name;
     });
 
@@ -77,6 +77,47 @@ function createVisualization(json) {
             return (d.dx > 0.0001); // 0.005 radians = 0.29 degrees
         });
 
+    var color_scale = function (d) {
+        var local_colors;
+        if ("articulo" == d.class_name) {
+            return colors[d.class_name];
+        }
+
+        if (!d.parent) {
+            local_colors = d3.scale.category10();
+            d.color = "#fff";
+        } else if (d.children) {
+            var startColor = d3.hcl(d.color),
+                endColor = d3.hcl(d.color)
+                    .brighter();
+            if (d.parent) {
+                var p = d.parent;
+                if (p.children && p.children.length > 1 && d.numero_nodo > p.children.length ) {
+                    endColor = p.children[d.numero_nodo];
+                }
+            }
+
+            local_colors = d3.scale.linear()
+                .interpolate(d3.interpolateHcl)
+                .range([
+                    startColor.toString(),
+                    endColor.toString()
+                ])
+                .domain([0, d.children.length + 1]);
+        }
+
+        if (d.children) {
+            d.children.map(function (child, i) {
+                return {value: child.numero_articulo, idx: i};
+            })
+            .forEach(function (child, i) {
+                d.children[child.idx].color = local_colors(i);
+            });
+        }
+
+        return d.color;
+    };
+
     var path = vis.data([json]).selectAll("path")
         .data(nodes)
         .enter().append("svg:path")
@@ -85,9 +126,41 @@ function createVisualization(json) {
         })
         .attr("d", arc)
         .attr("fill-rule", "evenodd")
-        .style("fill", function (d) {
-            return colors[d.class_name];
-        })
+        .style("fill", color_scale)
+        /*function (d) {
+         var color =  colors[d.class_name];
+         if (0 === d.nivel) {
+         return color;
+         } else if (d.children) {
+         var startColor = d3.hcl(color).darker(),
+         endColor = d3.hcl(color).brighter();
+         colors = d3.scale.linear()
+         .interpolate(d3.interpolateHcl)
+         .range([
+         startColor.toString(),
+         endColor.toString()
+         ])
+         .domain([0, d.children.length + 1]);
+
+         return colors[d.numero_nodo];
+         }
+
+         return color;
+         /*
+         if (d.children) {
+         // we use a mapped version.
+         d.children.map(function(child, i) {
+         return {value: child.value, idx: i};
+         }).sort(function(a,b) {
+         return b.value - a.value
+         }).forEach(function(child, i) {
+         d.children[child.idx].color = colors(i);
+         });
+         }
+
+
+         })
+         */
         .style("opacity", 1)
         .on("mouseover", mouseover)
         .on("mouseout", tip.hide);
@@ -122,15 +195,15 @@ function mouseover(d) {
     }
 
     d3.select("#explanation")
-     .style({
-     "visibility":"",
-     "position": "absolute",
-     "top": ((height / 4) + (height / 6)) + "px", //(document.body.clientWidth/4-document.body.clientWidth/32)+"px",
-     "left": ((width / 4) + (width / 9)) + "px", // (document.body.clientWidth/4-document.body.clientWidth/16)+"px",
-     "width":(document.body.clientWidth/8)+"px",
-     "font-size":(document.body.clientWidth/48)+"px",
-     "text-align": "center"
-     });
+        .style({
+            "visibility": "",
+            "position": "absolute",
+            "top": ((height / 4) + (height / 6)) + "px", //(document.body.clientWidth/4-document.body.clientWidth/32)+"px",
+            "left": ((width / 4) + (width / 9)) + "px", // (document.body.clientWidth/4-document.body.clientWidth/16)+"px",
+            "width": (document.body.clientWidth / 8) + "px",
+            "font-size": (document.body.clientWidth / 48) + "px",
+            "text-align": "center"
+        });
     var sequenceArray = getAncestors(d);
     for (var i = 0; i < sequenceArray.length; i++) {
         var data_level = sequenceArray[i];
@@ -363,13 +436,24 @@ function buildHierarchy(csv) {
                 }
                 // If we don't already have a child node for this branch, create it.
                 if (!foundChild) {
-                    childNode = {"name": nodeName, "children": [], "class_name": nodeClassName};
+                    childNode = {
+                        "name": nodeName,
+                        "children": [],
+                        "class_name": nodeClassName,
+                        "numero_nodo": k
+                    };
                     children.push(childNode);
                 }
                 currentNode = childNode;
             } else {
                 // Reached the end of the sequence; create a leaf node.
-                childNode = {"name": nodeName, "size": size, "class_name": 'articulo', "numero_articulo": (i + 1)};
+                childNode = {
+                    "name": nodeName,
+                    "size": size,
+                    "class_name": 'articulo',
+                    "numero_articulo": (i + 1),
+                    "numero_nodo": k
+                };
                 children.push(childNode);
             }
         }
