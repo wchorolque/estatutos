@@ -13,7 +13,8 @@ var cloud_words = [],
 var articulos_oruro = [],
     articulos_potosi = [],
     articulos_lapaz = [],
-    articulos_cochabamba = [];
+    articulos_cochabamba = [],
+    total_articulos_encontrados = 0;
 
 var contar_palabras = function (data) {
     data.forEach(function (record) {
@@ -45,6 +46,7 @@ var contar_palabras = function (data) {
 };
 
 mostrar_articulos = function (word) {
+    total_articulos_encontrados = 0;
     d3.json(estatuto_oruro, function (data) {
         buscar_articulos(data, word, 'div#oruro', ruta_articulos_oruro);
     });
@@ -69,6 +71,9 @@ buscar_articulos = function (data, word, target, ruta_articulos) {
     });
 
     imprimir_resultados(results, target, ruta_articulos);
+    total_articulos_encontrados += results.length;
+    var msg = 'Total Art\u00edculos encontrados que contienen "' + word + '" : ' + total_articulos_encontrados;
+    $('div#resultado_nube_palabras span').text(msg);
 };
 
 imprimir_resultados = function (results, target, ruta_articulos) {
@@ -235,5 +240,9 @@ $(document).ready(function (event) {
 
         d3.select('div#cochabamba').html("");
         imprimir_resultados(resultados_cochabamba, 'div#cochabamba', ruta_articulos_cochabamba);
+
+        total_articulos_encontrados = resultados_oruro.length + resultados_lapaz.length + resultados_cochabamba.length + resultados_potosi.length;
+        var msg = 'Total Art\u00edculos encontrados que contienen "' + texto + '" : ' + total_articulos_encontrados;
+        $('div#resultados_busqueda span').text(msg);
     });
 });
