@@ -74,6 +74,7 @@ buscar_articulos = function (data, word, target, ruta_articulos) {
     total_articulos_encontrados += results.length;
     var msg = 'Total Art\u00edculos encontrados que contienen "' + word + '" : ' + total_articulos_encontrados;
     $('div#resultado_nube_palabras span').text(msg);
+    $('div#resultados_busqueda span').text('');
 };
 
 imprimir_resultados = function (results, target, ruta_articulos) {
@@ -121,7 +122,7 @@ function analyze(error, oruro, potosi, cochabamba, lapaz) {
     contar_palabras(articulos_cochabamba);
     contar_palabras(articulos_lapaz);
 
-    $('#palabras').jQCloud(cloud_words, {shape: 'rectangular'});
+    $('#palabras').jQCloud(cloud_words, {shape: 'rectangular', steps: 7});
 };
 
 $(document).ready(function (event) {
@@ -243,6 +244,7 @@ $(document).ready(function (event) {
 
         total_articulos_encontrados = resultados_oruro.length + resultados_lapaz.length + resultados_cochabamba.length + resultados_potosi.length;
         var msg = 'Total Art\u00edculos encontrados que contienen "' + texto + '" : ' + total_articulos_encontrados;
+        $('div#resultado_nube_palabras span').text('');
         $('div#resultados_busqueda span').text(msg);
     });
 });

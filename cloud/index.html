@@ -3,14 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Nube de palabras</title>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/d3.min.js"></script>
-	<script src="js/queue.v1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/jqcloud.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 </head>
 <body>
 	<form action="" id="actualizar_nube" name="actualizar_nube">
+        <label for="uno">Genera tu nube</label>
 		<input type="checkbox" id="uno" name="oruro" checked="checked"/> 
 		<label for="uno">Oruro</label>
 		<input type="checkbox" id="dos"name="lapaz" checked="checked"/> 
@@ -19,20 +17,21 @@
 		<label for="tres">Potos&iacute;</label>
 		<input type="checkbox" id="cuatro"name="cochabamba" checked="checked"/> 
 		<label for="cuatro">Cochabamba</label>
-		<input type="submit" value="  actualizar  "/>
+		<input type="submit" value="  actualizar nube "/>
 	</form>
-
-	<div id="palabras"></div>
+    <h3 id="titulo">Encuentra los art&iacute;culos con estas palabras</h3>
 
     <div id="resultado_nube_palabras">
-        <span></span>
+        <span></span> <a href="#resultados_busqueda">ver art&iacute;culos</a>
     </div>
+
+	<div id="palabras"></div>
 
 	<br/>
 
 	<form action="" id="buscar_palabra" name="buscar_palabra">
-        <label for="palabra">Buscar en los art&iacute;culos de los estatutos: </label>
-		<input type="text" name="palabra"/>
+        <label for="palabra">Buscar en los art&iacute;culos de todos los estatutos: </label>
+		<input type="text" name="palabra" id="palabra"/>
 		<input type="submit" value="  buscar  "/>
 	</form>
 
@@ -43,22 +42,29 @@
 	<br/>
 	<section>
 		<h2>Oruro <small id="oruro_titulo">0</small></h2>
+        <a href="#titulo">Volver a la nube</a>
 		<div id="oruro" class="accordion"></div>
 	</section>
 	<section>
 		<h2>La Paz<small id="lapaz_titulo">0</small></h2>
+        <a href="#titulo">Volver a la nube</a>
 		<div id="lapaz" class="accordion"></div>
 	</section>
 	<section>
 		<h2>Potosí<small id="potosi_titulo">0</small></h2>
+        <a href="#titulo">Volver a la nube</a>
 		<div id="potosi" class="accordion"></div>
 	</section>
 	<section>
 		<h2>Cochabamba<small id="cochabamba_titulo">0</small></h2>
+        <a href="#titulo">Volver a la nube</a>
 		<div id="cochabamba" class="accordion"></div>
 	</section>
-</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="js/queue.v1.min.js"></script>
 <script src="js/jqcloud.min.js"></script>
 <script src="js/words.js"> </script>
 <script src="js/estilo.js"> </script>
+</body>
 </html>
