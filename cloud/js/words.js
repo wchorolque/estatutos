@@ -86,14 +86,14 @@ imprimir_resultados = function (results, target, ruta_articulos) {
                 ("<div><p>" + d.level_3 + "</p></div>") +
                 ("<div><p>" + d.level_4 + "</p></div>") +
                 ("<div><p> Art&iacute;culo " + d.numero_articulo + ". " + d.articulo + "</span></div>");
-             if (error === null) {
-             aux += ("<div>" + data + "</div>");
-         }
+            if (error === null) {
+                aux += ("<div>" + data + "</div>");
+            }
             //Seccion agregada para convertir el articulo en un Acordion
-            var nuevo ="<article>"+
-            "<span class='titulo' id='"+d.numero_articulo+"'> Artículo "+d.numero_articulo+": "+d.articulo+" <span></span>"+"</span>"+
-            "<div class='block block_"+d.numero_articulo+"'>"+aux+"</div>"+
-            "</article>";
+            var nuevo = "<article>" +
+                "<span class='titulo' id='" + d.numero_articulo + "'> Art&iacute;culo " + d.numero_articulo + ": " + d.articulo + " <span></span>" + "</span>" +
+                "<div class='block block_" + d.numero_articulo + "'>" + aux + "</div>" +
+                "</article>";
 
             $(target).append('<br/>');
             $(target).append(nuevo);
@@ -136,51 +136,51 @@ $(document).ready(function (event) {
 
             switch (departamento) {
                 case 'oruro':
-                $.ajax({
-                    url: estatuto_oruro,
-                    async: false,
-                    dataType: 'json',
-                    success: function (data) {
-                        contar_palabras(data)
-                    }
-                });
-                break;
+                    $.ajax({
+                        url: estatuto_oruro,
+                        async: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            contar_palabras(data)
+                        }
+                    });
+                    break;
                 case 'potosi':
-                $.ajax({
-                    url: estatuto_potosi,
-                    async: false,
-                    dataType: 'json',
-                    success: function (data) {
-                        contar_palabras(data)
-                    }
-                });
-                break;
+                    $.ajax({
+                        url: estatuto_potosi,
+                        async: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            contar_palabras(data)
+                        }
+                    });
+                    break;
                 case 'lapaz':
-                $.ajax({
-                    url: estatuto_lapaz,
-                    async: false,
-                    dataType: 'json',
-                    success: function (data) {
-                        contar_palabras(data)
-                    }
-                });
-                break;
+                    $.ajax({
+                        url: estatuto_lapaz,
+                        async: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            contar_palabras(data)
+                        }
+                    });
+                    break;
                 case 'cochabamba':
-                $.ajax({
-                    url: estatuto_cochabamba,
-                    async: false,
-                    dataType: 'json',
-                    success: function (data) {
-                        contar_palabras(data)
-                    }
-                });
-                break;
+                    $.ajax({
+                        url: estatuto_cochabamba,
+                        async: false,
+                        dataType: 'json',
+                        success: function (data) {
+                            contar_palabras(data)
+                        }
+                    });
+                    break;
             }
         });
 
-console.log(cloud_words);
-$('#palabras').jQCloud('update', cloud_words, {shape: 'rectangular'});
-})
+        console.log(cloud_words);
+        $('#palabras').jQCloud('update', cloud_words, {shape: 'rectangular'});
+    })
 
     $('form#buscar_palabra').on('submit', function (event) {
         event.preventDefault();

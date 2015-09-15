@@ -96,28 +96,23 @@ body > section, #buscar_palabra{
 	color:#FF5C5C;
 }
 #oruro .block{
-	background: white url("../img/oruro.png") no-repeat;
 	background-size: 70% 70%;
 	background-position: center;
 }
 #lapaz .block{
-	background: white url("../img/lapaz.png") no-repeat;
 	background-size: 70% 70%;
 	background-position: center;
 	margin:0;
 }
 #cochabamba .block{
-	background: white url("../img/cochabamba.png") no-repeat;
 	background-size: 70% 70%;
 	background-position: center;
 }
 #potosi .block{
-	background: white url("../img/potosi.png") no-repeat;
 	background-size: 70% 70%;
 	background-position: center;
 }
 input[type=submit]{
-	content: ;
 	cursor: pointer;
 	top: auto;
 	right: auto;
@@ -134,7 +129,6 @@ input[type=submit]{
 	text-align: center;
 	text-indent: 0;
 	word-spacing: 0;
-	word-wrap: ;
 	background: rgba(0,0,0,0);
 }
 input[type=submit]:hover{
