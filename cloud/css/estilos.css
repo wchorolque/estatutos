@@ -23,6 +23,7 @@
 	background:#f7f7f7;
 	margin:0;
 	padding: 0;
+	margin-top: 1em;
 }
 .accordion .titulo{
 	width:100%;
@@ -87,10 +88,13 @@ h2 > small:before,h2 > small:after{
 	padding: .2em!important;
 	content: "";
 }
-body > section, #buscar_palabra,#resultados_busqueda,#resultado_nube_palabras{
+body > section, #buscar_palabra,#resultados_busqueda,#resultado_nube_palabras,h3#titulo{
 	color:#196363;
 	width: 80%;
 	margin-left: 10%;
+	margin-bottom: 1em;
+}
+#titulo{
 	margin-bottom: 1em;
 }
 .si:before{
@@ -114,7 +118,7 @@ body > section, #buscar_palabra,#resultados_busqueda,#resultado_nube_palabras{
 	background-size: 70% 70%;
 	background-position: center;
 }
-input[type=submit]{
+input[type=submit],a{
 	cursor: pointer;
 	top: auto;
 	right: auto;
@@ -125,15 +129,16 @@ input[type=submit]{
 	border: 2px solid #4d9999;
 	-webkit-border-radius: 8px;
 	border-radius: 8px;
-	font: normal normal normal 1em/2em "Advent Pro", Helvetica, sans-serif;
+	font: normal normal normal 1em "Advent Pro", Helvetica, sans-serif;
 	color: #4d9999;
 	text-decoration: none;
 	text-align: center;
 	text-indent: 0;
 	word-spacing: 0;
 	background: rgba(0,0,0,0);
+	padding: .4em;
 }
-input[type=submit]:hover{
+input[type=submit]:hover,a:hover{
 	outline: none;
 	background: #4d9999;
 	color: rgba(255,255,255,1);
