@@ -83,18 +83,18 @@ h1 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 42px; font-weight
         font-weight: bold;
     }
 
-.d3-tip {
-    line-height: 1;
-    font-weight: normal;
-    padding: 12px;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    border-radius: 2px;
-}
+    .d3-tip {
+        line-height: 1;
+        font-weight: normal;
+        padding: 12px;
+        background: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        border-radius: 2px;
+    }
 
-.d3-tip.n:after {
-    margin: -1px 0 0 0;
-    top: 100%;
-    left: 0;
-}
+    .d3-tip.n:after {
+        margin: -1px 0 0 0;
+        top: 100%;
+        left: 0;
+    }
 
