@@ -191,7 +191,7 @@ $(document).ready(function (event) {
         event.preventDefault();
         cloud_words = [];
         var texto = $(this).find('input[name="palabra"]').val(),
-            words = texto.split(" "),
+            words = texto.toLowerCase().split(" "),
             resultados_oruro = [],
             resultados_potosi = [],
             resultados_lapaz = [],
