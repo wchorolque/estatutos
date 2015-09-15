@@ -264,22 +264,25 @@
    }
    .feature-icon
    {
-   	background:url(../images/feature-icons.png) no-repeat;
-   	width: 60px;
-   	height: 60px;
+   	width: 80px;
+   	height: 97px;
    	display: inline-block;
    }
    .icon1
    {
-   	background-position: -1px -1px;
+   	background: url("../images/icon_cochabamba.png");
    }
    .icon2
    {
-   	background-position: -68px -1px;
+   	background: url("../images/icon_lapaz.png");
    }
    .icon3
    {
-   	background-position: -136px -1px;
+      background: url("../images/icon_oruro.png");
+   }
+   .icon4
+   {
+      background: url("../images/icon_potosi.png");
    }
    .features-section ul li h4
    {
