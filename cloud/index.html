@@ -10,24 +10,37 @@
 	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 </head>
 <body>
-    <form action="" id="actualizar_nube" name="actualizar_nube">
-        <input type="checkbox" name="oruro" checked="checked"/> Oruro
-        <input type="checkbox" name="lapaz" checked="checked"/> La Paz
-        <input type="checkbox" name="potosi" checked="checked"/> Potos&iacute;
-        <input type="checkbox" name="cochabamba" checked="checked"/> Cochabamba
-        <input type="submit" value="actualizar"/>
-    </form>
+	<form action="" id="actualizar_nube" name="actualizar_nube">
+		<input type="checkbox" id="uno" name="oruro" checked="checked"/> 
+		<label for="uno">Oruro</label>
+		<input type="checkbox" id="dos"name="lapaz" checked="checked"/> 
+		<label for="dos">La Paz</label>
+		<input type="checkbox" id="tres"name="potosi" checked="checked"/> 
+		<label for="tres">Potos&iacute;</label>
+		<input type="checkbox" id="cuatro"name="cochabamba" checked="checked"/> 
+		<label for="cuatro">Cochabamba</label>
+		<input type="submit" value="  actualizar  "/>
+	</form>
 
 	<div id="palabras"></div>
 
-    <br/>
+    <div id="resultado_nube_palabras">
+        <span></span>
+    </div>
 
-    <form action="" id="buscar_palabra" name="buscar_palabra">
-        <input type="text" name="palabra"/>
-        <input type="submit" value="buscar"/>
-    </form>
+	<br/>
 
-    <br/>
+	<form action="" id="buscar_palabra" name="buscar_palabra">
+        <label for="palabra">Buscar en los art&iacute;culos de los estatutos: </label>
+		<input type="text" name="palabra"/>
+		<input type="submit" value="  buscar  "/>
+	</form>
+
+    <div id="resultados_busqueda">
+        <span></span>
+    </div>
+
+	<br/>
 	<section>
 		<h2>Oruro <small id="oruro_titulo">0</small></h2>
 		<div id="oruro" class="accordion"></div>
