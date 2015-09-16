@@ -164,7 +164,19 @@ $(document).ready(function (event) {
 
     d3.json('../data/html_articulos_cochabamba.json', function(data) {
         cache_cochabamba = data;
-    })
+    });
+
+    d3.json('../data/html_articulos_oruro.json', function(data) {
+        cache_oruro = data;
+    });
+
+    d3.json('../data/html_articulos_potosi.json', function(data) {
+        cache_potosi = data;
+    });
+
+    d3.json('../data/html_articulos_lapaz.json', function(data) {
+        cache_lapaz = data;
+    });
 
     $('form#actualizar_nube').on('submit', function (event) {
         event.preventDefault();
