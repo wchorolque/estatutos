@@ -182,13 +182,11 @@ function mouseover(d) {
         percentageString = "< 0.1%";
     }
 
-    if (d.numero_articulo) {
-        $('#info').text('test');
-        d3.select("#info").text("Art\u00edculo " + d.numero_articulo);
-    } else {
-        $('#info').text('test');
+    if ("articulo" !== d.class_name) {
         var total_articulos = Math.round(d.value / 0.8772)
-        d3.select("#info").text("Total Art\u00edculos: " + total_articulos + "\n" + percentageString);
+        d3.select("#info").text("Total Art\u00edculos: " + total_articulos + " Porcentage: " + percentageString);
+    } else {
+        d3.select("#info").text('');
     }
 
     d3.select("#explanation")
