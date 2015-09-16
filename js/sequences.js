@@ -218,21 +218,23 @@ function mouseover(d) {
             }
             d3.select('div#nivel4 > span').text(data_level.name);
             var existe_articulo = false;
-            for (var ai = 0; ai < cache_data.length; ai++) {
-                var cache_item = cache_data[ai];
-                if (cache_item.numero == data_level.numero_articulo) {
-                    var articulo_texto = cache_item.articulo.replace(r, function (match, grp) {
-                            return String.fromCharCode(parseInt(grp, 16));
+            if (cache_data) {
+                for (var ai = 0; ai < cache_data.length; ai++) {
+                    var cache_item = cache_data[ai];
+                    if (cache_item.numero == data_level.numero_articulo) {
+                        var articulo_texto = cache_item.articulo.replace(r, function (match, grp) {
+                                return String.fromCharCode(parseInt(grp, 16));
+                            }
+                        );
+                        try {
+                            articulo_texto = decodeURI(articulo_texto);
+                            d3.select('div#nivel4 div#contenido_articulo').html(articulo_texto);
+                            existe_articulo = true;
+                        } catch (e) {
+                            existe_articulo = false;
                         }
-                    );
-                    try {
-                        articulo_texto = decodeURI(articulo_texto);
-                        d3.select('div#nivel4 div#contenido_articulo').html(articulo_texto);
-                        existe_articulo = true;
-                    } catch(e) {
-                        existe_articulo = false;
+                        break;
                     }
-                    break;
                 }
             }
 
