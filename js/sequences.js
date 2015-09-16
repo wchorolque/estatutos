@@ -136,6 +136,10 @@ function createVisualization(json) {
         .on("mouseout", tip.hide);
 
     function handleClick(datum) {
+        if ("articulo" == datum.class_name) {
+            return;
+        }
+
         path.transition()
             .duration(750)
             .attrTween("d", arcTween(datum));
