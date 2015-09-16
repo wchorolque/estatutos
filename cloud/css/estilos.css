@@ -51,7 +51,7 @@
 	padding: 0;
 }
 .accordion .block{
-	padding:3em;
+	padding:1em;
 	color: #000;
 }
 .block > div:nth-last-child(n) > p{
@@ -88,7 +88,7 @@ h2 > small:before,h2 > small:after{
 	padding: .2em!important;
 	content: "";
 }
-body > section, #buscar_palabra,#resultados_busqueda,#resultado_nube_palabras,h3#titulo{
+body > section, #buscar_palabra,#resultados_busqueda,#resultado_nube_palabras,h3#titulo,#actualizar_nube{
 	color:#196363;
 	width: 80%;
 	margin-left: 10%;
@@ -118,7 +118,7 @@ body > section, #buscar_palabra,#resultados_busqueda,#resultado_nube_palabras,h3
 	background-size: 70% 70%;
 	background-position: center;
 }
-input[type=submit],a{
+.a_link{
 	cursor: pointer;
 	top: auto;
 	right: auto;
@@ -137,8 +137,9 @@ input[type=submit],a{
 	word-spacing: 0;
 	background: rgba(0,0,0,0);
 	padding: .4em;
+	width: auto!important;
 }
-input[type=submit]:hover,a:hover{
+.a_link:hover{
 	outline: none;
 	background: #4d9999;
 	color: rgba(255,255,255,1);
@@ -172,6 +173,7 @@ input[type=checkbox]:checked + label:before {
 	padding:1em!important;
 }
 #actualizar_nube{
+	margin-top: 2em;
 	margin-bottom: 2em;
 }
 input[type=text]{
@@ -181,6 +183,8 @@ input[type=text]{
 	-webkit-border-radius: 4px; 
 	padding: .5em;
 	border: 2px solid #4D9999;
+	width: auto;
+	margin-left: 1em;
 }
 input[type=text]:active,input[type=text]:hover,input[type=text]:focus{
 	outline-color: #A0DDFF;
@@ -190,40 +194,12 @@ section > h2 > small{
 	background:#4d9999;
 }
 
-/*PANTALLA INICIAL*/
+ol{
+	margin-left: 2em;
+	line-height: 1.5;
+	list-style-type: 
+}
 
-.menu{
-	padding:.5em;
-	padding-left:10%;
-	width:85%;
-	margin-bottom: 4em;
-}
-.menu .item{
-	display:inline-block;
-	position:relative;
-	height:250px;
-	width:23%;
-	box-shadow:2px 2px 10px rgba(0,0,0,0.5);
-	border-radius: 8px;
-}
-.menu .item a{
-	border-radius:8px;
-	border: 2px solid #4d9999;
-	background:#fff;
-	color:#4d9999;
-	display:block;
-	font-size:1.8em;
-	height:250px;
-	position:absolute;
-	text-align:center;
-	text-decoration:none;
-	width:100%;
-}
-.menu .item a:hover{
-	border:2px solid #22bce0;
-	color:#22bce0;
-	background:#4d9999;
-}
 .titulo{
 	text-align: left;
 	color:#196363;
@@ -232,138 +208,3 @@ section > h2 > small{
 }
 
 
-/*Menu de navegacion*/
-/*Strip the ul of padding and list styling*/
-header{
-	width: 100%;
-	background: #196363;
-	height: 50px;
-	margin-bottom: 2em;
-}
-header > ul {
-	//list-style-type:none;
-	margin:0;
-	padding:0;
-	position: absolute;
-	float: right;
-}
-
-/*Create a horizontal list with spacing*/
-header > ul > li {
-	display:inline-block;
-	float: left;
-	margin-right: 1px;
-}
-
-/*Style for menu links*/
-header >ul > li a,header>ul >  li h1 {
-	display:block;
-	min-width:140px;
-	height: 50px;
-	text-align: center;
-	line-height: 50px;
-	font-family : "Advent Pro", Helvetica, sans-serif;
-	color: #fff;
-	background: #196363;
-	text-decoration: none;
-}
-
-/*Hover state for top level links*/
-header >ul > li:hover a {
-	background: #4d9999;
-}
-
-/*Style for dropdown links*/
-header > ul > li:hover ul a {
-	background: #f3f3f3;
-	color: #2f3036;
-	height: 40px;
-	line-height: 40px;
-}
-
-/*Hover state for dropdown links*/
-header>ul > li:hover ul a:hover {
-	background: #80cccc;
-	color: #fff;
-}
-
-/*Hide dropdown links until they are needed*/
-header>ul > li ul {
-	display: none;
-}
-
-/*Make dropdown links vertical*/
-header>ul > li ul li {
-	display: block;
-	float: none;
-}
-
-/*Prevent text wrapping*/
-header>ul > li ul li a {
-	width: auto;
-	min-width: 100px;
-	padding: 0 20px;
-}
-
-/*Display the dropdown on hover*/
-header > ul li a:hover + .hidden, .hidden:hover {
-	display: block;
-	visibility: "true";
-}
-
-/*Style 'show menu' label button and hide it by default*/
-header > .show-menu {
-	font-family : "Advent Pro", Helvetica, sans-serif;
-	text-decoration: none;
-	color: #fff;
-	background: #19c589;
-	text-align: center;
-	padding: 10px 0;
-	display: none;
-}
-
-/*Hide checkbox*/
-header >ul> input[type=checkbox]{
-	display: none;
-}
-
-/*Show menu when invisible checkbox is checked*/
-header >ul> input[type=checkbox]:checked ~ #menu{
-	display: block;
-}
-
-
-/*Responsive Styles*/
-
-@media screen and (max-width : 760px){
-	/*Make dropdown links appear inline*/
-	header > ul {
-		position: static;
-		display: none;
-	}
-	/*Create vertical spacing*/
-	header >ul > li {
-		margin-bottom: 1px;
-	}
-	/*Make all menu links full width*/
-	header>ul > ul li, li a {
-		width: 100%;
-	}
-	/*Display 'show menu' link*/
-	header > .show-menu {
-		display:block;
-	}
-}
-
-ol{margin-left: 2em;}
-.titulo{
-	text-align: center;
-}
-.banner{
-	margin-top: 2em;
-	margin-bottom: 2em;
-	max-width: 80%;
-	width: 80%;
-	margin-left: 10%;
-	height: auto;
-}
