@@ -1,4 +1,5 @@
 var csv_filename = "potosi.csv";
+var html_articulos = "../data/html_articulos_potosi.json";
 var etiquetas = {
     "Base Fundamentales, Derechos, Deberes": colors["primero"],
     "Estructura y Organizaci\u00f3n del Gobierno Aut\u00f3nomo departamental": colors["segundo"],

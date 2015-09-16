@@ -2,6 +2,12 @@
 var width = 600; //document.body.clientWidth/2 - 180;
 var height = (document.body.clientWidth * 0.80) / 2 - 10;// 500;//width;
 var maxRadius = Math.min(width, height) / 2;
+var cache_data = [];
+
+
+d3.json(html_articulos, function (data) {
+    cache_data = data;
+});
 
 // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
 var b = {
@@ -41,16 +47,16 @@ var partition = d3.layout.partition()
     });
 
 var arc = d3.svg.arc()
-    .startAngle(function(d) {
+    .startAngle(function (d) {
         return Math.max(0, Math.min(2 * Math.PI, theta(d.x)));
     })
-    .endAngle(function(d) {
+    .endAngle(function (d) {
         return Math.max(0, Math.min(2 * Math.PI, theta(d.x + d.dx)));
     })
-    .innerRadius(function(d) {
+    .innerRadius(function (d) {
         return Math.max(0, radius(d.y));
     })
-    .outerRadius(function(d) {
+    .outerRadius(function (d) {
         return Math.max(0, radius(d.y + d.dy));
     });
 
@@ -68,7 +74,8 @@ function createVisualization(json) {
     // Basic setup of page elements.
     initializeBreadcrumbTrail();
     drawLegend();
-    d3.select("#togglelegend").on("click", toggleLegend);
+    d3.select("#togglelegend")
+        .on("click", toggleLegend);
 
     // For efficiency, filter nodes to keep only those large enough to see.
     var nodes = partition.nodes(json)
@@ -135,6 +142,10 @@ function createVisualization(json) {
         .on("mouseout", tip.hide);
 
     function handleClick(datum) {
+        if ("articulo" == datum.class_name) {
+            return;
+        }
+
         path.transition()
             .duration(750)
             .attrTween("d", arcTween(datum));
@@ -156,6 +167,7 @@ function createVisualization(json) {
                 };
         };
     }
+
     // Add the mouseleave handler to the bounding circle.
     d3.select("#container").on("mouseleave", mouseleave);
 
@@ -177,11 +189,11 @@ function mouseover(d) {
         percentageString = "< 0.1%";
     }
 
-    if (d.numero_articulo) {
-        d3.select("#percentage").text("Art\u00edculo " + d.numero_articulo);
-    } else {
+    if ("articulo" !== d.class_name) {
         var total_articulos = Math.round(d.value / 0.8772)
-        d3.select("#percentage").text("Total Art\u00edculos: " + total_articulos + "\n" + percentageString);
+        d3.select("#info").text("Total Art\u00edculos: " + total_articulos); // + " Porcentage: " + percentageString);
+    } else {
+        d3.select("#info").text('');
     }
 
     d3.select("#explanation")
@@ -195,6 +207,7 @@ function mouseover(d) {
             "text-align": "center"
         });
     var sequenceArray = getAncestors(d);
+    var r = /\\u([\d\w]{4})/gi;
     for (var i = 0; i < sequenceArray.length; i++) {
         var data_level = sequenceArray[i];
         if (data_level.numero_articulo) {
@@ -205,14 +218,37 @@ function mouseover(d) {
                 prefix = "0";
             }
             d3.select('div#nivel4 > span').text(data_level.name);
-            d3.text('articulos/' + prefix + data_level.numero_articulo + '.html', function (error, data) {
-                if (error === null) {
-                    d3.select('div#nivel4 div#contenido_articulo').html(data);
+            var existe_articulo = false;
+            if (cache_data) {
+                for (var ai = 0; ai < cache_data.length; ai++) {
+                    var cache_item = cache_data[ai];
+                    if (cache_item.numero == data_level.numero_articulo) {
+                        var articulo_texto = cache_item.articulo.replace(r, function (match, grp) {
+                                return String.fromCharCode(parseInt(grp, 16));
+                            }
+                        );
+                        try {
+                            articulo_texto = decodeURI(articulo_texto);
+                            d3.select('div#nivel4 div#contenido_articulo').html(articulo_texto);
+                            existe_articulo = true;
+                        } catch (e) {
+                            existe_articulo = false;
+                        }
+                        break;
+                    }
                 }
-                else {
-                    d3.select('div#nivel4 div#contenido_articulo').html("");
-                }
-            });
+            }
+
+            if (false === existe_articulo) {
+                d3.text('articulos/' + prefix + data_level.numero_articulo + '.html', function (error, data) {
+                    if (error === null) {
+                        d3.select('div#nivel4 div#contenido_articulo').html(data);
+                    }
+                    else {
+                        d3.select('div#nivel4 div#contenido_articulo').html("");
+                    }
+                });
+            }
         } else {
             d3.select('div#nivel' + data_level.depth + ' > span').text(data_level.name);
         }
@@ -222,7 +258,7 @@ function mouseover(d) {
 
     // Fade all the segments.
     d3.selectAll("path")
-        .style("opacity", 0.3);
+        .style("opacity", 0.4);
 
     // Then highlight only those that are an ancestor of the current segment.
     vis.selectAll("path")
@@ -377,6 +413,8 @@ function drawLegend() {
         .text(function (d) {
             return d.key;
         });
+
+    d3.select("#togglelegend").property('checked', true);
 }
 
 function toggleLegend() {
@@ -399,7 +437,7 @@ function toggleLegend() {
 // root to leaf, separated by hyphens. The second column is a count of how
 // often that sequence occurred.
 function buildHierarchy(csv) {
-    var root = {"name": "inicio", "children": []};
+    var root = {"name": "Haga click aqu\u00ed para salir del zoom", "children": []};
     for (var i = 0; i < csv.length; i++) {
         var sequence = csv[i][0];
         var size = +csv[i][1];
