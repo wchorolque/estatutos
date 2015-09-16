@@ -72,8 +72,9 @@ buscar_articulos = function (data, word, target, ruta_articulos) {
 
     imprimir_resultados(results, target, ruta_articulos);
     total_articulos_encontrados += results.length;
-    var msg = 'Total Art\u00edculos encontrados que contienen "' + word + '" : ' + total_articulos_encontrados;
-    $('div#resultado_nube_palabras span').text(msg);
+    var msg = 'Total Art\u00edculos encontrados que contienen "<b>' + word + '</b>" : <b>' + total_articulos_encontrados + '</b>';
+    $('div#resultado_nube_palabras span').html(msg);
+    $('div#resultados_busqueda span').text('');
 };
 
 imprimir_resultados = function (results, target, ruta_articulos) {
@@ -100,7 +101,6 @@ imprimir_resultados = function (results, target, ruta_articulos) {
                 "<div class='block block_" + d.numero_articulo + "'>" + aux + "</div>" +
                 "</article>";
 
-            $(target).append('<br/>');
             $(target).append(nuevo);
         });
     });
@@ -121,7 +121,7 @@ function analyze(error, oruro, potosi, cochabamba, lapaz) {
     contar_palabras(articulos_cochabamba);
     contar_palabras(articulos_lapaz);
 
-    $('#palabras').jQCloud(cloud_words, {shape: 'rectangular'});
+    $('#palabras').jQCloud(cloud_words, {shape: 'rectangular', steps: 7});
 };
 
 $(document).ready(function (event) {
@@ -242,7 +242,8 @@ $(document).ready(function (event) {
         imprimir_resultados(resultados_cochabamba, 'div#cochabamba', ruta_articulos_cochabamba);
 
         total_articulos_encontrados = resultados_oruro.length + resultados_lapaz.length + resultados_cochabamba.length + resultados_potosi.length;
-        var msg = 'Total Art\u00edculos encontrados que contienen "' + texto + '" : ' + total_articulos_encontrados;
-        $('div#resultados_busqueda span').text(msg);
+        var msg = 'Total Art\u00edculos encontrados que contienen "<b>' + texto + '</b>" : <b>' + total_articulos_encontrados + '</b>';
+        $('div#resultado_nube_palabras span').text('');
+        $('div#resultados_busqueda span').html(msg);
     });
 });
