@@ -183,10 +183,12 @@ function mouseover(d) {
     }
 
     if (d.numero_articulo) {
-        d3.select("#percentage").text("Art\u00edculo " + d.numero_articulo);
+        $('#info').text('test');
+        d3.select("#info").text("Art\u00edculo " + d.numero_articulo);
     } else {
+        $('#info').text('test');
         var total_articulos = Math.round(d.value / 0.8772)
-        d3.select("#percentage").text("Total Art\u00edculos: " + total_articulos + "\n" + percentageString);
+        d3.select("#info").text("Total Art\u00edculos: " + total_articulos + "\n" + percentageString);
     }
 
     d3.select("#explanation")
