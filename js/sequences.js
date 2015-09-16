@@ -2,6 +2,7 @@
 var width = 600; //document.body.clientWidth/2 - 180;
 var height = (document.body.clientWidth * 0.80) / 2 - 10;// 500;//width;
 var maxRadius = Math.min(width, height) / 2;
+var cache_data = [];
 
 // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
 var b = {
@@ -205,14 +206,27 @@ function mouseover(d) {
                 prefix = "0";
             }
             d3.select('div#nivel4 > span').text(data_level.name);
-            d3.text('articulos/' + prefix + data_level.numero_articulo + '.html', function (error, data) {
-                if (error === null) {
-                    d3.select('div#nivel4 div#contenido_articulo').html(data);
+            var existe_articulo = false;
+            for(var ai = 0; ai < cache_data.length; ai++) {
+                var cache_item = cache_data[ai];
+                if (cache_item.articulo == data_level.numero_articulo) {
+                    d3.select('div#nivel4 div#contenido_articulo').html(cache_item.texto);
+                    existe_articulo = true;
+                    break;
                 }
-                else {
-                    d3.select('div#nivel4 div#contenido_articulo').html("");
-                }
-            });
+            }
+
+            if (false === existe_articulo) {
+                d3.text('articulos/' + prefix + data_level.numero_articulo + '.html', function (error, data) {
+                    if (error === null) {
+                        cache_data.push({articulo: data_level.numero_articulo, texto: data});
+                        d3.select('div#nivel4 div#contenido_articulo').html(data);
+                    }
+                    else {
+                        d3.select('div#nivel4 div#contenido_articulo').html("");
+                    }
+                });
+            }
         } else {
             d3.select('div#nivel' + data_level.depth + ' > span').text(data_level.name);
         }
