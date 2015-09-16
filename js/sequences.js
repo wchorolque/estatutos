@@ -4,6 +4,11 @@ var height = (document.body.clientWidth * 0.80) / 2 - 10;// 500;//width;
 var maxRadius = Math.min(width, height) / 2;
 var cache_data = [];
 
+
+d3.json(html_articulos, function (data) {
+    cache_data = data;
+});
+
 // Breadcrumb dimensions: width, height, spacing, width of tip/tail.
 var b = {
     w: width, h: 30, s: 3, t: 10
@@ -42,16 +47,16 @@ var partition = d3.layout.partition()
     });
 
 var arc = d3.svg.arc()
-    .startAngle(function(d) {
+    .startAngle(function (d) {
         return Math.max(0, Math.min(2 * Math.PI, theta(d.x)));
     })
-    .endAngle(function(d) {
+    .endAngle(function (d) {
         return Math.max(0, Math.min(2 * Math.PI, theta(d.x + d.dx)));
     })
-    .innerRadius(function(d) {
+    .innerRadius(function (d) {
         return Math.max(0, radius(d.y));
     })
-    .outerRadius(function(d) {
+    .outerRadius(function (d) {
         return Math.max(0, radius(d.y + d.dy));
     });
 
@@ -161,6 +166,7 @@ function createVisualization(json) {
                 };
         };
     }
+
     // Add the mouseleave handler to the bounding circle.
     d3.select("#container").on("mouseleave", mouseleave);
 
@@ -200,6 +206,7 @@ function mouseover(d) {
             "text-align": "center"
         });
     var sequenceArray = getAncestors(d);
+    var r = /\\u([\d\w]{4})/gi;
     for (var i = 0; i < sequenceArray.length; i++) {
         var data_level = sequenceArray[i];
         if (data_level.numero_articulo) {
@@ -211,11 +218,20 @@ function mouseover(d) {
             }
             d3.select('div#nivel4 > span').text(data_level.name);
             var existe_articulo = false;
-            for(var ai = 0; ai < cache_data.length; ai++) {
+            for (var ai = 0; ai < cache_data.length; ai++) {
                 var cache_item = cache_data[ai];
-                if (cache_item.articulo == data_level.numero_articulo) {
-                    d3.select('div#nivel4 div#contenido_articulo').html(cache_item.texto);
-                    existe_articulo = true;
+                if (cache_item.numero == data_level.numero_articulo) {
+                    var articulo_texto = cache_item.articulo.replace(r, function (match, grp) {
+                            return String.fromCharCode(parseInt(grp, 16));
+                        }
+                    );
+                    try {
+                        articulo_texto = decodeURI(articulo_texto);
+                        d3.select('div#nivel4 div#contenido_articulo').html(articulo_texto);
+                        existe_articulo = true;
+                    } catch(e) {
+                        existe_articulo = false;
+                    }
                     break;
                 }
             }
@@ -223,7 +239,6 @@ function mouseover(d) {
             if (false === existe_articulo) {
                 d3.text('articulos/' + prefix + data_level.numero_articulo + '.html', function (error, data) {
                     if (error === null) {
-                        cache_data.push({articulo: data_level.numero_articulo, texto: data});
                         d3.select('div#nivel4 div#contenido_articulo').html(data);
                     }
                     else {

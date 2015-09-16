@@ -1,4 +1,5 @@
 var csv_filename = "cochabamba.csv";
+var html_articulos = "../data/html_articulos_cochabamba.json";
 var etiquetas = {
     "Gobierno Aut\u00f3nomo Departamental": colors["primero"],
     "Organizaci\u00f3n del Gobierno Aut\u00f3nomo Departamental": colors["segundo"],

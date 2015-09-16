@@ -1,4 +1,5 @@
 var csv_filename = "lapaz.csv";
+var html_articulos = "../data/html_articulos_lapaz.json";
 var etiquetas = {
     "Base Fundamentales del Gobierno Aut\u00f3nomo departamental de La Paz": colors["primero"],
     "Derechos, Deberes y Pol\u00edticas P\u00fablicas": colors["segundo"],
