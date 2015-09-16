@@ -35,111 +35,111 @@
    	line-height: 1;	
    }
    ol{
-      padding-left: 1.6em;
-   }
+    padding-left: 1.6em;
+  }
 
-   ol li{
-      padding-left:.5em;
-   }
-   ol li:before {
-      display: inline-block;
-      background-color: #323232;
-      color: #fbfbfb;
-      font: bold 16px Arial, Verdana;
-      padding: 0 4px;
-      margin: 0 4px;
-   }
-   ol li ol li:before{
-      font: bold 14px Arial, Verdana;
-      padding: 0 2px;
-   }
+  ol li{
+    padding-left:.5em;
+  }
+  ol li:before {
+    display: inline-block;
+    background-color: #323232;
+    color: #fbfbfb;
+    font: bold 16px Arial, Verdana;
+    padding: 0 4px;
+    margin: 0 4px;
+  }
+  ol li ol li:before{
+    font: bold 14px Arial, Verdana;
+    padding: 0 2px;
+  }
 
-   blockquote, q {
-     quotes: none;
-  }
-  blockquote:before, blockquote:after,
-  q:before, q:after {
-     content: '';
-     content: none;
-  }
-  table {
-     border-collapse: collapse;
-     border-spacing: 0;
-  }
-  .header
-  {
-     width: 100%;
-     height: 80px;
-     background-color: #f1f1f1;
-     border-bottom: 1px solid #585C65;
-  }
-  .container
-  {
-     width: 1080px;
-     margin: 0 auto;
-  }
-  .logo
-  {
-     float:left;
-  }
-  .logo h1 a
-  {
-     font-family: 'Raleway', sans-serif;
-     text-decoration: none;
-     color: #1C97CA;
-     font-size: 40px;
-     font-weight: 100;
-     padding: 20px 0px;
-     display: block;
-     letter-spacing: 4px;
-     text-transform: uppercase;
+  blockquote, q {
+   quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+   content: '';
+   content: none;
+ }
+ table {
+   border-collapse: collapse;
+   border-spacing: 0;
+ }
+ .header
+ {
+   width: 100%;
+   height: 80px;
+   background-color: #f1f1f1;
+   border-bottom: 1px solid #585C65;
+ }
+ .container
+ {
+   width: 1080px;
+   margin: 0 auto;
+ }
+ .logo
+ {
+   float:left;
+ }
+ .logo h1 a
+ {
+   font-family: 'Raleway', sans-serif;
+   text-decoration: none;
+   color: #1C97CA;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 20px 0px;
+   display: block;
+   letter-spacing: 4px;
+   text-transform: uppercase;
 
-  }
-  .menu
-  {
-     float: right;
-  }
-  .menu ul li
-  {
-     display: inline-block;
-     padding: 33px 15px;
-  }
-  .menu ul li a
-  {
-     float:right;
-     font-family: 'Raleway', sans-serif;
-     text-decoration: none;
-     color: #4e4f4f;
-     font-size: 14px;
-     font-weight: 600;
-     text-transform: uppercase;
-     letter-spacing: 1px;
-     transition: color 0.3s ease-in;
-     -moz-transition: color 0.3s ease-in;
-     -o-transition: color 0.3s ease-in;
-     -webkit-transition: color 0.3s ease-in;
-     -ms-transition: color 0.3s ease-in;
-  }
-  .menu ul li a:hover
-  {
-     color: #1C97CA;
-  }
-  .banner
-  {
-     background: url(../images/picjumbo-bg5.jpg) no-repeat fixed 0% 0%/cover;
-     padding: 150px 0px;
-     cursor: default;
-  }
-  .header-text
-  {
+ }
+ .menu
+ {
+   float: right;
+ }
+ .menu ul li
+ {
+   display: inline-block;
+   padding: 33px 15px;
+ }
+ .menu ul li a
+ {
+   float:right;
+   font-family: 'Raleway', sans-serif;
+   text-decoration: none;
+   color: #4e4f4f;
+   font-size: 14px;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   transition: color 0.3s ease-in;
+   -moz-transition: color 0.3s ease-in;
+   -o-transition: color 0.3s ease-in;
+   -webkit-transition: color 0.3s ease-in;
+   -ms-transition: color 0.3s ease-in;
+ }
+ .menu ul li a:hover
+ {
+   color: #1C97CA;
+ }
+ .banner
+ {
+   background: url(../images/picjumbo-bg5.jpg) no-repeat fixed 0% 0%/cover;
+   padding: 150px 0px;
+   cursor: default;
+ }
+ .header-text
+ {
    padding-top:2em;
    text-align:center;
    color: #fff;
    background-color:#4d9999;
    opacity: 0.9;
-}
-.big-text
-{
+ }
+ .big-text
+ {
   font-size: 30px;
   line-height: 50px;
   font-family: 'Raleway', sans-serif;
@@ -154,21 +154,21 @@
 }
 .title
 {
-   padding-top:2em;
-   text-align:center;
-   color: #fff;
-   background-color:transparent;
-   opacity: 0.9;
+ margin-top:2.5em;
+ text-align:center;
+ color: #fff;
+ background-color:transparent;
+ opacity: 0.9;
 }
 
 .title h2
 {
-   font-size: 40px;
-   font-weight: 600;
-   font-family: 'Raleway', sans-serif;
-   line-height: 60px;
-   width: 100%;
-   text-align: center;
+ font-size: 40px;
+ font-weight: 600;
+ font-family: 'Raleway', sans-serif;
+ line-height: 60px;
+ width: 100%;
+ text-align: center;
 }
 .small-text
 {
@@ -299,22 +299,22 @@ p.box-desc
 }
 .feature-icon
 {
-   background:url(../images/feature-icons.png) no-repeat;
-   width: 60px;
-   height: 60px;
-   display: inline-block;
+ background:url(../images/feature-icons.png) no-repeat;
+ width: 60px;
+ height: 60px;
+ display: inline-block;
 }
 .icon1
 {
-   background-position: -1px -1px;
+ background-position: -1px -1px;
 }
 .icon2
 {
-   background-position: -68px -1px;
+ background-position: -68px -1px;
 }
 .icon3
 {
-   background-position: -136px -1px;
+ background-position: -136px -1px;
 }
 .features-section ul li h4
 {
@@ -523,43 +523,43 @@ ul.socialmedia li a {
   font-size: .5em;
 }
 i.link {
-   -webkit-transition: all 0.3s;
-   -moz-transition: all 0.3s;
-   transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ -moz-transition: all 0.3s;
+ transition: all 0.3s;
 }
 i.link:hover {
-   height: 100%;
-   color: #00acee;
+ height: 100%;
+ color: #00acee;
 }
 i.icon-twitter1 {
-   color: #00acee;
+ color: #00acee;
 }
 i.icon-twitter {
-   -webkit-transition: all 0.3s;
-   -moz-transition: all 0.3s;
-   transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ -moz-transition: all 0.3s;
+ transition: all 0.3s;
 }
 i.icon-twitter:hover {
   height: 100%;
   color: #00acee;
 }
 i.icon-facebook {
-   -webkit-transition: all 0.3s;
-   -moz-transition: all 0.3s;
-   transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ -moz-transition: all 0.3s;
+ transition: all 0.3s;
 }
 i.icon-facebook:hover {
-   height: 100%;
-   color: #3b5998;
+ height: 100%;
+ color: #3b5998;
 }
 i.icon-github {
-   -webkit-transition: all 0.3s;
-   -moz-transition: all 0.3s;
-   transition: all 0.3s;
+ -webkit-transition: all 0.3s;
+ -moz-transition: all 0.3s;
+ transition: all 0.3s;
 }
 i.icon-github:hover {
-   height: 100%;
-   color: #000;
+ height: 100%;
+ color: #000;
 }
 i.icon-dribbble {
   -webkit-transition: all 0.3s;
@@ -596,6 +596,7 @@ ul.socialmedia li a {
 {
   float: right;
   padding: 24px 0px;
+  z-index: 10000;
 }
 #mobile-header {
   display: none;
