@@ -1,7 +1,7 @@
-// Dimensions of sunburst.
-var width = 600; //document.body.clientWidth/2 - 180;
-var height = (document.body.clientWidth * 0.80) / 2 - 10;// 500;//width;
-var maxRadius = Math.min(width, height) / 2;
+    var width = (document.body.clientWidth/2)-((document.body.clientWidth)/100);
+    width = width * 0.9;
+    var height = width;
+    var maxRadius = width/2;
 var cache_data = [];
 
 
@@ -18,35 +18,35 @@ var b = {
 var totalSize = 0;
 
 var theta = d3.scale.linear()
-    .range([0, 2 * Math.PI]);
+.range([0, 2 * Math.PI]);
 
 var radius = d3.scale.sqrt()
-    .range([0, maxRadius]);
+.range([0, maxRadius]);
 
 var vis = d3.select("#chart").append("svg:svg")
-    .attr("width", width)
-    .attr("height", height)
-    .append("svg:g")
-    .attr("id", "container")
-    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+.attr("width", width)
+.attr("height", height)
+.append("svg:g")
+.attr("id", "container")
+.attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
 var tip = d3.tip()
-    .attr('class', 'd3-tip')
-    .offset([-20, 50])
-    .html(function (d) {
-        return d.name;
-    });
+.attr('class', 'd3-tip')
+.offset([-20, 50])
+.html(function (d) {
+    return d.name;
+});
 
 vis.call(tip);
 
 var partition = d3.layout.partition()
-    .sort(null)
+.sort(null)
     //.size([2 * Math.PI, maxRadius * maxRadius])
     .value(function (d) {
         return d.size;
     });
 
-var arc = d3.svg.arc()
+    var arc = d3.svg.arc()
     .startAngle(function (d) {
         return Math.max(0, Math.min(2 * Math.PI, theta(d.x)));
     })
@@ -79,15 +79,15 @@ function createVisualization(json) {
 
     // For efficiency, filter nodes to keep only those large enough to see.
     var nodes = partition.nodes(json)
-        .filter(function (d) {
+    .filter(function (d) {
             return (d.dx > 0.0001); // 0.005 radians = 0.29 degrees
         });
 
     // Bounding circle underneath the sunburst, to make it easier to detect
     // when the mouse leaves the parent g.
     vis.append("svg:circle")
-        .attr("r", maxRadius)
-        .style("opacity", 0);
+    .attr("r", maxRadius)
+    .style("opacity", 0);
 
     var color_scale = function (d) {
         var local_colors;
@@ -100,8 +100,8 @@ function createVisualization(json) {
             d.color = "#fff";
         } else if (d.children) {
             var startColor = d3.hcl(d.color),
-                endColor = d3.hcl(d.color)
-                    .brighter();
+            endColor = d3.hcl(d.color)
+            .brighter();
             if (d.parent) {
                 var p = d.parent;
                 if (p.children && p.children.length > 1 && d.numero_nodo > p.children.length) {
@@ -110,36 +110,36 @@ function createVisualization(json) {
             }
 
             local_colors = d3.scale.linear()
-                .interpolate(d3.interpolateHcl)
-                .range([
-                    startColor.toString(),
-                    endColor.toString()
+            .interpolate(d3.interpolateHcl)
+            .range([
+                startColor.toString(),
+                endColor.toString()
                 ])
-                .domain([0, d.children.length]);
+            .domain([0, d.children.length]);
         }
 
         if (d.children) {
             d.children.map(function (child, i) {
                 return {value: child.numero_articulo, idx: i};
             })
-                .forEach(function (child, i) {
-                    d.children[child.idx].color = local_colors(i);
-                });
+            .forEach(function (child, i) {
+                d.children[child.idx].color = local_colors(i);
+            });
         }
 
         return d.color;
     };
 
     var path = vis.data([json]).selectAll("path")
-        .data(nodes)
-        .enter().append("svg:path")
-        .attr("d", arc)
-        .attr("fill-rule", "evenodd")
-        .style("fill", color_scale)
-        .style("opacity", 1)
-        .on("click", handleClick)
-        .on("mouseover", mouseover)
-        .on("mouseout", tip.hide);
+    .data(nodes)
+    .enter().append("svg:path")
+    .attr("d", arc)
+    .attr("fill-rule", "evenodd")
+    .style("fill", color_scale)
+    .style("opacity", 1)
+    .on("click", handleClick)
+    .on("mouseover", mouseover)
+    .on("mouseout", tip.hide);
 
     function handleClick(datum) {
         if ("articulo" == datum.class_name) {
@@ -147,24 +147,24 @@ function createVisualization(json) {
         }
 
         path.transition()
-            .duration(750)
-            .attrTween("d", arcTween(datum));
+        .duration(750)
+        .attrTween("d", arcTween(datum));
     };
 
     function arcTween(datum) {
         var xd = d3.interpolate(theta.domain(), [datum.x, datum.x + datum.dx]),
-            yd = d3.interpolate(radius.domain(), [datum.y, 1]),
-            yr = d3.interpolate(radius.range(), [datum.y ? 20 : 0, maxRadius]);
+        yd = d3.interpolate(radius.domain(), [datum.y, 1]),
+        yr = d3.interpolate(radius.range(), [datum.y ? 20 : 0, maxRadius]);
         return function (d, i) {
             return i ?
-                function (t) {
-                    return arc(d);
-                } :
-                function (t) {
-                    theta.domain(xd(t));
-                    radius.domain(yd(t)).range(yr(t));
-                    return arc(d);
-                };
+            function (t) {
+                return arc(d);
+            } :
+            function (t) {
+                theta.domain(xd(t));
+                radius.domain(yd(t)).range(yr(t));
+                return arc(d);
+            };
         };
     }
 
@@ -197,9 +197,9 @@ function mouseover(d) {
     }
 
     d3.select("#explanation")
-        .style({
-            "visibility": "",
-            "position": "absolute",
+    .style({
+        "visibility": "",
+        "position": "absolute",
             "top": ((height / 4) + (height / 6)) + "px", //(document.body.clientWidth/4-document.body.clientWidth/32)+"px",
             "left": ((width / 4) + (width / 9)) + "px", // (document.body.clientWidth/4-document.body.clientWidth/16)+"px",
             "width": (document.body.clientWidth / 8) + "px",
@@ -262,35 +262,35 @@ function mouseover(d) {
 
     // Then highlight only those that are an ancestor of the current segment.
     vis.selectAll("path")
-        .filter(function (node) {
-            return (sequenceArray.indexOf(node) >= 0);
-        })
-        .style("opacity", 1);
+    .filter(function (node) {
+        return (sequenceArray.indexOf(node) >= 0);
+    })
+    .style("opacity", 1);
 }
 
 // Restore everything to full opacity when moving off the visualization.
 function mouseleave(d) {
     // Hide the breadcrumb trail
     d3.select("#trail")
-        .style("visibility", "hidden");
+    .style("visibility", "hidden");
 
     // Deactivate all segments during transition.
     d3.selectAll("path").on("mouseover", null);
 
     // Transition each segment to full opacity and then reactivate it.
     d3.selectAll("path")
-        .transition()
-        .duration(500)
-        .style("opacity", 1)
-        .each("end", function () {
-            d3.select(this).on("mouseover", mouseover);
-        });
+    .transition()
+    .duration(500)
+    .style("opacity", 1)
+    .each("end", function () {
+        d3.select(this).on("mouseover", mouseover);
+    });
 
     /*
      d3.select("#explanation")
      .style("visibility", "hidden");
      */
-}
+ }
 
 // Given a node in a partition layout, return an array of all of its ancestor
 // nodes, highest first, but excluding the root.
@@ -307,13 +307,13 @@ function getAncestors(node) {
 function initializeBreadcrumbTrail() {
     // Add the svg area.
     var trail = d3.select("#sequence").append("svg:svg")
-        .attr("width", width)
-        .attr("height", 50)
-        .attr("id", "trail");
+    .attr("width", width)
+    .attr("height", 50)
+    .attr("id", "trail");
     // Add the label at the end, for the percentage.
     trail.append("svg:text")
-        .attr("id", "endlabel")
-        .style("fill", "#000");
+    .attr("id", "endlabel")
+    .style("fill", "#000");
 }
 
 // Generate a string that describes the points of a breadcrumb polygon.
@@ -325,37 +325,37 @@ function breadcrumbPoints(d, i) {
     points.push(b.w + "," + b.h);
     points.push("0," + b.h);
     if (i > 0) { // Leftmost breadcrumb; don't include 6th vertex.
-        points.push(b.t + "," + (b.h / 2));
-    }
-    return points.join(" ");
+    points.push(b.t + "," + (b.h / 2));
+}
+return points.join(" ");
 }
 
 // Update the breadcrumb trail to show the current sequence and percentage.
 function updateBreadcrumbs(nodeArray, percentageString) {
     // Data join; key function combines name and depth (= position in sequence).
     var g = d3.select("#trail")
-        .selectAll("g")
-        .data(nodeArray, function (d) {
-            return d.name + d.depth;
-        });
+    .selectAll("g")
+    .data(nodeArray, function (d) {
+        return d.name + d.depth;
+    });
 
     // Add breadcrumb and label for entering nodes.
     var entering = g.enter().append("svg:g");
 
     entering.append("svg:polygon")
-        .attr("points", breadcrumbPoints)
-        .style("fill", function (d) {
-            return colors[d.name];
-        });
+    .attr("points", breadcrumbPoints)
+    .style("fill", function (d) {
+        return colors[d.name];
+    });
 
     entering.append("svg:text")
-        .attr("x", (b.w + b.t) / 2)
-        .attr("y", b.h / 2)
-        .attr("dy", "0.35em")
-        .attr("text-anchor", "middle")
-        .text(function (d) {
-            return d.name;
-        });
+    .attr("x", (b.w + b.t) / 2)
+    .attr("y", b.h / 2)
+    .attr("dy", "0.35em")
+    .attr("text-anchor", "middle")
+    .text(function (d) {
+        return d.name;
+    });
 
     // Set position for entering and updating nodes.
     g.attr("transform", function (d, i) {
@@ -367,15 +367,15 @@ function updateBreadcrumbs(nodeArray, percentageString) {
 
     // Now move and update the percentage at the end.
     d3.select("#trail").select("#endlabel")
-        .attr("x", (nodeArray.length + 0.5) * (b.w + b.s))
-        .attr("y", b.h / 2)
-        .attr("dy", "0.35em")
-        .attr("text-anchor", "left")
-        .text(percentageString);
+    .attr("x", (nodeArray.length + 0.5) * (b.w + b.s))
+    .attr("y", b.h / 2)
+    .attr("dy", "0.35em")
+    .attr("text-anchor", "left")
+    .text(percentageString);
 
     // Make the breadcrumb trail visible, if it's hidden.
     d3.select("#trail")
-        .style("visibility", "");
+    .style("visibility", "");
 
 }
 
@@ -386,33 +386,33 @@ function drawLegend() {
     };
 
     var legend = d3.select("#legend").append("svg:svg")
-        .attr("width", li.w)
-        .attr("height", d3.keys(etiquetas).length * (li.h + li.s));
+    .attr("width", li.w)
+    .attr("height", d3.keys(etiquetas).length * (li.h + li.s));
 
     var g = legend.selectAll("g")
-        .data(d3.entries(etiquetas))
-        .enter().append("svg:g")
-        .attr("transform", function (d, i) {
-            return "translate(0," + i * (li.h + li.s) + ")";
-        });
+    .data(d3.entries(etiquetas))
+    .enter().append("svg:g")
+    .attr("transform", function (d, i) {
+        return "translate(0," + i * (li.h + li.s) + ")";
+    });
 
     g.append("svg:rect")
-        .attr("rx", li.r)
-        .attr("ry", li.r)
-        .attr("width", li.w)
-        .attr("height", li.h)
-        .style("fill", function (d) {
-            return d.value;
-        });
+    .attr("rx", li.r)
+    .attr("ry", li.r)
+    .attr("width", li.w)
+    .attr("height", li.h)
+    .style("fill", function (d) {
+        return d.value;
+    });
 
     g.append("svg:text")
-        .attr("x", (li.w / 2) - ((li.w / 2) - 20))
-        .attr("y", li.h / 2)
-        .attr("dy", "0.35em")
-        .attr("text-anchor", "left")
-        .text(function (d) {
-            return d.key;
-        });
+    .attr("x", (li.w / 2) - ((li.w / 2) - 20))
+    .attr("y", li.h / 2)
+    .attr("dy", "0.35em")
+    .attr("text-anchor", "left")
+    .text(function (d) {
+        return d.key;
+    });
 
     d3.select("#togglelegend").property('checked', true);
 }
