@@ -190,7 +190,7 @@ function mouseover(d) {
 
     if ("articulo" !== d.class_name) {
         var total_articulos = Math.round(d.value / 0.8772)
-        d3.select("#info").text("Total Art\u00edculos: " + total_articulos + " Porcentage: " + percentageString);
+        d3.select("#info").text("Total Art\u00edculos: " + total_articulos); // + " Porcentage: " + percentageString);
     } else {
         d3.select("#info").text('');
     }
@@ -257,7 +257,7 @@ function mouseover(d) {
 
     // Fade all the segments.
     d3.selectAll("path")
-        .style("opacity", 0.3);
+        .style("opacity", 0.4);
 
     // Then highlight only those that are an ancestor of the current segment.
     vis.selectAll("path")
