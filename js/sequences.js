@@ -74,7 +74,8 @@ function createVisualization(json) {
     // Basic setup of page elements.
     initializeBreadcrumbTrail();
     drawLegend();
-    d3.select("#togglelegend").on("click", toggleLegend);
+    d3.select("#togglelegend")
+        .on("click", toggleLegend);
 
     // For efficiency, filter nodes to keep only those large enough to see.
     var nodes = partition.nodes(json)
@@ -412,6 +413,8 @@ function drawLegend() {
         .text(function (d) {
             return d.key;
         });
+
+    d3.select("#togglelegend").property('checked', true);
 }
 
 function toggleLegend() {
@@ -434,7 +437,7 @@ function toggleLegend() {
 // root to leaf, separated by hyphens. The second column is a count of how
 // often that sequence occurred.
 function buildHierarchy(csv) {
-    var root = {"name": "inicio", "children": []};
+    var root = {"name": "Haga click aqu\u00ed para salir del zoom", "children": []};
     for (var i = 0; i < csv.length; i++) {
         var sequence = csv[i][0];
         var size = +csv[i][1];
