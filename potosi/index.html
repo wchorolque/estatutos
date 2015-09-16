@@ -10,11 +10,53 @@
     <link rel="stylesheet" type="text/css" href="../css/sequences.css"/>
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>   
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300,200' rel='stylesheet' type='text/css'>
+    <link href="../css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="../css/responsive.css" rel="stylesheet" media="screen" type="text/css"/>
+    <link rel="stylesheet" href="../css/jquery.sidr.dark.css">
+
 </head>
 <body>
-    <h1 style="text-align: center;">ESTATUTO AUTONÓMICO DEPARTAMENTAL DE POTOSÍ</h1>
-    <div id="main">
+    <header class="header">
+        <div class="container">
+            <div class="logo-menu">
+                <div class="logo">
+                    <ul class="socialmedia">
+                        <li>
+                            <i class="icon-twitter1"></i>
+                            <a href="https://twitter.com/a_srael" target="_blank">
+                                <i class="link">@a_srael &nbsp;</i>
+                            </a>
+                            <a href="https://twitter.com/acanaviri" target="_blank"><i class="link"> &nbsp;@acanaviri &nbsp;</i></a>
+                            <a href="https://twitter.com/alexandro82" target="_blank"><i class="link"> &nbsp;@alexandro82 </i></a>
+                        </li>
+                        <!-- <li><a href="https://github.com/wchorolque/estatutos" target="_blank"><i class="icon-github"></i></a></li> -->
+                    </ul>
 
+                </div>
+                <!--<a id="simple-menu" href="#sidr">Toggle menu</a>-->
+                <div id="mobile-header">
+                    <a class="responsive-menu-button" href="#"><img src="images/11.png"/></a>
+                </div>
+                <div class="menu" id="navigation">
+                    <ul>
+                        <li><a href="../index.html#">Inicio</a></li>
+                        <li><a href="../index.html#graficas">Graficas</a></li>
+                        <li><a href="../index.html#wordcloud">WordCloud</a></li>
+                        <!-- <li><a href="#contactos">Contactos</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="main">
+        <div class="title">
+            <h1 style="text-align: center;">ESTATUTO AUTONÓMICO DEPARTAMENTAL DE POTOSÍ</h1>
+        </div>
         <div id="sequence">
         </div>
 
@@ -47,5 +89,27 @@
     // Hack to make this example display correctly in an iframe on bl.ocks.org
     d3.select(self.frameElement).style("height", "600px");
 </script>
+<script src="../js/jquery.sidr.min.js"></script>
+<script type="text/javascript" src="../js/smoothscroll.js"></script>
+<script type="text/javascript" src="../js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript">     
+    $(document).ready(function() {
+        $('#simple-menu').sidr({
+            side: 'right'
+        });
+    });
+    $('.responsive-menu-button').sidr({
+        name: 'sidr-main',
+        source: '#navigation',
+        side: 'right'
+
+    });
+    $(document).ready(
+        function() {
+            $("html").niceScroll({cursorborder:"0px solid #fff",cursorwidth:"5px",scrollspeed:"70"});
+        }
+        );
+</script>
+
 </body>
 </html>

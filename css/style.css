@@ -34,8 +34,9 @@
    body {
    	line-height: 1;	
    }
-   ol, ul {
-   	/*list-style: none;*/
+   /*ol, */
+   ul {
+   	list-style: none;
    }
    blockquote, q {
    	quotes: none;
@@ -134,6 +135,24 @@
    	font-weight: 600;
    	font-family: 'Raleway', sans-serif;
    	line-height: 60px;
+   }
+   .title
+   {
+      padding-top:2em;
+      text-align:center;
+      color: #fff;
+      background-color:transparent;
+      opacity: 0.9;
+   }
+
+   .title h2
+   {
+      font-size: 40px;
+      font-weight: 600;
+      font-family: 'Raleway', sans-serif;
+      line-height: 60px;
+      width: 100%;
+      text-align: center;
    }
    .small-text
    {
