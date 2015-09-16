@@ -1,4 +1,5 @@
 var csv_filename = "oruro.csv";
+var html_articulos = "../data/html_articulos_oruro.json";
 var etiquetas = {
     "Bases de la Autonom\u00eda Departamental": colors["primero"],
     "Estructura y Organizaci\u00f3n Funcional del Gobierno": colors["segundo"],
