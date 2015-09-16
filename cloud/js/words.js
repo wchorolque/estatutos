@@ -99,22 +99,25 @@ imprimir_resultados = function (cache_data, results, target, ruta_articulos) {
             ("<div><p> Art&iacute;culo " + d.numero_articulo + ". " + d.articulo + "</span></div>");
 
         var existe_en_cache = false;
-        for(var index = 0; index < cache_data.length; index++) {
-            var cc = cache_data[index];
-            if (cc.numero == d.numero_articulo) {
-                var data = cc.articulo.replace(r, function (match, grp) {
-                    return String.fromCharCode(parseInt(grp, 16)); } );
-                data = decodeURI(data);
+        if (cache_data) {
+            for (var index = 0; index < cache_data.length; index++) {
+                var cc = cache_data[index];
+                if (cc.numero == d.numero_articulo) {
+                    var data = cc.articulo.replace(r, function (match, grp) {
+                        return String.fromCharCode(parseInt(grp, 16));
+                    });
+                    data = decodeURI(data);
 
-                aux += "<div>" + data + " </div>";
-                var nuevo = "<article>" +
-                    "<span class='titulo' id='" + d.numero_articulo + "'> Art&iacute;culo " + d.numero_articulo + ": " + d.articulo + " <span></span>" + "</span>" +
-                    "<div class='block block_" + d.numero_articulo + "'>" + aux + "</div>" +
-                    "</article>";
+                    aux += "<div>" + data + " </div>";
+                    var nuevo = "<article>" +
+                        "<span class='titulo' id='" + d.numero_articulo + "'> Art&iacute;culo " + d.numero_articulo + ": " + d.articulo + " <span></span>" + "</span>" +
+                        "<div class='block block_" + d.numero_articulo + "'>" + aux + "</div>" +
+                        "</article>";
 
-                $(target).append(nuevo);
-                existe_en_cache = true;
-                break;
+                    $(target).append(nuevo);
+                    existe_en_cache = true;
+                    break;
+                }
             }
         }
 
@@ -162,19 +165,19 @@ $(document).ready(function (event) {
         .defer(d3.json, estatuto_lapaz)
         .await(analyze);
 
-    d3.json('../data/html_articulos_cochabamba.json', function(data) {
+    d3.json('../data/html_articulos_cochabamba.json', function (data) {
         cache_cochabamba = data;
     });
 
-    d3.json('../data/html_articulos_oruro.json', function(data) {
+    d3.json('../data/html_articulos_oruro.json', function (data) {
         cache_oruro = data;
     });
 
-    d3.json('../data/html_articulos_potosi.json', function(data) {
+    d3.json('../data/html_articulos_potosi.json', function (data) {
         cache_potosi = data;
     });
 
-    d3.json('../data/html_articulos_lapaz.json', function(data) {
+    d3.json('../data/html_articulos_lapaz.json', function (data) {
         cache_lapaz = data;
     });
 
