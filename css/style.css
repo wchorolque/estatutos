@@ -205,6 +205,12 @@
   padding: 17px 30px;
   background-color: #64AE3C;
 }
+.blue
+{ color: #fff;
+  padding: 17px 30px;
+  background-color: #337ab7;
+}
+
 .white
 {
   background-color: #fff;
@@ -605,4 +611,65 @@ a.a_features:link{
   text-decoration:none;
   color:red;
   outline: none;
+}
+
+
+/*agragado para home*/
+.home{
+  display: inline-block;
+  width: 100%;
+}
+.home > .home_logo {
+  display: inline-block;
+  width: 40%;
+  margin-left: 30%;
+  min-height: 300px;
+}
+.home > .home_logo > a >img{
+  margin-top: 3em;
+  width: 100%;
+  margin-left: 0;
+  height: auto;
+}
+.home > .cuerpo {
+  display: inline-block;
+  width: 100%;
+  display: block;
+  background: #1A7171;
+}
+.home > .cuerpo >.home_image,.home > .cuerpo >.home_texto{
+  display: inline-block;
+  padding: 2em;
+  width: 45%;
+}
+.home > .cuerpo>.home_image > a > img{
+  width: 60%;
+  height: auto;
+  margin-left:20%;
+}
+.home > .cuerpo >.home_texto > .contenido{
+  background: #489595;
+  color:white;
+  width: 80%;
+  padding: .8em;
+}
+
+@media only screen and (max-width: 767px){
+  .home > .home_logo {
+    width: 100%;
+    margin-left: 0;
+    min-height: 200px;
+  }
+  .home > .cuerpo >.home_image,.home > .cuerpo >.home_texto{
+    width:100%;
+  }
+  .home > .cuerpo>.home_image > a > img{
+    width: 80;
+    margin-left:10;
+  }
+  .home > .home_texto > .header-text{
+    margin: 0;
+    padding: 0;
+  }
+
 }
