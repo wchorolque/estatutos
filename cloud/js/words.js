@@ -74,7 +74,6 @@ buscar_articulos = function (data, word, target, ruta_articulos) {
     total_articulos_encontrados += results.length;
     var msg = 'Total Art\u00edculos encontrados que contienen "<b>' + word + '</b>" : <b>' + total_articulos_encontrados + '</b>&nbsp;&nbsp;&nbsp;';
     $('div#resultado_nube_palabras span').html(msg);
-    $('div#resultados_busqueda span').text('');
 };
 
 imprimir_resultados = function (results, target, ruta_articulos) {
