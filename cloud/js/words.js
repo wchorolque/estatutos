@@ -4,21 +4,26 @@ var cloud_words = [],
     estatuto_potosi = dir_prefix + 'data/estatuto_potosi.json',
     estatuto_cochabamba = dir_prefix + 'data/estatuto_cochabamba.json',
     estatuto_lapaz = dir_prefix + 'data/estatuto_lapaz.json',
+    estatuto_chuquisaca = dir_prefix + 'data/estatuto_chuquisaca.json',
 
     ruta_articulos_oruro = dir_prefix + 'oruro/articulos/',
     ruta_articulos_potosi = dir_prefix + 'potosi/articulos/',
     ruta_articulos_cochabamba = dir_prefix + 'cochabamba/articulos/',
     ruta_articulos_lapaz = dir_prefix + 'lapaz/articulos/',
+    ruta_articulos_chuquisaca = dir_prefix + 'chuquisaca/articulos/',
 
     cache_oruro = [],
     cache_potosi = [],
     cache_lapaz = [],
-    cache_cochabamba = [];
+    cache_cochabamba = [],
+    cache_chuquisaca = [];
+
 
 var articulos_oruro = [],
     articulos_potosi = [],
     articulos_lapaz = [],
     articulos_cochabamba = [],
+    articulos_chuquisaca = [],
     total_articulos_encontrados = 0;
 
 var contar_palabras = function (data) {
@@ -64,6 +69,9 @@ mostrar_articulos = function (word) {
     d3.json(estatuto_cochabamba, function (data) {
         buscar_articulos(cache_cochabamba, data, word, 'div#cochabamba', ruta_articulos_cochabamba);
     });
+    d3.json(estatuto_chuquisaca, function (data) {
+        buscar_articulos(cache_chuquisaca, data, word, 'div#chuquisaca', ruta_articulos_chuquisaca);
+    })
 };
 
 buscar_articulos = function (cache_data, data, word, target, ruta_articulos) {
@@ -114,7 +122,8 @@ imprimir_resultados = function (cache_data, results, target, ruta_articulos) {
 
                     aux += "<div>" + decode_data + " </div>";
                     var nuevo = "<article>" +
-                        "<span class='titulo' id='" + d.numero_articulo + "'> Art&iacute;culo " + d.numero_articulo + ": " + d.articulo + " <span></span>" + "</span>" +
+                        "<span class='titulo' id='" + d.numero_articulo + "'> Art&iacute;culo " // este id se puede repetir corregir
+                        + d.numero_articulo + ": " + d.articulo + " <span></span>" + "</span>" +
                         "<div class='block block_" + d.numero_articulo + "'>" + aux + "</div>" +
                         "</article>";
 
@@ -133,7 +142,8 @@ imprimir_resultados = function (cache_data, results, target, ruta_articulos) {
                 }
                 //Seccion agregada para convertir el articulo en un Acordion
                 var nuevo = "<article>" +
-                    "<span class='titulo' id='" + d.numero_articulo + "'> Art&iacute;culo " + d.numero_articulo + ": " + d.articulo + " <span></span>" + "</span>" +
+                    "<span class='titulo' id='" + d.numero_articulo + "'> Art&iacute;culo "
+                    + d.numero_articulo + ": " + d.articulo + " <span></span>" + "</span>" +
                     "<div class='block block_" + d.numero_articulo + "'>" + aux + "</div>" +
                     "</article>";
 
@@ -143,7 +153,7 @@ imprimir_resultados = function (cache_data, results, target, ruta_articulos) {
     });
 }
 
-function analyze(error, oruro, potosi, cochabamba, lapaz) {
+function analyze(error, oruro, potosi, cochabamba, lapaz, chuquisaca) {
     if (error) {
         console.log(error);
     }
@@ -152,11 +162,13 @@ function analyze(error, oruro, potosi, cochabamba, lapaz) {
     articulos_potosi = potosi;
     articulos_cochabamba = cochabamba;
     articulos_lapaz = lapaz;
+    articulos_chuquisaca = chuquisaca;
 
     contar_palabras(articulos_oruro);
     contar_palabras(articulos_potosi);
     contar_palabras(articulos_cochabamba);
     contar_palabras(articulos_lapaz);
+    contar_palabras(articulos_chuquisaca);
 
     $('#palabras').jQCloud(cloud_words, {shape: 'rectangular', steps: 9});
 };
@@ -167,6 +179,7 @@ $(document).ready(function (event) {
         .defer(d3.json, estatuto_potosi)
         .defer(d3.json, estatuto_cochabamba)
         .defer(d3.json, estatuto_lapaz)
+        .defer(d3.json, estatuto_chuquisaca)
         .await(analyze);
 
     d3.json('../data/html_articulos_cochabamba.json', function (data) {
@@ -185,6 +198,10 @@ $(document).ready(function (event) {
         cache_lapaz = data;
     });
 
+    d3.json('../data/html_articulos_chuquisaca.json', function (data) {
+        cache_chuquisaca = data;
+    });
+
     $('form#actualizar_nube').on('submit', function (event) {
         event.preventDefault();
         cloud_words = [];
@@ -194,6 +211,7 @@ $(document).ready(function (event) {
 
             switch (departamento) {
                 case 'oruro':
+                    // refactorizar y cambiar por caché
                     $.ajax({
                         url: estatuto_oruro,
                         async: false,
@@ -233,6 +251,9 @@ $(document).ready(function (event) {
                         }
                     });
                     break;
+                case 'chuquisaca':
+                    contar_palabras(articulos_chuquisaca);
+                    break;
             }
         });
 
@@ -248,7 +269,8 @@ $(document).ready(function (event) {
             resultados_oruro = [],
             resultados_potosi = [],
             resultados_lapaz = [],
-            resultados_cochabamba = [];
+            resultados_cochabamba = [],
+            resultados_chuquisaca = [];
 
         articulos_oruro.forEach(function (articulo) {
             words.forEach(function (word) {
@@ -294,7 +316,23 @@ $(document).ready(function (event) {
         d3.select('div#cochabamba').html("");
         imprimir_resultados(cache_cochabamba, resultados_cochabamba, 'div#cochabamba', ruta_articulos_cochabamba);
 
-        total_articulos_encontrados = resultados_oruro.length + resultados_lapaz.length + resultados_cochabamba.length + resultados_potosi.length;
+        articulos_chuquisaca.forEach(function (articulo) {
+            words.forEach(function (word) {
+                if (articulo.articulo.toLowerCase().indexOf(word) >= 0) {
+                    resultados_chuquisaca.push(articulo);
+                }
+            })
+        });
+
+        d3.select('div#chuquisaca').html("");
+        imprimir_resultados(cache_chuquisaca, resultados_chuquisaca, 'div#chuquisaca', ruta_articulos_chuquisaca);
+
+        total_articulos_encontrados = resultados_oruro.length
+            + resultados_lapaz.length
+            + resultados_cochabamba.length
+            + resultados_potosi.length
+            + resultados_chuquisaca.length;
+
         var msg = 'Total Art\u00edculos encontrados que contienen "<b>' + texto + '</b>" : <b>' + total_articulos_encontrados + '</b>';
         $('div#resultado_nube_palabras span').text('');
         $('div#resultados_busqueda span').html(msg);

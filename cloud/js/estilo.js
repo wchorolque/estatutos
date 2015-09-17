@@ -13,6 +13,7 @@ $(function () {
         $("#lapaz_titulo").text($("#lapaz").find('article').length);
         $("#potosi_titulo").text($("#potosi").find('article').length);
         $("#cochabamba_titulo").text($("#cochabamba").find('article').length);
+        $("#chuquisaca_titulo").text($("#chuquisaca").find('article').length);
     });
 
     $('.accordion').on('click','.titulo',function(){
