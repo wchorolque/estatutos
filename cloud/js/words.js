@@ -37,6 +37,7 @@ var contar_palabras = function (data) {
                 cloud_words.push({
                         text: d,
                         weight: 1,
+                        link: '#resultados_busqueda',
                         handlers: {
                             click: function () {
                                 mostrar_articulos(d);
@@ -170,7 +171,21 @@ function analyze(error, oruro, potosi, cochabamba, lapaz, chuquisaca) {
     contar_palabras(articulos_lapaz);
     contar_palabras(articulos_chuquisaca);
 
-    $('#palabras').jQCloud(cloud_words, {shape: 'rectangular', steps: 9});
+    var cloud_colors = [
+        "#1F77B4",// "#5687d1",
+        "#FF7F0E", // "#D20001",
+        "#2CA02C", //"#F79E37",
+        "#D62728",  //"#FE6612",
+        "#9467BD", // "#a173d1",
+        "#8C564B", //"#E80C7A",
+        "#E377C2", // "#fc5050",
+        "#7F7F7F",// "#009dff",
+        "#ff7f0e", // "#efd051",
+        "#22b266",// "#00e9ff",
+        "#90BCDA", //"#3af2c7",
+        "#979ea3"
+    ];
+    $('#palabras').jQCloud(cloud_words, {shape: 'rectangular', steps: 10, colors: cloud_colors });
 };
 
 $(document).ready(function (event) {
