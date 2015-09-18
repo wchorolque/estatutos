@@ -1,135 +1,164 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<title>Nube de palabras</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Los de Siempre 2015</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>	
-	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,600,700,800' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300,200' rel='stylesheet' type='text/css'>
-	<link href="../css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<link href="../css/responsive.css" rel="stylesheet" media="screen" type="text/css"/>
-	<link rel="stylesheet" href="../css/jquery.sidr.dark.css">
+    <meta charset="UTF-8">
+    <title>Nube de palabras</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los de Siempre 2015</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,600,700,800' rel='stylesheet'
+    type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300,200' rel='stylesheet'
+    type='text/css'>
+    <link href="../css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="../css/responsive.css" rel="stylesheet" media="screen" type="text/css"/>
+    <link rel="stylesheet" href="../css/jquery.sidr.dark.css">
 
-	<link rel="stylesheet" type="text/css" href="css/jqcloud.min.css"/>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jqcloud.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
 </head>
 <body>
-	<header class="header">
-		<div class="container">
-			<div class="logo-menu">
-				<div class="logo">
-					<ul class="socialmedia">
-						<li>
-							<i class="icon-twitter1"></i>
-							<a href="https://twitter.com/a_srael" target="_blank">
-								<i class="link">@a_srael &nbsp;</i>
-							</a>
-							<a href="https://twitter.com/acanaviri" target="_blank"><i class="link"> &nbsp;@acanaviri &nbsp;</i></a>
-							<a href="https://twitter.com/alexandro82" target="_blank"><i class="link"> &nbsp;@alexandro82 </i></a>
-						</li>
-						<!-- <li><a href="https://github.com/wchorolque/estatutos" target="_blank"><i class="icon-github"></i></a></li> -->
-					</ul>
+    <header class="header1">
+        <div class="container-header">
+            <div class="logo-menu">
+                <div class="logo">
+                    <ul class="socialmedia-header">
 
-				</div>
-				<!--<a id="simple-menu" href="#sidr">Toggle menu</a>-->
-				<div id="mobile-header">
-					<a class="responsive-menu-button" href="#"><img src="images/11.png"/></a>
-				</div>
-				<div class="menu" id="navigation">
-					<ul>
-						<li><a href="../index.html#">Inicio</a></li>
-						<li><a href="../index.html#graficas">Graficas</a></li>
-						<li><a href="../index.html#wordcloud">WordCloud</a></li>
-						<!-- <li><a href="#contactos">Contactos</a></li> -->
-					</ul>
-				</div>
-			</div>
-		</div>
-	</header>
+                        <li>
+                            <i class="icon-twitter1"></i>
+                            <a href="https://twitter.com/a_srael" target="_blank">
+                                <i class="link">@a_srael</i>
+                            </a>
+                            <a href="https://twitter.com/acanaviri" target="_blank"><i class="link">@acanaviri</i></a>
+                            <a href="https://twitter.com/alexandro82" target="_blank"><i class="link">@alexandro82</i></a>
+                            <a class="4" href="https://twitter.com/channover" target="_blank"><i class="link">@channover </i></a>
+                            <a class="5"href="https://twitter.com/fangutierrez" target="_blank"><i class="link">@fangutierrez</i></a>
+                        </li>
+                        <!-- <li><a href="https://github.com/wchorolque/estatutos" target="_blank"><i class="icon-github"></i></a></li> -->
+                    </ul>
 
-	<div class="cloud_container">
-		<form action="" id="actualizar_nube" name="actualizar_nube">
-			<label for="uno" style="font-size: 24pt;">Genera tu nube</label><br/><br/>
-			<input type="checkbox" id="uno" name="oruro" checked="checked"/> 
-			<label for="uno">Oruro</label>
-			<input type="checkbox" id="dos"name="lapaz" checked="checked"/> 
-			<label for="dos">La Paz</label>
-			<input type="checkbox" id="tres"name="potosi" checked="checked"/> 
-			<label for="tres">Potos&iacute;</label>
-			<input type="checkbox" id="cuatro"name="cochabamba" checked="checked"/> 
-			<label for="cuatro">Cochabamba</label><br/><br/>
-			<input type="submit" value="  actualizar nube " class="a_link" />
-		</form>
-		<h3 id="titulo">Encuentra los art&iacute;culos relacionados con estas palabras haciendo click sobre ellas</h3>
+                </div>
+                <!--<a id="simple-menu" href="#sidr">Toggle menu</a>-->
+                <div id="mobile-header">
+                    <a class="responsive-menu-button" href="#"><img src="images/11.png"/></a>
+                </div>
+                <div class="menu" id="navigation">
+                    <ul>
+                        <li><a href="../index.html#">Inicio</a></li>
+                        <li><a href="../index.html#graficas">Graficas</a></li>
+                        <li><a href="../index.html#wordcloud">WordCloud</a></li>
+                        <!-- <li><a href="#contactos">Contactos</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
 
-		<div id="resultado_nube_palabras">
-			<span></span><a href="#resultados_busqueda" class="a_link1">ver art&iacute;culos</a>
-		</div>
+    <div class="cloud_container">
+        <form action="" id="actualizar_nube" name="actualizar_nube">
+            <label for="uno" style="font-size: 24pt;">Genera tu nube</label><br/><br/>
+            <input type="checkbox" id="uno" name="oruro" checked="checked"/>
+            <label for="uno">Oruro</label>
+            <input type="checkbox" id="dos" name="lapaz" checked="checked"/>
+            <label for="dos">La Paz</label>
+            <input type="checkbox" id="tres" name="potosi" checked="checked"/>
+            <label for="tres">Potos&iacute;</label>
+            <input type="checkbox" id="cuatro" name="cochabamba" checked="checked"/>
+            <label for="cuatro">Cochabamba</label><br/><br/>
+            <input type="checkbox" id="cinco" name="chuquisaca" checked="checked"/>
+            <label for="cinco">Chuquisaca</label>
+            <input type="submit" value="  actualizar nube " class="a_link"/>
+        </form>
+        <h3 id="titulo">Encuentra los art&iacute;culos relacionados con estas palabras haciendo click sobre ellas</h3>
 
-		<div id="palabras"></div>
+        <div id="resultado_nube_palabras">
+            <span></span><a href="#resultados_busqueda" class="a_link1">ver art&iacute;culos</a>
+        </div>
 
-		<form action="" id="buscar_palabra" name="buscar_palabra">
-			<label for="palabra">Buscar en los art&iacute;culos de todos los estatutos: </label>
-			<input type="text" name="palabra" id="palabra"/>
-			<input type="submit" class="a_link"value="  buscar  "/>
-		</form>
+        <div id="palabras"></div>
 
-		<div id="resultados_busqueda">
-			<span></span>
-		</div>
+        <form action="" id="buscar_palabra" name="buscar_palabra">
+            <label for="palabra">Buscar en los art&iacute;culos de todos los estatutos: </label>
+            <input type="text" name="palabra" id="palabra"/>
+            <input type="submit" class="a_link" value="  buscar  "/>
+        </form>
+        <br/>
 
-		<section class="listado">
-			<h2>Oruro&nbsp;&nbsp;<small id="oruro_titulo">0</small></h2>
-			<a href="#titulo" class="a_link1">Volver a la nube</a>
-			<div id="oruro" class="accordion"></div>
-		</section>
-		<section class="listado">
-			<h2>La Paz&nbsp;&nbsp;<small id="lapaz_titulo">0</small></h2>
-			<a href="#titulo" class="a_link1">Volver a la nube</a>
-			<div id="lapaz" class="accordion"></div>
-		</section>
-		<section class="listado">
-			<h2>Potosí&nbsp;&nbsp;<small id="potosi_titulo">0</small></h2>
-			<a href="#titulo" class="a_link1">Volver a la nube</a>
-			<div id="potosi" class="accordion"></div>
-		</section>
-		<section class="listado">
-			<h2>Cochabamba&nbsp;&nbsp;<small id="cochabamba_titulo">0</small></h2>
-			<a href="#titulo" class="a_link1">Volver a la nube</a>
-			<div id="cochabamba" class="accordion"></div>
-		</section>
-	</div>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/d3.min.js"></script>
-	<script src="js/queue.v1.min.js"></script>
-	<script src="js/jqcloud.min.js"></script>
-	<script src="js/words.js"> </script>
-	<script src="js/estilo.js"> </script>
-	<script src="../js/jquery.sidr.min.js"></script>
-	<script type="text/javascript" src="../js/smoothscroll.js"></script>
-	<script type="text/javascript" src="../js/jquery.nicescroll.min.js"></script>
-	<script type="text/javascript">		
-		$(document).ready(function() {
-			$('#simple-menu').sidr({
-				side: 'right'
-			});
-		});
-		$('.responsive-menu-button').sidr({
-			name: 'sidr-main',
-			source: '#navigation',
-			side: 'right'
+        <div id="resultados_busqueda">
+            <span></span>
+        </div>
 
-		});
-		$(document).ready(
-			function() {
-				$("html").niceScroll({cursorborder:"0px solid #fff",cursorwidth:"5px",scrollspeed:"70"});
-			}
-			);
-	</script>
+        <section class="listado">
+            <h2>Oruro&nbsp;&nbsp;
+                <small id="oruro_titulo">0</small>
+            </h2>
+            <a href="#titulo" class="a_link1">Volver a la nube</a>
+
+            <div id="oruro" class="accordion"></div>
+        </section>
+        <section class="listado">
+            <h2>La Paz&nbsp;&nbsp;
+                <small id="lapaz_titulo">0</small>
+            </h2>
+            <a href="#titulo" class="a_link1">Volver a la nube</a>
+
+            <div id="lapaz" class="accordion"></div>
+        </section>
+        <section class="listado">
+            <h2>Potosí&nbsp;&nbsp;
+                <small id="potosi_titulo">0</small>
+            </h2>
+            <a href="#titulo" class="a_link1">Volver a la nube</a>
+
+            <div id="potosi" class="accordion"></div>
+        </section>
+        <section class="listado">
+            <h2>Cochabamba&nbsp;&nbsp;
+                <small id="cochabamba_titulo">0</small>
+            </h2>
+            <a href="#titulo" class="a_link1">Volver a la nube</a>
+
+            <div id="cochabamba" class="accordion"></div>
+        </section>
+
+        <section class="listado">
+            <h2>Chuquisaca&nbsp;&nbsp;
+                <small id="chuquisaca_titulo">0</small>
+            </h2>
+            <a href="#titulo" class="a_link1">Volver a la nube</a>
+
+            <div id="chuquisaca" class="accordion"></div>
+        </section>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="js/queue.v1.min.js"></script>
+    <script src="js/jqcloud.min.js"></script>
+    <script src="js/words.js"></script>
+    <script src="js/estilo.js"></script>
+    <script src="../js/jquery.sidr.min.js"></script>
+    <script type="text/javascript" src="../js/smoothscroll.js"></script>
+    <script type="text/javascript" src="../js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#simple-menu').sidr({
+                side: 'right'
+            });
+        });
+        $('.responsive-menu-button').sidr({
+            name: 'sidr-main',
+            source: '#navigation',
+            side: 'right'
+
+        });
+        $(document).ready(
+            function () {
+                $("html").niceScroll({cursorborder: "0px solid #fff", cursorwidth: "5px", scrollspeed: "70"});
+            }
+            );
+    </script>
 
 </body>
 </html>

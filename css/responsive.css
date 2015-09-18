@@ -330,7 +330,7 @@ and (orientation : landscape)
 	}
 	.header
 	{
-		/*position: fixed;*/
+		position: fixed;
 	}
 	.banner {
 		padding: 160px 0px 80px;

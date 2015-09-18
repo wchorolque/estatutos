@@ -1,0 +1,1132 @@
+[
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo I: Constitución y Naturaleza",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 1,
+      "articulo" : "Constitución",
+      "tags" : "CONSTITUCIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo I: Constitución y Naturaleza",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 2,
+      "articulo" : "Naturaleza",
+      "tags" : "NATURALEZA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo II: Principios, Valores y Fines",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 3,
+      "articulo" : "Principios",
+      "tags" : "PRINCIPIOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo II: Principios, Valores y Fines",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 4,
+      "articulo" : "Valores",
+      "tags" : "VALORES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo II: Principios, Valores y Fines",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 5,
+      "articulo" : "Fines",
+      "tags" : "FINES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo III: Ubicación, Sede, Símbolos e Idiomas",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 6,
+      "articulo" : "Ubicación",
+      "tags" : "UBICACIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo III: Ubicación, Sede, Símbolos e Idiomas",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 7,
+      "articulo" : "Capital",
+      "tags" : "CAPITAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo III: Ubicación, Sede, Símbolos e Idiomas",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 8,
+      "articulo" : "Simbolos y Fecha Civica",
+      "tags" : "SIMBOLOS FECHA CIVICA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo III: Ubicación, Sede, Símbolos e Idiomas",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 9,
+      "articulo" : "Idiomas",
+      "tags" : "IDIOMAS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 10,
+      "articulo" : "Derechos",
+      "tags" : "DERECHOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 11,
+      "articulo" : "Derecho a una vida libre de violencia",
+      "tags" : "DERECHO VIDA LIBRE VIOLENCIA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 12,
+      "articulo" : "Derecho de acceso a servicios básicos",
+      "tags" : "DERECHO ACCESO SERVICIOS BÁSICOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 13,
+      "articulo" : "Derecho a Servicios de Educación",
+      "tags" : "DERECHO SERVICIOS EDUCACIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 14,
+      "articulo" : "Derecho a Servicios de Salud",
+      "tags" : "DERECHO SERVICIOS SALUD"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 15,
+      "articulo" : "Derecho a Vivienda Digna",
+      "tags" : "DERECHO VIVIENDA DIGNA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 16,
+      "articulo" : "Derechos Civiles y Políticos",
+      "tags" : "DERECHOS CIVILES POLÍTICOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 17,
+      "articulo" : "Derecho al Trabajo y al Empleo",
+      "tags" : "DERECHO TRABAJO AL EMPLEO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 18,
+      "articulo" : "Derechos De La Niñez y Adolescencia",
+      "tags" : "DERECHOS NIÑEZ ADOLESCENCIA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 19,
+      "articulo" : "Derechos De Las y Los Jóvenes",
+      "tags" : "DERECHOS JÓVENES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 20,
+      "articulo" : "Derechos Sexuales Y Reproductivos",
+      "tags" : "DERECHOS SEXUALES REPRODUCTIVOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 21,
+      "articulo" : "Derechos De Las Naciones y Pueblos Indígena Originario Campesinos",
+      "tags" : "DERECHOS NACIONES PUEBLOS INDÍGENA ORIGINARIO CAMPESINOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 22,
+      "articulo" : "Derecho A Vivir En Un Medio Ambiente Saludable",
+      "tags" : "DERECHO VIVIR MEDIO AMBIENTE SALUDABLE"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 23,
+      "articulo" : "Derechos De Las Personas Adultas Mayores",
+      "tags" : "DERECHOS PERSONAS ADULTAS MAYORES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 24,
+      "articulo" : "Derecho de Acceso a Las Artes y Culturas",
+      "tags" : "DERECHO ACCESO ARTES CULTURAS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 25,
+      "articulo" : "Derechos De Las Personas Con Discapacidad",
+      "tags" : "DERECHOS PERSONAS DISCAPACIDAD"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título I: Disposiciones Generales de la Autonomía departamental de Chuquisaca",
+      "level_2" : "Capítulo IV: Derechos y Deberes",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 26,
+      "articulo" : "Deberes",
+      "tags" : "DEBERES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Naturaleza y Organización del Gobierno Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 27,
+      "articulo" : "Naturaleza del Gobierno",
+      "tags" : "NATURALEZA GOBIERNO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Naturaleza y Organización del Gobierno Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 28,
+      "articulo" : "Composición",
+      "tags" : "COMPOSICIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo I: Naturaleza y Organización del Gobierno Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 29,
+      "articulo" : "Criterios de Organización",
+      "tags" : "CRITERIOS ORGANIZACIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Naturaleza, Conformación y Asambleístas",
+      "level_4" : "",
+      "numero_articulo" : 30,
+      "articulo" : "Naturaleza",
+      "tags" : "NATURALEZA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Naturaleza, Conformación y Asambleístas",
+      "level_4" : "",
+      "numero_articulo" : 31,
+      "articulo" : "Conformación",
+      "tags" : "CONFORMACIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Naturaleza, Conformación y Asambleístas",
+      "level_4" : "",
+      "numero_articulo" : 32,
+      "articulo" : "Eleccion",
+      "tags" : "ELECCION"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Naturaleza, Conformación y Asambleístas",
+      "level_4" : "",
+      "numero_articulo" : 33,
+      "articulo" : "Requisitos y Periodo",
+      "tags" : "REQUISITOS PERIODO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Naturaleza, Conformación y Asambleístas",
+      "level_4" : "",
+      "numero_articulo" : 34,
+      "articulo" : "Prerrogativas, Derechos y Deberes",
+      "tags" : "PRERROGATIVAS DERECHOS DEBERES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección I: Naturaleza, Conformación y Asambleístas",
+      "level_4" : "",
+      "numero_articulo" : 35,
+      "articulo" : "Pérdida De Mandato",
+      "tags" : "PÉRDIDA MANDATO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Organización y Funcionamiento",
+      "level_4" : "",
+      "numero_articulo" : 36,
+      "articulo" : "Organización",
+      "tags" : "ORGANIZACIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección II: Organización y Funcionamiento",
+      "level_4" : "",
+      "numero_articulo" : 37,
+      "articulo" : "Atribuciones",
+      "tags" : "ATRIBUCIONES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección III: Procedimiento Legislativo",
+      "level_4" : "",
+      "numero_articulo" : 38,
+      "articulo" : "Iniciativa Tlegislativa",
+      "tags" : "INICIATIVA LEGISLATIVA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección III: Procedimiento Legislativo",
+      "level_4" : "",
+      "numero_articulo" : 39,
+      "articulo" : "Aprobación, Sanción y Promulgación",
+      "tags" : "APROBACIÓN SANCIÓN PROMULGACIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo II: Asamblea Legislativa Departamental",
+      "level_3" : "Sección IV: Fiscalización",
+      "level_4" : "",
+      "numero_articulo" : 40,
+      "articulo" : "Fiscalización",
+      "tags" : "FISCALIZACIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo Departamental",
+      "level_3" : "Sección I: Conformación y Estructura",
+      "level_4" : "",
+      "numero_articulo" : 41,
+      "articulo" : "Conformación y Estructura",
+      "tags" : "CONFORMACIÓN ESTRUCTURA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo Departamental",
+      "level_3" : "Sección II: Gobernador o Gobernadora y Vicegobernador o Vicegobernadora del Departamento",
+      "level_4" : "",
+      "numero_articulo" : 42,
+      "articulo" : "Atribuciones Del Gobernador O Gobernadora",
+      "tags" : "ATRIBUCIONES GOBERNADOR GOBERNADORA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo Departamental",
+      "level_3" : "Sección II: Gobernador o Gobernadora y Vicegobernador o Vicegobernadora del Departamento",
+      "level_4" : "",
+      "numero_articulo" : 43,
+      "articulo" : "Atribuciones del Vicegobernador O Vicegobernadora",
+      "tags" : "ATRIBUCIONES VICEGOBERNADOR VICEGOBERNADORA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo Departamental",
+      "level_3" : "Sección II: Gobernador o Gobernadora y Vicegobernador o Vicegobernadora del Departamento",
+      "level_4" : "",
+      "numero_articulo" : 44,
+      "articulo" : "Ausencia y Cese De Mandato",
+      "tags" : "AUSENCIA CESE MANDATO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo Departamental",
+      "level_3" : "Sección II: Gobernador o Gobernadora y Vicegobernador o Vicegobernadora del Departamento",
+      "level_4" : "",
+      "numero_articulo" : 45,
+      "articulo" : "Requisitos, Elección Y Periodo De Mandato",
+      "tags" : "REQUISITOS ELECCIÓN PERIODO MANDATO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo Departamental",
+      "level_3" : "Sección III: Subgobernaciones",
+      "level_4" : "",
+      "numero_articulo" : 46,
+      "articulo" : "Subgobernaciones",
+      "tags" : "SUBGOBERNACIONES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo Departamental",
+      "level_3" : "Sección III: Subgobernaciones",
+      "level_4" : "",
+      "numero_articulo" : 47,
+      "articulo" : "Atribuciones",
+      "tags" : "ATRIBUCIONES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título II: Estructura Orgánica del Gobierno Autónomo Departamental",
+      "level_2" : "Capítulo III: Órgano Ejecutivo Departamental",
+      "level_3" : "Sección IV: Secretarías",
+      "level_4" : "",
+      "numero_articulo" : 48,
+      "articulo" : "Secretarías",
+      "tags" : "SECRETARÍAS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título III: Relaciones y Participación",
+      "level_2" : "Capítulo I: Relacionamiento Intergubernamental e Interinstitucional",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 49,
+      "articulo" : "Relaciones Intergubernamentales",
+      "tags" : "RELACIONES INTERGUBERNAMENTALES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título III: Relaciones y Participación",
+      "level_2" : "Capítulo I: Relacionamiento Intergubernamental e Interinstitucional",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 50,
+      "articulo" : "Relaciones Interinstitucionales",
+      "tags" : "RELACIONES INTERINSTITUCIONALES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título III: Relaciones y Participación",
+      "level_2" : "Capítulo II: Participación Ciudadana y Control Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 51,
+      "articulo" : "Participación Ciudadana",
+      "tags" : "PARTICIPACIÓN CIUDADANA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título III: Relaciones y Participación",
+      "level_2" : "Capítulo II: Participación Ciudadana y Control Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 52,
+      "articulo" : "Control Social",
+      "tags" : "CONTROL SOCIAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título III: Relaciones y Participación",
+      "level_2" : "Capítulo III: Competencias",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 53,
+      "articulo" : "Competencias Exclusivas",
+      "tags" : "COMPETENCIAS EXCLUSIVAS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título III: Relaciones y Participación",
+      "level_2" : "Capítulo III: Competencias",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 54,
+      "articulo" : "Competencias Concurrentes",
+      "tags" : "COMPETENCIAS CONCURRENTES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título III: Relaciones y Participación",
+      "level_2" : "Capítulo III: Competencias",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 55,
+      "articulo" : "Competencias Compartidas",
+      "tags" : "COMPETENCIAS COMPARTIDAS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título III: Relaciones y Participación",
+      "level_2" : "Capítulo III: Competencias",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 56,
+      "articulo" : "Transferencia y Delegación De Competencias",
+      "tags" : "TRANSFERENCIA DELEGACIÓN COMPETENCIAS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo I: Planificación",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 57,
+      "articulo" : "Disposiciones Generales",
+      "tags" : "DISPOSICIONES GENERALES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo I: Planificación",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 58,
+      "articulo" : "Planificación",
+      "tags" : "PLANIFICACIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero:::Sección I: Recursos del Gobierno Autónomo Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 59,
+      "articulo" : "Recursos",
+      "tags" : "RECURSOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección II: Patrimonio",
+      "level_4" : "",
+      "numero_articulo" : 60,
+      "articulo" : "Administración Del Patrimonio Departamental",
+      "tags" : "ADMINISTRACIÓN PATRIMONIO DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección II: Patrimonio",
+      "level_4" : "",
+      "numero_articulo" : 61,
+      "articulo" : "Mecanismos Para la Disposición del Patrimonio Departamental",
+      "tags" : "MECANISMOS DISPOSICIÓN PATRIMONIO DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección III: Presupuesto del Gobierno Autónomo Departamental",
+      "level_4" : "",
+      "numero_articulo" : 62,
+      "articulo" : "Presupuesto",
+      "tags" : "PRESUPUESTO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección III: Presupuesto del Gobierno Autónomo Departamental",
+      "level_4" : "",
+      "numero_articulo" : 63,
+      "articulo" : "Formulación del Presupuesto Departamental",
+      "tags" : "FORMULACIÓN PRESUPUESTO DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección III: Presupuesto del Gobierno Autónomo Departamental",
+      "level_4" : "",
+      "numero_articulo" : 64,
+      "articulo" : "Emergencia",
+      "tags" : "EMERGENCIA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección IV: Gasto Público",
+      "level_4" : "",
+      "numero_articulo" : 65,
+      "articulo" : "Gasto Público",
+      "tags" : "GASTO PÚBLICO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección V: Endeudamiento e Inversión Pública",
+      "level_4" : "",
+      "numero_articulo" : 66,
+      "articulo" : "Endeudamiento Público Departamental",
+      "tags" : "ENDEUDAMIENTO PÚBLICO DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección V: Endeudamiento e Inversión Pública",
+      "level_4" : "",
+      "numero_articulo" : 67,
+      "articulo" : "Inversión Pública",
+      "tags" : "INVERSIÓN PÚBLICA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección VI: Tesoro Departamental",
+      "level_4" : "",
+      "numero_articulo" : 68,
+      "articulo" : "Tesoro Departamental",
+      "tags" : "TESORO DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título IV: Planificación y Organización Administrativa y Financiera",
+      "level_2" : "Capítulo II: Régimen Fiscal Financiero",
+      "level_3" : "Sección VII: Control Fiscal",
+      "level_4" : "",
+      "numero_articulo" : 69,
+      "articulo" : "Control Fiscal Departamental",
+      "tags" : "CONTROL FISCAL DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo I: Del Desarrollo Departamental",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 70,
+      "articulo" : "Directrices del Desarrollo Departamental",
+      "tags" : "DIRECTRICES DESARROLLO DEPARTAMENTAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 71,
+      "articulo" : "Equidad de Género e Igualdad de Oportunidades",
+      "tags" : "EQUIDAD GÉNERO IGUALDAD OPORTUNIDADES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 72,
+      "articulo" : "Ejercicio de Derechos Civiles y Políticos",
+      "tags" : "EJERCICIO DERECHOS CIVILES POLÍTICOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 73,
+      "articulo" : "Infancia, Niñez, Adolescencia",
+      "tags" : "INFANCIA NIÑEZ ADOLESCENCIA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 74,
+      "articulo" : "Juventud",
+      "tags" : "JUVENTUD"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 75,
+      "articulo" : "Personas Adultas Mayores",
+      "tags" : "PERSONAS ADULTAS MAYORES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 76,
+      "articulo" : "Personas Con Discapacidad",
+      "tags" : "PERSONAS DISCAPACIDAD"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 77,
+      "articulo" : "Personas Viviendo con VIH Y Sida",
+      "tags" : "PERSONAS VIVIENDO VIH SIDA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 78,
+      "articulo" : "Naciones y Pueblos Indígena Originario Campesinos",
+      "tags" : "NACIONES PUEBLOS INDÍGENA ORIGINARIO CAMPESINOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 79,
+      "articulo" : "Medio Ambiente Saludable",
+      "tags" : "MEDIO AMBIENTE SALUDABLE"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 80,
+      "articulo" : "Educación",
+      "tags" : "EDUCACIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 81,
+      "articulo" : "Salud",
+      "tags" : "SALUD"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 82,
+      "articulo" : "Artes y Culturas",
+      "tags" : "ARTES CULTURAS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 83,
+      "articulo" : "Deporte",
+      "tags" : "DEPORTE"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 84,
+      "articulo" : "Seguridad Ciudadana y Lucha Contra La Violencia",
+      "tags" : "SEGURIDAD CIUDADANA LUCHA CONTRA VIOLENCIA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 85,
+      "articulo" : "Vivienda Digna",
+      "tags" : "VIVIENDA DIGNA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 86,
+      "articulo" : "Servicios Básicos",
+      "tags" : "SERVICIOS BÁSICOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 87,
+      "articulo" : "Familia",
+      "tags" : "FAMILIA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 88,
+      "articulo" : "Políticas Laborales",
+      "tags" : "POLÍTICAS LABORALES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo II: Desarrollo Humano y Social",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 89,
+      "articulo" : "Minorías",
+      "tags" : "MINORÍAS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 90,
+      "articulo" : "Desarrollo Productivo",
+      "tags" : "DESARROLLO PRODUCTIVO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 91,
+      "articulo" : "Objetivos del Desarrollo Económico Productivo",
+      "tags" : "OBJETIVOS DESARROLLO ECONÓMICO PRODUCTIVO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 92,
+      "articulo" : "Estrategias de Desarrollo Económico Productivo",
+      "tags" : "ESTRATEGIAS DESARROLLO ECONÓMICO PRODUCTIVO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 93,
+      "articulo" : "Áreas Prioritarias de Desarrollo Productivo",
+      "tags" : "ÁREAS PRIORITARIAS DESARROLLO PRODUCTIVO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 94,
+      "articulo" : "Infraestructura Productiva",
+      "tags" : "INFRAESTRUCTURA PRODUCTIVA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 95,
+      "articulo" : "Investigación, Innovación y Tecnología",
+      "tags" : "INVESTIGACIÓN INNOVACIÓN TECNOLOGÍA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 96,
+      "articulo" : "Servicios de Apoyo a la Producción",
+      "tags" : "SERVICIOS APOYO PRODUCCIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 97,
+      "articulo" : "Apoyo A La Inversión",
+      "tags" : "APOYO INVERSIÓN"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 98,
+      "articulo" : "Financiamiento",
+      "tags" : "FINANCIAMIENTO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 99,
+      "articulo" : "Mercados",
+      "tags" : "MERCADOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 100,
+      "articulo" : "Turismo",
+      "tags" : "TURISMO"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 101,
+      "articulo" : "Empresas Públicas Departamentales",
+      "tags" : "EMPRESAS PÚBLICAS DEPARTAMENTALES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 102,
+      "articulo" : "Seguridad y Soberanía Alimentaria",
+      "tags" : "SEGURIDAD SOBERANÍA ALIMENTARIA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo III: Desarrollo Económico y Productivo",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 103,
+      "articulo" : "Gestión de Riesgos",
+      "tags" : "GESTIÓN RIESGOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo IV: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 104,
+      "articulo" : "Medio Ambiente",
+      "tags" : "MEDIO AMBIENTE"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo IV: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 105,
+      "articulo" : "Gestión Ambiental",
+      "tags" : "GESTIÓN AMBIENTAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo IV: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 106,
+      "articulo" : "Recursos Forestales",
+      "tags" : "RECURSOS FORESTALES"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo IV: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 107,
+      "articulo" : "Biodiversidad",
+      "tags" : "BIODIVERSIDAD"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo IV: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 108,
+      "articulo" : "Residuos Industriales y Tóxicos",
+      "tags" : "RESIDUOS INDUSTRIALES TÓXICOS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo IV: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 109,
+      "articulo" : "Minería",
+      "tags" : "MINERÍA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo IV: Recursos Naturales y Medio Ambiente",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 110,
+      "articulo" : "Hidrocarburos",
+      "tags" : "HIDROCARBUROS"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título V: Directrices del Desarrollo en Chuquisaca",
+      "level_2" : "Capítulo V: Ordenamiento Territorial",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 111,
+      "articulo" : "Ordenamiento Territorial",
+      "tags" : "ORDENAMIENTO TERRITORIAL"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título VI: Disposiciones Referidas al Estatuto",
+      "level_2" : "Capítulo Único: Jerarquía y Reforma del Estatuto",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 112,
+      "articulo" : "Jerarquía",
+      "tags" : "JERARQUÍA"
+    },
+    {
+      "departamento" : "chuquisaca",
+      "level_1" : "Título VI: Disposiciones Referidas al Estatuto",
+      "level_2" : "Capítulo Único: Jerarquía y Reforma del Estatuto",
+      "level_3" : "",
+      "level_4" : "",
+      "numero_articulo" : 113,
+      "articulo" : "Reforma",
+      "tags" : "REFORMA"
+    }
+  ]
