@@ -2,16 +2,65 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Estatuto Autonómico - Chuquisaca</title>
+    <title>Estatuto Autonómico - Cochabamba</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="../js/globals.js"></script>
     <script src="js/chuquisaca.js"></script>
     <link rel="stylesheet" type="text/css" href="../css/sequences.css"/>
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../cloud/normalize.css"/>   
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300,200' rel='stylesheet' type='text/css'>
+    <link href="../css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link href="../css/responsive.css" rel="stylesheet" media="screen" type="text/css"/>
+    <link rel="stylesheet" href="../css/jquery.sidr.dark.css">
+
 </head>
 <body>
-    <h1 style="text-align: center;">ESTATUTO AUTONÓMICO DEPARTAMENTAL DE CHUQUISACA</h1>
+    <header class="header1">
+        <div class="container-header">
+            <div class="logo-menu">
+                <div class="logo">
+                    <ul class="socialmedia-header">
+
+                        <li>
+                            <i class="icon-twitter1"></i>
+                            <a href="https://twitter.com/a_srael" target="_blank">
+                                <i class="link">@a_srael</i>
+                            </a>
+                            <a href="https://twitter.com/acanaviri" target="_blank"><i class="link">@acanaviri</i></a>
+                            <a href="https://twitter.com/alexandro82" target="_blank"><i class="link">@alexandro82</i></a>
+                            <a class="4" href="https://twitter.com/channover" target="_blank"><i class="link">@channover </i></a>
+                            <a class="5"href="https://twitter.com/fangutierrez" target="_blank"><i class="link">@fangutierrez</i></a>
+                        </li>
+                        <!-- <li><a href="https://github.com/wchorolque/estatutos" target="_blank"><i class="icon-github"></i></a></li> -->
+                    </ul>
+
+                </div>
+                <!--<a id="simple-menu" href="#sidr">Toggle menu</a>-->
+                <div id="mobile-header">
+                    <a class="responsive-menu-button" href="#"><img src="images/11.png"/></a>
+                </div>
+                <div class="menu" id="navigation">
+                    <ul>
+                        <li><a href="../index.html#">Inicio</a></li>
+                        <li><a href="../index.html#graficas">Graficas</a></li>
+                        <li><a href="../index.html#wordcloud">WordCloud</a></li>
+                        <!-- <li><a href="#contactos">Contactos</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <div id="main">
+        <div class="title">
+            <h3>ESTATUTO AUTONÓMICO DEPARTAMENTAL DE CHUQUISACA</h3>    
+        </div>
 
         <div id="sequence">
         </div>
@@ -58,5 +107,27 @@
     // Hack to make this example display correctly in an iframe on bl.ocks.org
     d3.select(self.frameElement).style("height", "600px");
 </script>
+<script src="../js/jquery.sidr.min.js"></script>
+<script type="text/javascript" src="../js/smoothscroll.js"></script>
+<script type="text/javascript" src="../js/jquery.nicescroll.min.js"></script>
+<script type="text/javascript">     
+    $(document).ready(function() {
+        $('#simple-menu').sidr({
+            side: 'right'
+        });
+    });
+    $('.responsive-menu-button').sidr({
+        name: 'sidr-main',
+        source: '#navigation',
+        side: 'right'
+
+    });
+    $(document).ready(
+        function() {
+            $("html").niceScroll({cursorborder:"0px solid #fff",cursorwidth:"5px",scrollspeed:"70"});
+        }
+        );
+</script>
+
 </body>
 </html>

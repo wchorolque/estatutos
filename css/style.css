@@ -66,10 +66,10 @@
    border-collapse: collapse;
    border-spacing: 0;
  }
- .header
+ .header,.header1
  {
    width: 100%;
-   height: 50px;
+   height: 60px;
    background-color: #f1f1f1;
    border-bottom: 1px solid #585C65;
  }
@@ -78,9 +78,16 @@
    width: 1080px;
    margin: 0 auto;
  }
+ .container-header
+ {
+   width: 100%;
+   margin: 0 auto;
+   z-index: 9999999;
+ }
  .logo
  {
    float:left;
+   width: 50%;
  }
  .logo h1 a
  {
@@ -93,7 +100,6 @@
    display: block;
    letter-spacing: 4px;
    text-transform: uppercase;
-
  }
  .menu
  {
@@ -102,7 +108,7 @@
  .menu ul li
  {
    display: inline-block;
-   padding: 33px 15px;
+   padding: 25px 15px;
  }
  .menu ul li a
  {
@@ -292,7 +298,7 @@ p.box-desc
 }
 .features-section ul li
 {
-  width: 25%;
+  width: 33%;
   display: block;
   text-align: center;
   float: left;
@@ -654,7 +660,7 @@ a.a_features:link{
   padding: .8em;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 800px){
   .home > .home_logo {
     width: 100%;
     margin-left: 0;
@@ -671,5 +677,42 @@ a.a_features:link{
     margin: 0;
     padding: 0;
   }
+  .logo{
+    width: 80%;
+  }
 
+  .socialmedia-header{
+    color: red!important;
+    font-size: .8em;
+  }
+  .header1 >.container-header> .logo-menu>.logo{
+    display: none;
+  }
+  .header1{
+    background: transparent;
+    border:none;
+
+  }
+}
+
+
+
+ul.socialmedia-header {
+  margin: 0;
+  list-style:none;
+  margin-top: 1em;
+}
+ul.socialmedia-header li {
+  display: inline-block;
+  margin-left: .5em;
+  margin-right: .5em;
+  color: #585c65;
+  font-size: 2em;
+}
+ul.socialmedia-header li a {
+  color: #585c65;
+  font-size: .45em;
+}
+ul.socialmedia-header li a {
+  text-decoration: none;
 }
